@@ -190,7 +190,7 @@ def do_check():
     ok = True
     m = payload.get('_meta', {})
     if m.get('db_sha256') != db_sha(DB):
-        print('[!!] 数据库已变，但 kb.json 还是旧的（哈希不一致）→ 请重新导出')
+        print('[!!] 数据库已变，但 kb.js 还是旧的（哈希不一致）→ 请重新导出')
         ok = False
     # 版本号也要一起失效检查，否则会出现"库升到 V1.28、页面还显示 V1.27"
     con = sqlite3.connect(DB)
@@ -217,7 +217,7 @@ def do_check():
 
 
 def do_verify():
-    """数据充分性：用引擎生成真实候选，再**只靠 kb.json** 还原解释里用到的每一项。"""
+    """数据充分性：用引擎生成真实候选，再**只靠 kb.js** 还原解释里用到的每一项。"""
     if not os.path.exists(OUT):
         print('[!!] 还没有 %s，请先跑一次导出' % OUT)
         return 1
@@ -234,7 +234,7 @@ def do_verify():
     pchar = {}
     for r in kb.get('principle_char', []):
         pchar.setdefault(r['char_id'], set()).add(r['principle_id'])
-    print('kb.json 已载入：hanzi %d、original_text %d、classic %d、principle_char %d'
+    print('kb.js 已载入：hanzi %d、original_text %d、classic %d、principle_char %d'
           % (len(hanzi), len(texts), len(classics), len(kb.get('principle_char', []))))
 
     # 用真实引擎生成若干候选（覆盖五类里的几类）
@@ -257,7 +257,7 @@ def do_verify():
                 row = hanzi.get(h['char'])
                 if not row:
                     missing += 1
-                    problems.append('字「%s」不在 kb.json 的 hanzi 里' % h['char'])
+                    problems.append('字「%s」不在 kb.js 的 hanzi 里' % h['char'])
                     continue
                 # 解释里会用到的字段，逐个确认能从 json 取到
                 for field in ('pinyin', 'tone', 'strokes', 'structure', 'culture_imagery',
@@ -267,7 +267,7 @@ def do_verify():
                 if not pchar.get(row['char_id']):
                     problems.append('「%s」在 principle_char 里没有五类归属' % h['char'])
                 # 引文可核的字：citation 里是竖线分隔的 original_text.text_id，
-                # 必须能在 kb.json 的 original_text / classic 里一路走通。
+                # 必须能在 kb.js 的 original_text / classic 里一路走通。
                 # （这里曾经用不存在的列名去取 id，条件永远不成立，等于没查——所以下面
                 #   单独计数 cit_links，用来证明这段检查真的执行过。）
                 cit = (row.get('citation') or '').strip()
@@ -301,8 +301,8 @@ def do_verify():
             print('   · ' + p)
         return 1
     print()
-    print('[OK] 这些候选用到的每一项都能只从 kb.json 还原（无缺字段、无悬空引文）')
-    print('[OK] 结论：kb.json 在你已测试的取名路径上是**数据充分**的')
+    print('[OK] 这些候选用到的每一项都能只从 kb.js 还原（无缺字段、无悬空引文）')
+    print('[OK] 结论：kb.js 在你已测试的取名路径上是**数据充分**的')
     print()
     print('注意：这只证明"数据够用"，不证明"逻辑已移植"。逻辑移植后的对拍见 276 组测试。')
     return 0
