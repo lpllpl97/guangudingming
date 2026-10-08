@@ -1,3 +1,0 @@
-运行时数据目录。
-data/ 下的 requests.json（测试请求）与 access.log（访客 IP）一律不进 Git，见 .gitignore。
-本文件仅用于让 clone 下来之后这个目录存在，服务第一次写入时不会因目录缺失而报错。

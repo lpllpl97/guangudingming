@@ -7,9 +7,12 @@
 # 【最重要的一条】data/ 里是测试期的真实数据：
 #   data/requests.json   43.6 MB，2082 条请求，含测试者填写的姓氏与需求原文
 #   data/access.log       431 KB，含访客 IP
-# 一旦推到公开库就收不回来了，所以整个 data/ 一律忽略（只留 .gitkeep 占位）。
-data/*
-!data/.gitkeep
+# 一旦推到公开库就收不回来了，所以整个 data/ 一律忽略。
+# 不需要 .gitkeep 占位：mobile/server.py 启动时会 os.makedirs(DATA_DIR, exist_ok=True)。
+data/
+
+# 本地核对工具：会进仓库的文件清单（由 tools/gen_file_list.py 生成）
+GIT_FILE_LIST.md
 
 # 知识库与构建工具链：不公开（tools/ 是生产工艺；knowledge base/ 是 Excel 与逐版快照）
 knowledge base/
