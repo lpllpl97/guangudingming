@@ -95,7 +95,14 @@ body {
   border-radius: 5px;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.45), 0 2px 5px rgba(140,40,32,.32);
 }
+#brand { flex: 1 1 auto; min-width: 0; }
 #brand span { display: block; font-size: 12.5px; color: var(--ink-4); letter-spacing: 1.6px; margin-top: 7px; }
+/* 五类枚举「信 · 义 · 象 · 假 · 类」整体不折行。
+   里面的 " · " 带空格，而空格就是断行点——窄屏下会在「假 ·」后断开，
+   把「类」挤成第二行的孤字。整组设成不可断，放不下就整组移到下一行。 */
+#brand span .nb { font-style: normal; white-space: nowrap; }
+/* 顶部「取名依据」按钮不许被副标题挤压后内部换行（否则变成"取名依"+"据"两行） */
+#btnAbout { flex: 0 0 auto; white-space: nowrap; }
 
 /* ---------- 卡片：卷轴样式 ---------- */
 .card {
@@ -469,4 +476,7 @@ button.ghost:hover { border-color: var(--gold-3); }
   .cand { padding: 15px 14px 14px; }
   #brand b { font-size: 21px; letter-spacing: 3px; padding-right: 30px; }
   #app { padding: 14px 12px 54px; }
+  /* 副标题整体缩小：五类枚举是不可断行的整组，字号不降会在 320px 上横向溢出 */
+  #brand span { font-size: 11.5px; letter-spacing: .2px; }
+  #btnAbout { padding: 9px 12px; font-size: 13px; }
 }
