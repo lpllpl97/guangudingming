@@ -14,6 +14,10 @@ data/
 # 本地核对工具：会进仓库的文件清单（由 tools/gen_file_list.py 生成）
 GIT_FILE_LIST.md
 
+# 本机自用的双击启动脚本：仓库里已给出等价命令（python mobile/server.py 6700），
+# 且这个脚本会引用未公开的 tools/ 脚本，故不随仓库发布（文件仍保留在本地）。
+启动取名服务.bat
+
 # 知识库与构建工具链：不公开（tools/ 是生产工艺；knowledge base/ 是 Excel 与逐版快照）
 knowledge base/
 # tools/ 里只公开"发布流程本身需要"的那一个脚本，供 GitHub Actions 在服务器上重建网页数据；

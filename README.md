@@ -99,8 +99,8 @@ python engine/engine.py --help
 ├── README.md                  本文件
 ├── LICENSE                    代码许可（MIT）
 ├── DATA_LICENSE.md            知识库数据许可（CC BY 4.0）
-├── .gitignore / .gitattributes 忽略规则 / 行尾规则（保证 .bat 在 Windows 上仍是 CRLF）
-└── 启动取名服务.bat            Windows 下双击启动本机服务
+├── .gitignore / .gitattributes 忽略规则 / 行尾规则（保证将来添加的 .bat 仍是 CRLF）
+└── （本机启动脚本 启动取名服务.bat 属于本地便利文件，不随仓库发布）
 ```
 
 ### ⛔ 不发布（仅本地保留）
@@ -113,6 +113,7 @@ python engine/engine.py --help
 | `data/` | **测试期真实数据**：2082 条请求（含测试者填写的姓氏与需求原文）、访客日志 |
 | `reports/` `dist/` | 体检输出、历史发布包 |
 | `db/v114/` `db/build_report.txt` | Excel 逐表转储（与 `db/src/` 重叠）、构建日志 |
+| `启动取名服务.bat` | 我本机自用的双击启动脚本；仓库里已给出等价命令（`python mobile/server.py 6700`） |
 
 想确认本地哪些文件会进仓库，在仓库根目录执行：
 
