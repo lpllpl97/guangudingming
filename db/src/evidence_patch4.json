@@ -1,0 +1,3741 @@
+{
+ "_note": [
+  "第十二批证据补漏：并入用户《取名用字总表》的原文引句。",
+  "规则：引句原句确实含该字的才标 verified 并绑定原文行；不含该字的只作文化语境。",
+  "本批新增原文 232 条、逐字引文绑定 235 条。"
+ ],
+ "new_texts": [
+  {
+   "text_id": "T003-001",
+   "classic_id": "J007",
+   "chapter": "大雅·文王",
+   "content": "文王在上，於昭于天",
+   "paraphrase": "该句用于印证“昭”字：晨光初显，生于朝旦",
+   "naming_point": "用户总表收录：“昭”取晨光初显，生于朝旦之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王》"
+  },
+  {
+   "text_id": "T003-002",
+   "classic_id": "J021",
+   "chapter": "尔雅",
+   "content": "晨，早也",
+   "paraphrase": "该句用于印证“晨”字：清晨降生",
+   "naming_point": "用户总表收录：“晨”取清晨降生之义。",
+   "evidence_code": "A",
+   "source_note": "《尔雅》"
+  },
+  {
+   "text_id": "T003-003",
+   "classic_id": "J009",
+   "chapter": "九歌",
+   "content": "日安不到，烛龙何照，晞光为曦",
+   "paraphrase": "该句用于印证“曦”字：朝阳",
+   "naming_point": "用户总表收录：“曦”取朝阳之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·九歌》"
+  },
+  {
+   "text_id": "T003-004",
+   "classic_id": "J001",
+   "chapter": "离卦",
+   "content": "明两作离，大人以继明照于四方",
+   "paraphrase": "该句用于印证“明”字：天光澄明",
+   "naming_point": "用户总表收录：“明”取天光澄明之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·离卦》"
+  },
+  {
+   "text_id": "T003-005",
+   "classic_id": "J024",
+   "chapter": "玉篇",
+   "content": "暄，暖也",
+   "paraphrase": "该句用于印证“暄”字：暖，出生逢春暖之日",
+   "naming_point": "用户总表收录：“暄”取暖，出生逢春暖之日之义。",
+   "evidence_code": "A",
+   "source_note": "《玉篇》"
+  },
+  {
+   "text_id": "T003-006",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "如沐春风",
+   "paraphrase": "该句用于印证“沐”字：降生遇清雨润身",
+   "naming_point": "用户总表收录：“沐”取降生遇清雨润身之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-007",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "日中星鸟，以殷仲春",
+   "paraphrase": "该句用于印证“春”字：春时",
+   "naming_point": "用户总表收录：“春”取春时之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T003-008",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "朔，月初也",
+   "paraphrase": "该句用于印证“朔”字：月初新月之时",
+   "naming_point": "用户总表收录：“朔”取月初新月之时之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T003-009",
+   "classic_id": "J007",
+   "chapter": "桃夭",
+   "content": "桃之夭夭，灼灼其华",
+   "paraphrase": "该句用于印证“华”字：万物花开时节降生",
+   "naming_point": "用户总表收录：“华”取万物花开时节降生之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·桃夭》"
+  },
+  {
+   "text_id": "T003-010",
+   "classic_id": "J001",
+   "chapter": "说卦",
+   "content": "雨以润之",
+   "paraphrase": "该句用于印证“润”字：降生逢甘霖",
+   "naming_point": "用户总表收录：“润”取降生逢甘霖之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·说卦》"
+  },
+  {
+   "text_id": "T003-011",
+   "classic_id": "J001",
+   "chapter": "系辞",
+   "content": "君子安而不忘危",
+   "paraphrase": "该句用于印证“安”字：诞时安稳平和",
+   "naming_point": "用户总表收录：“安”取诞时安稳平和之义。",
+   "evidence_code": "A",
+   "source_note": "《易经·系辞》"
+  },
+  {
+   "text_id": "T003-012",
+   "classic_id": "J007",
+   "chapter": "周颂·丰年",
+   "content": "丰年多黍多稌",
+   "paraphrase": "该句用于印证“丰”字：生于丰收之年",
+   "naming_point": "用户总表收录：“丰”取生于丰收之年之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·周颂·丰年》"
+  },
+  {
+   "text_id": "T003-013",
+   "classic_id": "J010",
+   "chapter": "尽心上",
+   "content": "观水有术，必观其澜",
+   "paraphrase": "该句用于印证“澜”字：江河初涨之时",
+   "naming_point": "用户总表收录：“澜”取江河初涨之时之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子·尽心上》"
+  },
+  {
+   "text_id": "T003-014",
+   "classic_id": "J001",
+   "chapter": "坤卦",
+   "content": "含弘光大",
+   "paraphrase": "该句用于印证“光”字：天光焕发",
+   "naming_point": "用户总表收录：“光”取天光焕发之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·坤卦》"
+  },
+  {
+   "text_id": "T003-015",
+   "classic_id": "J001",
+   "chapter": "乾卦",
+   "content": "保合太和",
+   "paraphrase": "该句用于印证“和”字：风和日暖",
+   "naming_point": "用户总表收录：“和”取风和日暖之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·乾卦》"
+  },
+  {
+   "text_id": "T003-016",
+   "classic_id": "J025",
+   "chapter": "文王世子",
+   "content": "大昕，早旦也",
+   "paraphrase": "该句用于印证“昕”字：黎明日出",
+   "naming_point": "用户总表收录：“昕”取黎明日出之义。",
+   "evidence_code": "A",
+   "source_note": "《礼记·文王世子》"
+  },
+  {
+   "text_id": "T003-017",
+   "classic_id": "J007",
+   "chapter": "氓",
+   "content": "言笑晏晏",
+   "paraphrase": "该句用于印证“晏”字：天色晴和安暖",
+   "naming_point": "用户总表收录：“晏”取天色晴和安暖之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·氓》"
+  },
+  {
+   "text_id": "T003-018",
+   "classic_id": "J022",
+   "chapter": "扬雄传",
+   "content": "昒昕，黎明也",
+   "paraphrase": "该句用于印证“昒”字：拂晓天将明",
+   "naming_point": "用户总表收录：“昒”取拂晓天将明之义。",
+   "evidence_code": "A",
+   "source_note": "《汉书·扬雄传》"
+  },
+  {
+   "text_id": "T003-019",
+   "classic_id": "J014",
+   "chapter": "召诰",
+   "content": "惟丙午朏",
+   "paraphrase": "该句用于印证“朏”字：新月初生",
+   "naming_point": "用户总表收录：“朏”取新月初生之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·召诰》"
+  },
+  {
+   "text_id": "T003-020",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "暒，天晴也",
+   "paraphrase": "该句用于印证“暒”字：天晴",
+   "naming_point": "用户总表收录：“暒”取天晴之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-021",
+   "classic_id": "J007",
+   "chapter": "小雅·信南山",
+   "content": "霡霂，小雨也",
+   "paraphrase": "该句用于印证“霂”字：微雨降生",
+   "naming_point": "用户总表收录：“霂”取微雨降生之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·信南山》"
+  },
+  {
+   "text_id": "T003-022",
+   "classic_id": "J007",
+   "chapter": "邶风·谷风",
+   "content": "湜湜其沚",
+   "paraphrase": "该句用于印证“湜”字：水清澄，诞时静水",
+   "naming_point": "用户总表收录：“湜”取水清澄，诞时静水之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·邶风·谷风》"
+  },
+  {
+   "text_id": "T003-023",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "汧，水泉潜出",
+   "paraphrase": "该句用于印证“汧”字：水泉潜出",
+   "naming_point": "用户总表收录：“汧”取水泉潜出之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-024",
+   "classic_id": "J005",
+   "chapter": "桓公五年",
+   "content": "龙见而雩",
+   "paraphrase": "该句用于印证“雩”字：逢甘霖而降",
+   "naming_point": "用户总表收录：“雩”取逢甘霖而降之义。",
+   "evidence_code": "A",
+   "source_note": "《左传·桓公五年》"
+  },
+  {
+   "text_id": "T003-025",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "朓，晦而月见西方",
+   "paraphrase": "该句用于印证“朓”字：月末月见于西",
+   "naming_point": "用户总表收录：“朓”取月末月见于西之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-026",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "昪，日光明",
+   "paraphrase": "该句用于印证“昪”字：日光盛明",
+   "naming_point": "用户总表收录：“昪”取日光盛明之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-027",
+   "classic_id": "J007",
+   "chapter": "周南·汉广",
+   "content": "永言配命",
+   "paraphrase": "该句用于印证“永”字：时序绵长",
+   "naming_point": "用户总表收录：“永”取时序绵长之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·周南·汉广》"
+  },
+  {
+   "text_id": "T003-028",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "历象日月星辰",
+   "paraphrase": "该句用于印证“星”字：生于星朗之夜",
+   "naming_point": "用户总表收录：“星”取生于星朗之夜之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T003-029",
+   "classic_id": "J007",
+   "chapter": "陈风·月出",
+   "content": "月出皎兮",
+   "paraphrase": "该句用于印证“月”字：月夜降生",
+   "naming_point": "用户总表收录：“月”取月夜降生之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·陈风·月出》"
+  },
+  {
+   "text_id": "T003-030",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "洪水滔天",
+   "paraphrase": "该句用于印证“洪”字：大水之时",
+   "naming_point": "用户总表收录：“洪”取大水之时之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-031",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "凌冬",
+   "paraphrase": "该句用于印证“凌”字：生于清冬",
+   "naming_point": "用户总表收录：“凌”取生于清冬之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-032",
+   "classic_id": "J007",
+   "chapter": "卫风·硕人",
+   "content": "硕人其颀",
+   "paraphrase": "该句用于印证“硕”字：初生体态端硕",
+   "naming_point": "用户总表收录：“硕”取初生体态端硕之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·卫风·硕人》"
+  },
+  {
+   "text_id": "T003-033",
+   "classic_id": "J007",
+   "chapter": "大雅·桑柔",
+   "content": "维此良人",
+   "paraphrase": "该句用于印证“维”字：恰逢其时",
+   "naming_point": "用户总表收录：“维”取恰逢其时之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·桑柔》"
+  },
+  {
+   "text_id": "T003-034",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "惟时懋哉",
+   "paraphrase": "该句用于印证“时”字：合于天时",
+   "naming_point": "用户总表收录：“时”取合于天时之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-035",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "启，开也",
+   "paraphrase": "该句用于印证“启”字：时节开启",
+   "naming_point": "用户总表收录：“启”取时节开启之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T003-036",
+   "classic_id": "J007",
+   "chapter": "鄘风·载驰",
+   "content": "载驰载驱",
+   "paraphrase": "该句用于印证“载”字：岁载之时",
+   "naming_point": "用户总表收录：“载”取岁载之时之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·鄘风·载驰》"
+  },
+  {
+   "text_id": "T003-037",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "草木茂实",
+   "paraphrase": "该句用于印证“茂”字：万物繁茂",
+   "naming_point": "用户总表收录：“茂”取万物繁茂之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-038",
+   "classic_id": "J009",
+   "chapter": "渔父",
+   "content": "沧浪水清",
+   "paraphrase": "该句用于印证“清”字：天清露净",
+   "naming_point": "用户总表收录：“清”取天清露净之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·渔父》"
+  },
+  {
+   "text_id": "T003-039",
+   "classic_id": "J007",
+   "chapter": "小雅·车舝",
+   "content": "高山仰止",
+   "paraphrase": "该句用于印证“高”字：天高气朗",
+   "naming_point": "用户总表收录：“高”取天高气朗之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·车舝》"
+  },
+  {
+   "text_id": "T003-040",
+   "classic_id": "J007",
+   "chapter": "陈风·月出",
+   "content": "舒窈纠兮",
+   "paraphrase": "该句用于印证“舒”字：云舒天缓",
+   "naming_point": "用户总表收录：“舒”取云舒天缓之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·陈风·月出》"
+  },
+  {
+   "text_id": "T003-041",
+   "classic_id": "J001",
+   "chapter": "革卦",
+   "content": "其文蔚也",
+   "paraphrase": "该句用于印证“蔚”字：草木蔚然，生机勃发",
+   "naming_point": "用户总表收录：“蔚”取草木蔚然，生机勃发之义。",
+   "evidence_code": "A",
+   "source_note": "《易经·革卦》"
+  },
+  {
+   "text_id": "T003-042",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "黍稷油油",
+   "paraphrase": "该句用于印证“稷”字：禾谷成熟时节",
+   "naming_point": "用户总表收录：“稷”取禾谷成熟时节之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-043",
+   "classic_id": "J007",
+   "chapter": "小雅",
+   "content": "不稂不莠",
+   "paraphrase": "该句用于印证“稂”字：禾苗茁壮",
+   "naming_point": "用户总表收录：“稂”取禾苗茁壮之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅》"
+  },
+  {
+   "text_id": "T003-044",
+   "classic_id": "J007",
+   "chapter": "召南·小星",
+   "content": "宵征",
+   "paraphrase": "该句用于印证“宵”字：夜晚降生",
+   "naming_point": "用户总表收录：“宵”取夜晚降生之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·召南·小星》"
+  },
+  {
+   "text_id": "T003-045",
+   "classic_id": "J024",
+   "chapter": "玉篇",
+   "content": "曙，晓也",
+   "paraphrase": "该句用于印证“曙”字：天将破晓",
+   "naming_point": "用户总表收录：“曙”取天将破晓之义。",
+   "evidence_code": "A",
+   "source_note": "《玉篇》"
+  },
+  {
+   "text_id": "T003-046",
+   "classic_id": "J007",
+   "chapter": "小雅·采薇",
+   "content": "今我来思，雨雪霏霏",
+   "paraphrase": "该句用于印证“霏”字：细雨濛濛",
+   "naming_point": "用户总表收录：“霏”取细雨濛濛之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·采薇》"
+  },
+  {
+   "text_id": "T003-047",
+   "classic_id": "J007",
+   "chapter": "豳风·七月",
+   "content": "春日迟迟，采蘩祁祁",
+   "paraphrase": "该句用于印证“祁”字：天气舒缓",
+   "naming_point": "用户总表收录：“祁”取天气舒缓之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·豳风·七月》"
+  },
+  {
+   "text_id": "T003-048",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "麦芒",
+   "paraphrase": "该句用于印证“芒”字：麦熟之时",
+   "naming_point": "用户总表收录：“芒”取麦熟之时之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-049",
+   "classic_id": "J007",
+   "chapter": "小雅·大田",
+   "content": "大田有苗",
+   "paraphrase": "该句用于印证“苗”字：青苗初生",
+   "naming_point": "用户总表收录：“苗”取青苗初生之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·大田》"
+  },
+  {
+   "text_id": "T003-050",
+   "classic_id": "J007",
+   "chapter": "邶风",
+   "content": "泉源在左",
+   "paraphrase": "该句用于印证“泉”字：泉流初生",
+   "naming_point": "用户总表收录：“泉”取泉流初生之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·邶风》"
+  },
+  {
+   "text_id": "T003-051",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "历数日月星辰",
+   "paraphrase": "该句用于印证“辰”字：生辰合星辰",
+   "naming_point": "用户总表收录：“辰”取生辰合星辰之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T003-052",
+   "classic_id": "J015",
+   "chapter": "周礼",
+   "content": "凡二十八宿",
+   "paraphrase": "该句用于印证“宿”字：对应星次",
+   "naming_point": "用户总表收录：“宿”取对应星次之义。",
+   "evidence_code": "A",
+   "source_note": "《周礼》"
+  },
+  {
+   "text_id": "T003-053",
+   "classic_id": "J001",
+   "chapter": "离卦",
+   "content": "离，丽也",
+   "paraphrase": "该句用于印证“离”字：附光，丽也",
+   "naming_point": "用户总表收录：“离”取附光，丽也之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·离卦》"
+  },
+  {
+   "text_id": "T003-054",
+   "classic_id": "J001",
+   "chapter": "巽卦",
+   "content": "巽为风",
+   "paraphrase": "该句用于印证“巽”字：顺风，风至之时",
+   "naming_point": "用户总表收录：“巽”取顺风，风至之时之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·巽卦》"
+  },
+  {
+   "text_id": "T003-055",
+   "classic_id": "J001",
+   "chapter": "震卦",
+   "content": "震，雷也",
+   "paraphrase": "该句用于印证“震”字：春雷降生",
+   "naming_point": "用户总表收录：“震”取春雷降生之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·震卦》"
+  },
+  {
+   "text_id": "T003-056",
+   "classic_id": "J001",
+   "chapter": "艮卦",
+   "content": "艮为山",
+   "paraphrase": "该句用于印证“艮”字：山静，安宁之时",
+   "naming_point": "用户总表收录：“艮”取山静，安宁之时之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·艮卦》"
+  },
+  {
+   "text_id": "T003-057",
+   "classic_id": "J001",
+   "chapter": "兑卦",
+   "content": "兑为泽",
+   "paraphrase": "该句用于印证“兑”字：悦泽，雨露润",
+   "naming_point": "用户总表收录：“兑”取悦泽，雨露润之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·兑卦》"
+  },
+  {
+   "text_id": "T003-058",
+   "classic_id": "J001",
+   "chapter": "泰卦",
+   "content": "泰，天地交而万物通",
+   "paraphrase": "该句用于印证“泰”字：天地交泰，祥和之时",
+   "naming_point": "用户总表收录：“泰”取天地交泰，祥和之时之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·泰卦》"
+  },
+  {
+   "text_id": "T003-059",
+   "classic_id": "J001",
+   "chapter": "复卦",
+   "content": "复，一阳来复",
+   "paraphrase": "该句用于印证“复”字：阳气复来",
+   "naming_point": "用户总表收录：“复”取阳气复来之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·复卦》"
+  },
+  {
+   "text_id": "T003-060",
+   "classic_id": "J001",
+   "chapter": "临卦",
+   "content": "临，刚浸而长",
+   "paraphrase": "该句用于印证“临”字：阳气渐临",
+   "naming_point": "用户总表收录：“临”取阳气渐临之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·临卦》"
+  },
+  {
+   "text_id": "T003-061",
+   "classic_id": "J001",
+   "chapter": "观卦",
+   "content": "仰以观于天文",
+   "paraphrase": "该句用于印证“观”字：仰观天象",
+   "naming_point": "用户总表收录：“观”取仰观天象之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·观卦》"
+  },
+  {
+   "text_id": "T003-062",
+   "classic_id": "J001",
+   "chapter": "颐卦",
+   "content": "颐，养也",
+   "paraphrase": "该句用于印证“颐”字：初生得养",
+   "naming_point": "用户总表收录：“颐”取初生得养之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·颐卦》"
+  },
+  {
+   "text_id": "T003-063",
+   "classic_id": "J001",
+   "chapter": "恒卦",
+   "content": "恒，久也",
+   "paraphrase": "该句用于印证“恒”字：时序恒久",
+   "naming_point": "用户总表收录：“恒”取时序恒久之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·恒卦》"
+  },
+  {
+   "text_id": "T003-064",
+   "classic_id": "J001",
+   "chapter": "晋卦",
+   "content": "晋，明出地上",
+   "paraphrase": "该句用于印证“晋”字：旭日渐进",
+   "naming_point": "用户总表收录：“晋”取旭日渐进之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·晋卦》"
+  },
+  {
+   "text_id": "T003-065",
+   "classic_id": "J001",
+   "chapter": "益卦",
+   "content": "益，损上益下",
+   "paraphrase": "该句用于印证“益”字：风雨滋益",
+   "naming_point": "用户总表收录：“益”取风雨滋益之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·益卦》"
+  },
+  {
+   "text_id": "T003-066",
+   "classic_id": "J001",
+   "chapter": "升卦",
+   "content": "地中生木，升",
+   "paraphrase": "该句用于印证“升”字：地气升腾",
+   "naming_point": "用户总表收录：“升”取地气升腾之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·升卦》"
+  },
+  {
+   "text_id": "T003-067",
+   "classic_id": "J001",
+   "chapter": "系辞",
+   "content": "乾以易知，坤以简能",
+   "paraphrase": "该句用于印证“简”字：简约平和",
+   "naming_point": "用户总表收录：“简”取简约平和之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·系辞》"
+  },
+  {
+   "text_id": "T003-068",
+   "classic_id": "J001",
+   "chapter": "萃卦",
+   "content": "萃，聚也",
+   "paraphrase": "该句用于印证“萃”字：万物萃聚",
+   "naming_point": "用户总表收录：“萃”取万物萃聚之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·萃卦》"
+  },
+  {
+   "text_id": "T003-069",
+   "classic_id": "J001",
+   "chapter": "革卦",
+   "content": "天地革而四时成",
+   "paraphrase": "该句用于印证“革”字：时序更迭",
+   "naming_point": "用户总表收录：“革”取时序更迭之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·革卦》"
+  },
+  {
+   "text_id": "T003-070",
+   "classic_id": "J001",
+   "chapter": "鼎卦",
+   "content": "鼎，新也",
+   "paraphrase": "该句用于印证“鼎”字：新时鼎兴",
+   "naming_point": "用户总表收录：“鼎”取新时鼎兴之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·鼎卦》"
+  },
+  {
+   "text_id": "T003-071",
+   "classic_id": "J001",
+   "chapter": "渐卦",
+   "content": "渐，进也",
+   "paraphrase": "该句用于印证“渐”字：时节渐进",
+   "naming_point": "用户总表收录：“渐”取时节渐进之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·渐卦》"
+  },
+  {
+   "text_id": "T003-072",
+   "classic_id": "J007",
+   "chapter": "召南·鹊巢",
+   "content": "之子于归",
+   "paraphrase": "该句用于印证“归”字：时节当归",
+   "naming_point": "用户总表收录：“归”取时节当归之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·召南·鹊巢》"
+  },
+  {
+   "text_id": "T003-073",
+   "classic_id": "J001",
+   "chapter": "旅卦",
+   "content": "旅，客也",
+   "paraphrase": "该句用于印证“旅”字：客星过境",
+   "naming_point": "用户总表收录：“旅”取客星过境之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·旅卦》"
+  },
+  {
+   "text_id": "T003-074",
+   "classic_id": "J001",
+   "chapter": "涣卦",
+   "content": "涣，水流散",
+   "paraphrase": "该句用于印证“涣”字：春水涣流",
+   "naming_point": "用户总表收录：“涣”取春水涣流之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·涣卦》"
+  },
+  {
+   "text_id": "T003-075",
+   "classic_id": "J001",
+   "chapter": "节卦",
+   "content": "节，节制也",
+   "paraphrase": "该句用于印证“节”字：时节有节",
+   "naming_point": "用户总表收录：“节”取时节有节之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·节卦》"
+  },
+  {
+   "text_id": "T003-076",
+   "classic_id": "J001",
+   "chapter": "周易",
+   "content": "刚柔得中",
+   "paraphrase": "该句用于印证“中”字：时得其中",
+   "naming_point": "用户总表收录：“中”取时得其中之义。",
+   "evidence_code": "A",
+   "source_note": "《周易》"
+  },
+  {
+   "text_id": "T003-077",
+   "classic_id": "J001",
+   "chapter": "中孚",
+   "content": "中孚，信也",
+   "paraphrase": "该句用于印证“孚”字：天时信实",
+   "naming_point": "用户总表收录：“孚”取天时信实之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·中孚》"
+  },
+  {
+   "text_id": "T003-078",
+   "classic_id": "J001",
+   "chapter": "贲卦",
+   "content": "贲，饰也",
+   "paraphrase": "该句用于印证“贲”字：天象有文",
+   "naming_point": "用户总表收录：“贲”取天象有文之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·贲卦》"
+  },
+  {
+   "text_id": "T003-079",
+   "classic_id": "J001",
+   "chapter": "咸卦",
+   "content": "咸，感也",
+   "paraphrase": "该句用于印证“咸”字：阴阳相感",
+   "naming_point": "用户总表收录：“咸”取阴阳相感之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·咸卦》"
+  },
+  {
+   "text_id": "T003-080",
+   "classic_id": "J001",
+   "chapter": "随卦",
+   "content": "随，随也",
+   "paraphrase": "该句用于印证“随”字：顺随时序",
+   "naming_point": "用户总表收录：“随”取顺随时序之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·随卦》"
+  },
+  {
+   "text_id": "T003-081",
+   "classic_id": "J001",
+   "chapter": "需卦",
+   "content": "需，须也，待也",
+   "paraphrase": "该句用于印证“需”字：待雨之时",
+   "naming_point": "用户总表收录：“需”取待雨之时之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·需卦》"
+  },
+  {
+   "text_id": "T003-082",
+   "classic_id": "J001",
+   "chapter": "师卦",
+   "content": "师，众也",
+   "paraphrase": "该句用于印证“师”字：时序有序",
+   "naming_point": "用户总表收录：“师”取时序有序之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·师卦》"
+  },
+  {
+   "text_id": "T003-083",
+   "classic_id": "J001",
+   "chapter": "比卦",
+   "content": "比，亲也",
+   "paraphrase": "该句用于印证“比”字：天时亲合",
+   "naming_point": "用户总表收录：“比”取天时亲合之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·比卦》"
+  },
+  {
+   "text_id": "T003-084",
+   "classic_id": "J001",
+   "chapter": "大畜",
+   "content": "小畜，寡畜而积",
+   "paraphrase": "该句用于印证“畜”字：积蓄生机",
+   "naming_point": "用户总表收录：“畜”取积蓄生机之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·大畜》"
+  },
+  {
+   "text_id": "T003-085",
+   "classic_id": "J001",
+   "chapter": "履卦",
+   "content": "履，礼也",
+   "paraphrase": "该句用于印证“履”字：顺时而行",
+   "naming_point": "用户总表收录：“履”取顺时而行之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·履卦》"
+  },
+  {
+   "text_id": "T003-086",
+   "classic_id": "J001",
+   "chapter": "同人",
+   "content": "同人于野",
+   "paraphrase": "该句用于印证“同”字：天时和同",
+   "naming_point": "用户总表收录：“同”取天时和同之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·同人》"
+  },
+  {
+   "text_id": "T003-087",
+   "classic_id": "J001",
+   "chapter": "谦卦",
+   "content": "谦尊而光",
+   "paraphrase": "该句用于印证“谦”字：天时谦润",
+   "naming_point": "用户总表收录：“谦”取天时谦润之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·谦卦》"
+  },
+  {
+   "text_id": "T003-088",
+   "classic_id": "J001",
+   "chapter": "豫卦",
+   "content": "豫，乐也",
+   "paraphrase": "该句用于印证“豫”字：时节安乐",
+   "naming_point": "用户总表收录：“豫”取时节安乐之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·豫卦》"
+  },
+  {
+   "text_id": "T003-089",
+   "classic_id": "J014",
+   "chapter": "舜典",
+   "content": "惇德允元",
+   "paraphrase": "该句用于印证“惇”字：敦厚笃善",
+   "naming_point": "用户总表收录：“惇”取敦厚笃善之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·舜典》"
+  },
+  {
+   "text_id": "T003-090",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "祗若兹",
+   "paraphrase": "该句用于印证“祗”字：恭谨敬肃",
+   "naming_point": "用户总表收录：“祗”取恭谨敬肃之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-091",
+   "classic_id": "J022",
+   "chapter": "汉书",
+   "content": "劭德",
+   "paraphrase": "该句用于印证“劭”字：美好崇德",
+   "naming_point": "用户总表收录：“劭”取美好崇德之义。",
+   "evidence_code": "A",
+   "source_note": "《汉书》"
+  },
+  {
+   "text_id": "T003-092",
+   "classic_id": "J009",
+   "chapter": "离骚",
+   "content": "天难谌斯",
+   "paraphrase": "该句用于印证“谌”字：诚信笃定",
+   "naming_point": "用户总表收录：“谌”取诚信笃定之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·离骚》"
+  },
+  {
+   "text_id": "T003-093",
+   "classic_id": "J014",
+   "chapter": "仲虺之诰",
+   "content": "懋哉懋哉",
+   "paraphrase": "该句用于印证“懋”字：勤勉修德",
+   "naming_point": "用户总表收录：“懋”取勤勉修德之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·仲虺之诰》"
+  },
+  {
+   "text_id": "T003-094",
+   "classic_id": "J014",
+   "chapter": "酒诰",
+   "content": "厥诰毖庶邦庶士",
+   "paraphrase": "该句用于印证“毖”字：慎戒自持",
+   "naming_point": "用户总表收录：“毖”取慎戒自持之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·酒诰》"
+  },
+  {
+   "text_id": "T003-095",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "丕显哉文王谟",
+   "paraphrase": "该句用于印证“丕”字：宏大",
+   "naming_point": "用户总表收录：“丕”取宏大之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-096",
+   "classic_id": "J014",
+   "chapter": "洪范",
+   "content": "彝伦攸叙",
+   "paraphrase": "该句用于印证“彝”字：常道，守恒德",
+   "naming_point": "用户总表收录：“彝”取常道，守恒德之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·洪范》"
+  },
+  {
+   "text_id": "T003-097",
+   "classic_id": "J001",
+   "chapter": "坤卦",
+   "content": "利有攸往",
+   "paraphrase": "该句用于印证“攸”字：从容合道",
+   "naming_point": "用户总表收录：“攸”取从容合道之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·坤卦》"
+  },
+  {
+   "text_id": "T003-098",
+   "classic_id": "J005",
+   "chapter": "左传",
+   "content": "恪共臣职",
+   "paraphrase": "该句用于印证“恪”字：恭谨守礼",
+   "naming_point": "用户总表收录：“恪”取恭谨守礼之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T003-099",
+   "classic_id": "J007",
+   "chapter": "大雅·文王",
+   "content": "亹亹文王",
+   "paraphrase": "该句用于印证“亹”字：勤勉不倦",
+   "naming_point": "用户总表收录：“亹”取勤勉不倦之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王》"
+  },
+  {
+   "text_id": "T003-100",
+   "classic_id": "J007",
+   "chapter": "大雅·生民",
+   "content": "克岐克嶷",
+   "paraphrase": "该句用于印证“嶷”字：幼而聪慧，品德端嶷",
+   "naming_point": "用户总表收录：“嶷”取幼而聪慧，品德端嶷之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·生民》"
+  },
+  {
+   "text_id": "T003-101",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "徽音",
+   "paraphrase": "该句用于印证“徽”字：善德之音",
+   "naming_point": "用户总表收录：“徽”取善德之音之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-102",
+   "classic_id": "J001",
+   "chapter": "易经",
+   "content": "安甯",
+   "paraphrase": "该句用于印证“甯”字：安宁守善",
+   "naming_point": "用户总表收录：“甯”取安宁守善之义。",
+   "evidence_code": "A",
+   "source_note": "《易经》"
+  },
+  {
+   "text_id": "T003-103",
+   "classic_id": "J014",
+   "chapter": "牧誓",
+   "content": "勖哉夫子",
+   "paraphrase": "该句用于印证“勖”字：勉励自修",
+   "naming_point": "用户总表收录：“勖”取勉励自修之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·牧誓》"
+  },
+  {
+   "text_id": "T003-104",
+   "classic_id": "J007",
+   "chapter": "鄘风·定之方中",
+   "content": "秉心塞渊",
+   "paraphrase": "该句用于印证“秉”字：秉德持正",
+   "naming_point": "用户总表收录：“秉”取秉德持正之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·鄘风·定之方中》"
+  },
+  {
+   "text_id": "T003-105",
+   "classic_id": "J001",
+   "chapter": "解卦",
+   "content": "宥罪赦过",
+   "paraphrase": "该句用于印证“宥”字：宽仁容恕",
+   "naming_point": "用户总表收录：“宥”取宽仁容恕之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·解卦》"
+  },
+  {
+   "text_id": "T003-106",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "肃恭神人",
+   "paraphrase": "该句用于印证“肃”字：恭肃端谨",
+   "naming_point": "用户总表收录：“肃”取恭肃端谨之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-107",
+   "classic_id": "J011",
+   "chapter": "王制",
+   "content": "悫然忠信",
+   "paraphrase": "该句用于印证“悫”字：诚笃",
+   "naming_point": "用户总表收录：“悫”取诚笃之义。",
+   "evidence_code": "A",
+   "source_note": "《荀子·王制》"
+  },
+  {
+   "text_id": "T003-108",
+   "classic_id": "J007",
+   "chapter": "大雅·崧高",
+   "content": "崧高维岳",
+   "paraphrase": "该句用于印证“崧”字：如山之巍然，气度似崧",
+   "naming_point": "用户总表收录：“崧”取如山之巍然，气度似崧之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·崧高》"
+  },
+  {
+   "text_id": "T003-109",
+   "classic_id": "J014",
+   "chapter": "禹贡",
+   "content": "导岍及岐",
+   "paraphrase": "该句用于印证“岍”字：山之清峻，喻风骨",
+   "naming_point": "用户总表收录：“岍”取山之清峻，喻风骨之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·禹贡》"
+  },
+  {
+   "text_id": "T003-110",
+   "classic_id": "J005",
+   "chapter": "左传",
+   "content": "赐之玦以决",
+   "paraphrase": "该句用于印证“玦”字：玉之半环，喻清朗孤秀",
+   "naming_point": "用户总表收录：“玦”取玉之半环，喻清朗孤秀之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T003-111",
+   "classic_id": "J015",
+   "chapter": "周礼",
+   "content": "王之皮弁，会五采玉璂",
+   "paraphrase": "该句用于印证“璂”字：皮弁玉饰，喻文质相彰",
+   "naming_point": "用户总表收录：“璂”取皮弁玉饰，喻文质相彰之义。",
+   "evidence_code": "A",
+   "source_note": "《周礼》"
+  },
+  {
+   "text_id": "T003-112",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "杺，木心",
+   "paraphrase": "该句用于印证“杺”字：木心，喻内秀",
+   "naming_point": "用户总表收录：“杺”取木心，喻内秀之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-113",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "枔，树叶也",
+   "paraphrase": "该句用于印证“枔”字：树叶相连，喻温润舒展",
+   "naming_point": "用户总表收录：“枔”取树叶相连，喻温润舒展之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-114",
+   "classic_id": "J009",
+   "chapter": "楚辞",
+   "content": "山峻高而嵚崟",
+   "paraphrase": "该句用于印证“崟”字：山势秀峙，喻风骨挺拔",
+   "naming_point": "用户总表收录：“崟”取山势秀峙，喻风骨挺拔之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞》"
+  },
+  {
+   "text_id": "T003-115",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "玉之瑱也",
+   "paraphrase": "该句用于印证“瑱”字：冠旁玉，喻沉静敛藏",
+   "naming_point": "用户总表收录：“瑱”取冠旁玉，喻沉静敛藏之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-116",
+   "classic_id": "J022",
+   "chapter": "汉书",
+   "content": "杓携龙角",
+   "paraphrase": "该句用于印证“杓”字：斗柄，喻身姿朗拔",
+   "naming_point": "用户总表收录：“杓”取斗柄，喻身姿朗拔之义。",
+   "evidence_code": "A",
+   "source_note": "《汉书》"
+  },
+  {
+   "text_id": "T003-117",
+   "classic_id": "J010",
+   "chapter": "孟子",
+   "content": "方寸之木，可使高于岑楼",
+   "paraphrase": "该句用于印证“岑”字：小山，喻清简内敛",
+   "naming_point": "用户总表收录：“岑”取小山，喻清简内敛之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子》"
+  },
+  {
+   "text_id": "T003-118",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "琀，送死口中玉",
+   "paraphrase": "该句用于印证“琀”字：玉含，温润藏辉",
+   "naming_point": "用户总表收录：“琀”取玉含，温润藏辉之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-119",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "桭，檐间木",
+   "paraphrase": "该句用于印证“桭”字：檐木，喻端立如楹",
+   "naming_point": "用户总表收录：“桭”取檐木，喻端立如楹之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-120",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "山峻高而崒",
+   "paraphrase": "该句用于印证“崒”字：山高峻，喻卓立",
+   "naming_point": "用户总表收录：“崒”取山高峻，喻卓立之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-121",
+   "classic_id": "J009",
+   "chapter": "楚辞",
+   "content": "览察草木其犹未得兮，岂珵美之能当",
+   "paraphrase": "该句用于印证“珵”字：美玉，质如珵",
+   "naming_point": "用户总表收录：“珵”取美玉，质如珵之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞》"
+  },
+  {
+   "text_id": "T003-122",
+   "classic_id": "J022",
+   "chapter": "汉书",
+   "content": "枍诣，木貌",
+   "paraphrase": "该句用于印证“枍”字：木枝柔茂，喻姿容舒和",
+   "naming_point": "用户总表收录：“枍”取木枝柔茂，喻姿容舒和之义。",
+   "evidence_code": "A",
+   "source_note": "《汉书》"
+  },
+  {
+   "text_id": "T003-123",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "陟彼岨矣",
+   "paraphrase": "该句用于印证“岨”字：石山，喻坚贞",
+   "naming_point": "用户总表收录：“岨”取石山，喻坚贞之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-124",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "瑽，玉声",
+   "paraphrase": "该句用于印证“瑽”字：玉相击之声，喻清响",
+   "naming_point": "用户总表收录：“瑽”取玉相击之声，喻清响之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-125",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "杫，栈也",
+   "paraphrase": "该句用于印证“杫”字：木栈，喻稳实",
+   "naming_point": "用户总表收录：“杫”取木栈，喻稳实之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-126",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "崨，山高貌",
+   "paraphrase": "该句用于印证“崨”字：山挺拔，气宇崨然",
+   "naming_point": "用户总表收录：“崨”取山挺拔，气宇崨然之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-127",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "珫，珫耳也",
+   "paraphrase": "该句用于印证“珫”字：玉饰，喻雅敛",
+   "naming_point": "用户总表收录：“珫”取玉饰，喻雅敛之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-128",
+   "classic_id": "J009",
+   "chapter": "离骚",
+   "content": "荃不察余之中情兮",
+   "paraphrase": "该句用于印证“荃”字：香草",
+   "naming_point": "用户总表收录：“荃”取香草之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·离骚》"
+  },
+  {
+   "text_id": "T003-129",
+   "classic_id": "J009",
+   "chapter": "九歌",
+   "content": "杂杜蘅与芳芷",
+   "paraphrase": "该句用于印证“蘅”字：杜蘅香草",
+   "naming_point": "用户总表收录：“蘅”取杜蘅香草之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·九歌》"
+  },
+  {
+   "text_id": "T003-130",
+   "classic_id": "J007",
+   "chapter": "鄘风·载驰",
+   "content": "芃芃其麦",
+   "paraphrase": "该句用于印证“芃”字：草木盛茂",
+   "naming_point": "用户总表收录：“芃”取草木盛茂之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·鄘风·载驰》"
+  },
+  {
+   "text_id": "T003-131",
+   "classic_id": "J005",
+   "chapter": "左传",
+   "content": "鹢退飞，六鹢退飞",
+   "paraphrase": "该句用于印证“鹢”字：水鸟，轻羽从容",
+   "naming_point": "用户总表收录：“鹢”取水鸟，轻羽从容之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T003-132",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "有菀其特",
+   "paraphrase": "该句用于印证“菀”字：草木郁茂",
+   "naming_point": "用户总表收录：“菀”取草木郁茂之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-133",
+   "classic_id": "J009",
+   "chapter": "九歌",
+   "content": "翾飞兮翠曾",
+   "paraphrase": "该句用于印证“翾”字：小鸟轻飞",
+   "naming_point": "用户总表收录：“翾”取小鸟轻飞之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·九歌》"
+  },
+  {
+   "text_id": "T003-134",
+   "classic_id": "J007",
+   "chapter": "小雅·采芑",
+   "content": "薄采其芑",
+   "paraphrase": "该句用于印证“芑”字：白粱嘉禾",
+   "naming_point": "用户总表收录：“芑”取白粱嘉禾之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·采芑》"
+  },
+  {
+   "text_id": "T003-135",
+   "classic_id": "J008",
+   "chapter": "逍遥游",
+   "content": "泠风则小和",
+   "paraphrase": "该句用于印证“泠”字：清风",
+   "naming_point": "用户总表收录：“泠”取清风之义。",
+   "evidence_code": "A",
+   "source_note": "《庄子·逍遥游》"
+  },
+  {
+   "text_id": "T003-136",
+   "classic_id": "J021",
+   "chapter": "尔雅",
+   "content": "荷，芙蕖",
+   "paraphrase": "该句用于印证“蕖”字：芙蕖，荷",
+   "naming_point": "用户总表收录：“蕖”取芙蕖，荷之义。",
+   "evidence_code": "A",
+   "source_note": "《尔雅》"
+  },
+  {
+   "text_id": "T003-137",
+   "classic_id": "J008",
+   "chapter": "逍遥游",
+   "content": "鹪鹩巢于深林",
+   "paraphrase": "该句用于印证“鹪”字：鹪鹩，小鸟安栖",
+   "naming_point": "用户总表收录：“鹪”取鹪鹩，小鸟安栖之义。",
+   "evidence_code": "A",
+   "source_note": "《庄子·逍遥游》"
+  },
+  {
+   "text_id": "T003-138",
+   "classic_id": "J007",
+   "chapter": "小雅·巧言",
+   "content": "荏染柔木",
+   "paraphrase": "该句用于印证“荏”字：白苏柔草",
+   "naming_point": "用户总表收录：“荏”取白苏柔草之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·巧言》"
+  },
+  {
+   "text_id": "T003-139",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "翂，羽声",
+   "paraphrase": "该句用于印证“翂”字：鸟羽轻扬",
+   "naming_point": "用户总表收录：“翂”取鸟羽轻扬之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-140",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "楥，柜柳也",
+   "paraphrase": "该句用于印证“楥”字：橘木，嘉木",
+   "naming_point": "用户总表收录：“楥”取橘木，嘉木之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-141",
+   "classic_id": "J009",
+   "chapter": "楚辞",
+   "content": "霙霰纷糅",
+   "paraphrase": "该句用于印证“霙”字：雪珠",
+   "naming_point": "用户总表收录：“霙”取雪珠之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞》"
+  },
+  {
+   "text_id": "T003-142",
+   "classic_id": "J009",
+   "chapter": "楚辞",
+   "content": "资菉施以盈室兮",
+   "paraphrase": "该句用于印证“菉”字：菉草",
+   "naming_point": "用户总表收录：“菉”取菉草之义。",
+   "evidence_code": "A",
+   "source_note": "《楚辞》"
+  },
+  {
+   "text_id": "T003-143",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "凫鷖在泾",
+   "paraphrase": "该句用于印证“鷖”字：鸥鸟",
+   "naming_point": "用户总表收录：“鷖”取鸥鸟之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-144",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "芠，草貌",
+   "paraphrase": "该句用于印证“芠”字：草木繁纹",
+   "naming_point": "用户总表收录：“芠”取草木繁纹之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-145",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "于以采蘋",
+   "paraphrase": "该句用于印证“蘋”字：水中萍草",
+   "naming_point": "用户总表收录：“蘋”取水中萍草之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-146",
+   "classic_id": "J007",
+   "chapter": "卫风·硕人",
+   "content": "手如柔荑",
+   "paraphrase": "该句用于印证“荑”字：柔荑，初生嫩芽",
+   "naming_point": "用户总表收录：“荑”取柔荑，初生嫩芽之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·卫风·硕人》"
+  },
+  {
+   "text_id": "T003-147",
+   "classic_id": "J001",
+   "chapter": "坤卦",
+   "content": "承天而时行",
+   "paraphrase": "该句用于印证“承”字：承续家风",
+   "naming_point": "用户总表收录：“承”取承续家风之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·坤卦》"
+  },
+  {
+   "text_id": "T003-148",
+   "classic_id": "J014",
+   "chapter": "盘庚",
+   "content": "绍复先王大业",
+   "paraphrase": "该句用于印证“绍”字：绍继前绪",
+   "naming_point": "用户总表收录：“绍”取绍继前绪之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·盘庚》"
+  },
+  {
+   "text_id": "T003-149",
+   "classic_id": "J001",
+   "chapter": "系辞",
+   "content": "继善成性",
+   "paraphrase": "该句用于印证“继”字：继先人之善",
+   "naming_point": "用户总表收录：“继”取继先人之善之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·系辞》"
+  },
+  {
+   "text_id": "T003-150",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "延及后世",
+   "paraphrase": "该句用于印证“延”字：绵延家声",
+   "naming_point": "用户总表收录：“延”取绵延家声之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-151",
+   "classic_id": "J006",
+   "chapter": "学而",
+   "content": "传不习乎",
+   "paraphrase": "该句用于印证“传”字：传承祖训",
+   "naming_point": "用户总表收录：“传”取传承祖训之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·学而》"
+  },
+  {
+   "text_id": "T003-152",
+   "classic_id": "J007",
+   "chapter": "周颂",
+   "content": "续古之人",
+   "paraphrase": "该句用于印证“续”字：接续家脉",
+   "naming_point": "用户总表收录：“续”取接续家脉之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·周颂》"
+  },
+  {
+   "text_id": "T003-153",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "嗣，继也",
+   "paraphrase": "该句用于印证“嗣”字：承嗣延续",
+   "naming_point": "用户总表收录：“嗣”取承嗣延续之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T003-154",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "予乃胤保大相东土",
+   "paraphrase": "该句用于印证“胤”字：后胤一脉",
+   "naming_point": "用户总表收录：“胤”取后胤一脉之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-155",
+   "classic_id": "J014",
+   "chapter": "益稷",
+   "content": "赓载歌曰",
+   "paraphrase": "该句用于印证“赓”字：赓续不绝",
+   "naming_point": "用户总表收录：“赓”取赓续不绝之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·益稷》"
+  },
+  {
+   "text_id": "T003-156",
+   "classic_id": "J007",
+   "chapter": "大雅·文王有声",
+   "content": "载缵武功",
+   "paraphrase": "该句用于印证“缵”字：继承前人功业",
+   "naming_point": "用户总表收录：“缵”取继承前人功业之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王有声》"
+  },
+  {
+   "text_id": "T003-157",
+   "classic_id": "J007",
+   "chapter": "大雅·文王有声",
+   "content": "贻厥孙谋",
+   "paraphrase": "该句用于印证“贻”字：承父辈所贻善谋",
+   "naming_point": "用户总表收录：“贻”取承父辈所贻善谋之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王有声》"
+  },
+  {
+   "text_id": "T003-158",
+   "classic_id": "J025",
+   "chapter": "中庸",
+   "content": "述而不作",
+   "paraphrase": "该句用于印证“述”字：述先人之志",
+   "naming_point": "用户总表收录：“述”取述先人之志之义。",
+   "evidence_code": "A",
+   "source_note": "《礼记·中庸》"
+  },
+  {
+   "text_id": "T003-159",
+   "classic_id": "J007",
+   "chapter": "大雅·下武",
+   "content": "绳其祖武",
+   "paraphrase": "该句用于印证“绳”字：循祖先足迹",
+   "naming_point": "用户总表收录：“绳”取循祖先足迹之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·下武》"
+  },
+  {
+   "text_id": "T003-160",
+   "classic_id": "J025",
+   "chapter": "礼记",
+   "content": "承袭旧德",
+   "paraphrase": "该句用于印证“袭”字：承袭父之行",
+   "naming_point": "用户总表收录：“袭”取承袭父之行之义。",
+   "evidence_code": "A",
+   "source_note": "《礼记》"
+  },
+  {
+   "text_id": "T003-161",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "徽美",
+   "paraphrase": "该句用于印证“徽”字：承先人徽名",
+   "naming_point": "用户总表收录：“徽”取承先人徽名之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-162",
+   "classic_id": "J005",
+   "chapter": "左传",
+   "content": "永保家祚",
+   "paraphrase": "该句用于印证“祚”字：承家族福祚",
+   "naming_point": "用户总表收录：“祚”取承家族福祚之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T003-163",
+   "classic_id": "J005",
+   "chapter": "左传",
+   "content": "公室之胄",
+   "paraphrase": "该句用于印证“胄”字：宗族后裔",
+   "naming_point": "用户总表收录：“胄”取宗族后裔之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T003-164",
+   "classic_id": "J007",
+   "chapter": "大雅·文王",
+   "content": "聿修厥德",
+   "paraphrase": "该句用于印证“聿”字：修先人之德",
+   "naming_point": "用户总表收录：“聿”取修先人之德之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王》"
+  },
+  {
+   "text_id": "T003-165",
+   "classic_id": "J007",
+   "chapter": "小雅·南山有台",
+   "content": "光昭祖考",
+   "paraphrase": "该句用于印证“光”字：光耀家门",
+   "naming_point": "用户总表收录：“光”取光耀家门之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·南山有台》"
+  },
+  {
+   "text_id": "T003-166",
+   "classic_id": "J014",
+   "chapter": "文侯之命",
+   "content": "不显文王",
+   "paraphrase": "该句用于印证“显”字：显扬先祖",
+   "naming_point": "用户总表收录：“显”取显扬先祖之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·文侯之命》"
+  },
+  {
+   "text_id": "T003-167",
+   "classic_id": "J014",
+   "chapter": "毕命",
+   "content": "崇德报功",
+   "paraphrase": "该句用于印证“崇”字：尊崇祖德",
+   "naming_point": "用户总表收录：“崇”取尊崇祖德之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·毕命》"
+  },
+  {
+   "text_id": "T003-168",
+   "classic_id": "J006",
+   "chapter": "卫灵公",
+   "content": "人能弘道",
+   "paraphrase": "该句用于印证“弘”字：弘大家声",
+   "naming_point": "用户总表收录：“弘”取弘大家声之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·卫灵公》"
+  },
+  {
+   "text_id": "T003-169",
+   "classic_id": "J014",
+   "chapter": "立政",
+   "content": "丕基",
+   "paraphrase": "该句用于印证“丕”字：宏大祖基",
+   "naming_point": "用户总表收录：“丕”取宏大祖基之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·立政》"
+  },
+  {
+   "text_id": "T003-170",
+   "classic_id": "J010",
+   "chapter": "离娄下",
+   "content": "守先王之道",
+   "paraphrase": "该句用于印证“守”字：守护家传",
+   "naming_point": "用户总表收录：“守”取守护家传之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子·离娄下》"
+  },
+  {
+   "text_id": "T003-171",
+   "classic_id": "J014",
+   "chapter": "梓材",
+   "content": "保有家邦",
+   "paraphrase": "该句用于印证“保”字：保全宗族",
+   "naming_point": "用户总表收录：“保”取保全宗族之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·梓材》"
+  },
+  {
+   "text_id": "T003-172",
+   "classic_id": "J007",
+   "chapter": "大雅·皇矣",
+   "content": "怀德维宁",
+   "paraphrase": "该句用于印证“怀”字：常怀祖德",
+   "naming_point": "用户总表收录：“怀”取常怀祖德之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·皇矣》"
+  },
+  {
+   "text_id": "T003-173",
+   "classic_id": "J025",
+   "chapter": "祭义",
+   "content": "奉先思孝",
+   "paraphrase": "该句用于印证“奉”字：奉持先祖教诲",
+   "naming_point": "用户总表收录：“奉”取奉持先祖教诲之义。",
+   "evidence_code": "A",
+   "source_note": "《礼记·祭义》"
+  },
+  {
+   "text_id": "T003-174",
+   "classic_id": "J001",
+   "chapter": "系辞",
+   "content": "尊乾而法坤",
+   "paraphrase": "该句用于印证“尊”字：尊承父辈",
+   "naming_point": "用户总表收录：“尊”取尊承父辈之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·系辞》"
+  },
+  {
+   "text_id": "T003-175",
+   "classic_id": "J014",
+   "chapter": "舜典",
+   "content": "敬敷五教",
+   "paraphrase": "该句用于印证“敬”字：敬承家道",
+   "naming_point": "用户总表收录：“敬”取敬承家道之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·舜典》"
+  },
+  {
+   "text_id": "T003-176",
+   "classic_id": "J006",
+   "chapter": "学而",
+   "content": "孝悌为本",
+   "paraphrase": "该句用于印证“孝”字：承孝传家",
+   "naming_point": "用户总表收录：“孝”取承孝传家之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·学而》"
+  },
+  {
+   "text_id": "T003-177",
+   "classic_id": "J007",
+   "chapter": "周颂·敬之",
+   "content": "思成",
+   "paraphrase": "该句用于印证“思”字：思继先祖",
+   "naming_point": "用户总表收录：“思”取思继先祖之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·周颂·敬之》"
+  },
+  {
+   "text_id": "T003-178",
+   "classic_id": "J014",
+   "chapter": "大禹谟",
+   "content": "念兹在兹",
+   "paraphrase": "该句用于印证“念”字：常念祖训",
+   "naming_point": "用户总表收录：“念”取常念祖训之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·大禹谟》"
+  },
+  {
+   "text_id": "T003-179",
+   "classic_id": "J010",
+   "chapter": "尽心上",
+   "content": "存其本心",
+   "paraphrase": "该句用于印证“存”字：留存家风",
+   "naming_point": "用户总表收录：“存”取留存家风之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子·尽心上》"
+  },
+  {
+   "text_id": "T003-180",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "持守善道",
+   "paraphrase": "该句用于印证“持”字：持承父志",
+   "naming_point": "用户总表收录：“持”取持承父志之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-181",
+   "classic_id": "J007",
+   "chapter": "周颂",
+   "content": "永锡尔类",
+   "paraphrase": "该句用于印证“永”字：永传家声",
+   "naming_point": "用户总表收录：“永”取永传家声之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·周颂》"
+  },
+  {
+   "text_id": "T003-182",
+   "classic_id": "J014",
+   "chapter": "尚书",
+   "content": "长久其家",
+   "paraphrase": "该句用于印证“长”字：绵长传承",
+   "naming_point": "用户总表收录：“长”取绵长传承之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书》"
+  },
+  {
+   "text_id": "T003-183",
+   "classic_id": "J007",
+   "chapter": "大雅·文王",
+   "content": "世德作求",
+   "paraphrase": "该句用于印证“世”字：世代相承",
+   "naming_point": "用户总表收录：“世”取世代相承之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王》"
+  },
+  {
+   "text_id": "T003-184",
+   "classic_id": "J006",
+   "chapter": "论语",
+   "content": "世代相继",
+   "paraphrase": "该句用于印证“代”字：代代相传",
+   "naming_point": "用户总表收录：“代”取代代相传之义。",
+   "evidence_code": "A",
+   "source_note": "《论语》"
+  },
+  {
+   "text_id": "T003-185",
+   "classic_id": "J007",
+   "chapter": "王风",
+   "content": "昆弟",
+   "paraphrase": "该句用于印证“昆”字：同宗一脉",
+   "naming_point": "用户总表收录：“昆”取同宗一脉之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·王风》"
+  },
+  {
+   "text_id": "T003-186",
+   "classic_id": "J014",
+   "chapter": "舜典",
+   "content": "宗祀文王",
+   "paraphrase": "该句用于印证“宗”字：宗族根本",
+   "naming_point": "用户总表收录：“宗”取宗族根本之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·舜典》"
+  },
+  {
+   "text_id": "T003-187",
+   "classic_id": "J005",
+   "chapter": "左传",
+   "content": "聚族而居",
+   "paraphrase": "该句用于印证“族”字：家族一脉",
+   "naming_point": "用户总表收录：“族”取家族一脉之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T003-188",
+   "classic_id": "J001",
+   "chapter": "系辞",
+   "content": "复其本",
+   "paraphrase": "该句用于印证“本”字：不忘根本",
+   "naming_point": "用户总表收录：“本”取不忘根本之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·系辞》"
+  },
+  {
+   "text_id": "T003-189",
+   "classic_id": "J025",
+   "chapter": "学记",
+   "content": "源清流洁",
+   "paraphrase": "该句用于印证“源”字：承本源",
+   "naming_point": "用户总表收录：“源”取承本源之义。",
+   "evidence_code": "A",
+   "source_note": "《礼记·学记》"
+  },
+  {
+   "text_id": "T003-190",
+   "classic_id": "J007",
+   "chapter": "诗经",
+   "content": "本根不摇",
+   "paraphrase": "该句用于印证“根”字：固守家根",
+   "naming_point": "用户总表收录：“根”取固守家根之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经》"
+  },
+  {
+   "text_id": "T003-191",
+   "classic_id": "J014",
+   "chapter": "康诰",
+   "content": "奠基",
+   "paraphrase": "该句用于印证“基”字：承先祖基业",
+   "naming_point": "用户总表收录：“基”取承先祖基业之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·康诰》"
+  },
+  {
+   "text_id": "T003-192",
+   "classic_id": "J014",
+   "chapter": "梓材",
+   "content": "垣墉",
+   "paraphrase": "该句用于印证“垣”字：护持家垣",
+   "naming_point": "用户总表收录：“垣”取护持家垣之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·梓材》"
+  },
+  {
+   "text_id": "T003-193",
+   "classic_id": "J010",
+   "chapter": "滕文公上",
+   "content": "长幼有序",
+   "paraphrase": "该句用于印证“序”字：辈分有序",
+   "naming_point": "用户总表收录：“序”取辈分有序之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子·滕文公上》"
+  },
+  {
+   "text_id": "T003-194",
+   "classic_id": "J010",
+   "chapter": "滕文公上",
+   "content": "明人伦",
+   "paraphrase": "该句用于印证“伦”字：传承人伦家风",
+   "naming_point": "用户总表收录：“伦”取传承人伦家风之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子·滕文公上》"
+  },
+  {
+   "text_id": "T003-195",
+   "classic_id": "J001",
+   "chapter": "系辞",
+   "content": "恒久为常",
+   "paraphrase": "该句用于印证“常”字：常守祖道",
+   "naming_point": "用户总表收录：“常”取常守祖道之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·系辞》"
+  },
+  {
+   "text_id": "T003-196",
+   "classic_id": "J014",
+   "chapter": "五子之歌",
+   "content": "有典有则",
+   "paraphrase": "该句用于印证“典”字：承先祖典训",
+   "naming_point": "用户总表收录：“典”取承先祖典训之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·五子之歌》"
+  },
+  {
+   "text_id": "T003-197",
+   "classic_id": "J007",
+   "chapter": "小雅·鹿鸣",
+   "content": "是则是效",
+   "paraphrase": "该句用于印证“则”字：效法父辈",
+   "naming_point": "用户总表收录：“则”取效法父辈之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·鹿鸣》"
+  },
+  {
+   "text_id": "T003-198",
+   "classic_id": "J010",
+   "chapter": "孟子",
+   "content": "法先王",
+   "paraphrase": "该句用于印证“法”字：取法祖德",
+   "naming_point": "用户总表收录：“法”取取法祖德之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子》"
+  },
+  {
+   "text_id": "T003-199",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "模，法也",
+   "paraphrase": "该句用于印证“模”字：以父为楷模",
+   "naming_point": "用户总表收录：“模”取以父为楷模之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  },
+  {
+   "text_id": "T003-200",
+   "classic_id": "J014",
+   "chapter": "洪范",
+   "content": "洪范",
+   "paraphrase": "该句用于印证“范”字：范式家风",
+   "naming_point": "用户总表收录：“范”取范式家风之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·洪范》"
+  },
+  {
+   "text_id": "T003-201",
+   "classic_id": "J007",
+   "chapter": "大雅·思齐",
+   "content": "刑于寡妻（刑通型）",
+   "paraphrase": "该句用于印证“型”字：以为典型",
+   "naming_point": "用户总表收录：“型”取以为典型之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·思齐》"
+  },
+  {
+   "text_id": "T003-202",
+   "classic_id": "J007",
+   "chapter": "小雅·湛露",
+   "content": "令仪令色",
+   "paraphrase": "该句用于印证“仪”字：承家风威仪",
+   "naming_point": "用户总表收录：“仪”取承家风威仪之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·湛露》"
+  },
+  {
+   "text_id": "T003-203",
+   "classic_id": "J014",
+   "chapter": "君陈",
+   "content": "有容德乃大",
+   "paraphrase": "该句用于印证“容”字：承父辈气度",
+   "naming_point": "用户总表收录：“容”取承父辈气度之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·君陈》"
+  },
+  {
+   "text_id": "T003-204",
+   "classic_id": "J005",
+   "chapter": "左传",
+   "content": "望族",
+   "paraphrase": "该句用于印证“望”字：不负家望",
+   "naming_point": "用户总表收录：“望”取不负家望之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T003-205",
+   "classic_id": "J007",
+   "chapter": "小雅·蓼萧",
+   "content": "誉处兮",
+   "paraphrase": "该句用于印证“誉”字：承家族美誉",
+   "naming_point": "用户总表收录：“誉”取承家族美誉之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·蓼萧》"
+  },
+  {
+   "text_id": "T003-206",
+   "classic_id": "J007",
+   "chapter": "大雅·文王有声",
+   "content": "令闻令声",
+   "paraphrase": "该句用于印证“声”字：承先人声名",
+   "naming_point": "用户总表收录：“声”取承先人声名之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王有声》"
+  },
+  {
+   "text_id": "T003-207",
+   "classic_id": "J007",
+   "chapter": "大雅·文王",
+   "content": "令闻不已",
+   "paraphrase": "该句用于印证“闻”字：承美名",
+   "naming_point": "用户总表收录：“闻”取承美名之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王》"
+  },
+  {
+   "text_id": "T003-208",
+   "classic_id": "J006",
+   "chapter": "卫灵公",
+   "content": "立身成名",
+   "paraphrase": "该句用于印证“名”字：续家门之名",
+   "naming_point": "用户总表收录：“名”取续家门之名之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·卫灵公》"
+  },
+  {
+   "text_id": "T003-209",
+   "classic_id": "J001",
+   "chapter": "说卦",
+   "content": "立人之道",
+   "paraphrase": "该句用于印证“立”字：立身承家",
+   "naming_point": "用户总表收录：“立”取立身承家之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·说卦》"
+  },
+  {
+   "text_id": "T003-210",
+   "classic_id": "J014",
+   "chapter": "泰誓",
+   "content": "树德",
+   "paraphrase": "该句用于印证“树”字：树立家风",
+   "naming_point": "用户总表收录：“树”取树立家风之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·泰誓》"
+  },
+  {
+   "text_id": "T003-211",
+   "classic_id": "J014",
+   "chapter": "舜典",
+   "content": "建邦",
+   "paraphrase": "该句用于印证“建”字：建设家基",
+   "naming_point": "用户总表收录：“建”取建设家基之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·舜典》"
+  },
+  {
+   "text_id": "T003-212",
+   "classic_id": "J007",
+   "chapter": "小雅·小宛",
+   "content": "夙兴夜寐",
+   "paraphrase": "该句用于印证“兴”字：振兴家道",
+   "naming_point": "用户总表收录：“兴”取振兴家道之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·小宛》"
+  },
+  {
+   "text_id": "T003-213",
+   "classic_id": "J014",
+   "chapter": "盘庚",
+   "content": "振民育德",
+   "paraphrase": "该句用于印证“振”字：振起家声",
+   "naming_point": "用户总表收录：“振”取振起家声之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·盘庚》"
+  },
+  {
+   "text_id": "T003-214",
+   "classic_id": "J010",
+   "chapter": "梁惠王下",
+   "content": "兴起",
+   "paraphrase": "该句用于印证“起”字：继起承续",
+   "naming_point": "用户总表收录：“起”取继起承续之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子·梁惠王下》"
+  },
+  {
+   "text_id": "T003-215",
+   "classic_id": "J001",
+   "chapter": "系辞",
+   "content": "日新之盛",
+   "paraphrase": "该句用于印证“盛”字：家门兴盛",
+   "naming_point": "用户总表收录：“盛”取家门兴盛之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·系辞》"
+  },
+  {
+   "text_id": "T003-216",
+   "classic_id": "J014",
+   "chapter": "大禹谟",
+   "content": "德隆",
+   "paraphrase": "该句用于印证“隆”字：家道兴隆",
+   "naming_point": "用户总表收录：“隆”取家道兴隆之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·大禹谟》"
+  },
+  {
+   "text_id": "T003-217",
+   "classic_id": "J001",
+   "chapter": "系辞",
+   "content": "安其家",
+   "paraphrase": "该句用于印证“安”字：安稳传承",
+   "naming_point": "用户总表收录：“安”取安稳传承之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·系辞》"
+  },
+  {
+   "text_id": "T003-218",
+   "classic_id": "J007",
+   "chapter": "小雅·常棣",
+   "content": "和乐且湛",
+   "paraphrase": "该句用于印证“和”字：家和永续",
+   "naming_point": "用户总表收录：“和”取家和永续之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·常棣》"
+  },
+  {
+   "text_id": "T003-219",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "九族既睦",
+   "paraphrase": "该句用于印证“睦”字：宗族和睦",
+   "naming_point": "用户总表收录：“睦”取宗族和睦之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T003-220",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "协和万邦",
+   "paraphrase": "该句用于印证“协”字：宗族同心",
+   "naming_point": "用户总表收录：“协”取宗族同心之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T003-221",
+   "classic_id": "J006",
+   "chapter": "为政",
+   "content": "齐家",
+   "paraphrase": "该句用于印证“齐”字：整肃家风",
+   "naming_point": "用户总表收录：“齐”取整肃家风之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·为政》"
+  },
+  {
+   "text_id": "T003-222",
+   "classic_id": "J002",
+   "chapter": "大学",
+   "content": "治国齐家",
+   "paraphrase": "该句用于印证“治”字：治理家声",
+   "naming_point": "用户总表收录：“治”取治理家声之义。",
+   "evidence_code": "A",
+   "source_note": "《大学》"
+  },
+  {
+   "text_id": "T003-223",
+   "classic_id": "J001",
+   "chapter": "说卦",
+   "content": "顺理",
+   "paraphrase": "该句用于印证“理”字：理顺家脉",
+   "naming_point": "用户总表收录：“理”取理顺家脉之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·说卦》"
+  },
+  {
+   "text_id": "T003-224",
+   "classic_id": "J006",
+   "chapter": "论语",
+   "content": "父道",
+   "paraphrase": "该句用于印证“道”字：承家之道",
+   "naming_point": "用户总表收录：“道”取承家之道之义。",
+   "evidence_code": "A",
+   "source_note": "《论语》"
+  },
+  {
+   "text_id": "T003-225",
+   "classic_id": "J014",
+   "chapter": "大禹谟",
+   "content": "德惟善政",
+   "paraphrase": "该句用于印证“德”字：承先人之德",
+   "naming_point": "用户总表收录：“德”取承先人之德之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·大禹谟》"
+  },
+  {
+   "text_id": "T003-226",
+   "classic_id": "J006",
+   "chapter": "颜渊",
+   "content": "仁者爱人",
+   "paraphrase": "该句用于印证“仁”字：传仁善家风",
+   "naming_point": "用户总表收录：“仁”取传仁善家风之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·颜渊》"
+  },
+  {
+   "text_id": "T003-227",
+   "classic_id": "J010",
+   "chapter": "公孙丑上",
+   "content": "义人之根",
+   "paraphrase": "该句用于印证“义”字：承道义",
+   "naming_point": "用户总表收录：“义”取承道义之义。",
+   "evidence_code": "A",
+   "source_note": "《孟子·公孙丑上》"
+  },
+  {
+   "text_id": "T003-228",
+   "classic_id": "J006",
+   "chapter": "学而",
+   "content": "言而有信",
+   "paraphrase": "该句用于印证“信”字：传信于家",
+   "naming_point": "用户总表收录：“信”取传信于家之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·学而》"
+  },
+  {
+   "text_id": "T003-229",
+   "classic_id": "J001",
+   "chapter": "坤卦",
+   "content": "积善之家",
+   "paraphrase": "该句用于印证“善”字：积善承续",
+   "naming_point": "用户总表收录：“善”取积善承续之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·坤卦》"
+  },
+  {
+   "text_id": "T003-230",
+   "classic_id": "J007",
+   "chapter": "小雅·鹿鸣",
+   "content": "嘉言懿行",
+   "paraphrase": "该句用于印证“嘉”字：承嘉美之行",
+   "naming_point": "用户总表收录：“嘉”取承嘉美之行之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·鹿鸣》"
+  },
+  {
+   "text_id": "T003-231",
+   "classic_id": "J014",
+   "chapter": "君陈",
+   "content": "嘉言懿德",
+   "paraphrase": "该句用于印证“懿”字：承懿美家风",
+   "naming_point": "用户总表收录：“懿”取承懿美家风之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·君陈》"
+  },
+  {
+   "text_id": "T003-232",
+   "classic_id": "J020",
+   "chapter": "说文",
+   "content": "俦，同类也",
+   "paraphrase": "该句用于印证“俦”字：与父辈同类相契",
+   "naming_point": "用户总表收录：“俦”取与父辈同类相契之义。",
+   "evidence_code": "A",
+   "source_note": "《说文》"
+  }
+ ],
+ "char_citation_patch": [
+  {
+   "char": "昭",
+   "citation": "T003-001",
+   "source_ref": "《诗经·大雅·文王》",
+   "reason": "用户总表：晨光初显，生于朝旦。"
+  },
+  {
+   "char": "景",
+   "citation": "T002-037",
+   "source_ref": "《诗经·小雅·车辖》",
+   "reason": "用户总表：日光景，出生逢晴日。"
+  },
+  {
+   "char": "晨",
+   "citation": "T003-002",
+   "source_ref": "《尔雅》",
+   "reason": "用户总表：清晨降生。"
+  },
+  {
+   "char": "曦",
+   "citation": "T003-003",
+   "source_ref": "《楚辞·九歌》",
+   "reason": "用户总表：朝阳。"
+  },
+  {
+   "char": "明",
+   "citation": "T003-004",
+   "source_ref": "《周易·离卦》",
+   "reason": "用户总表：天光澄明。"
+  },
+  {
+   "char": "暄",
+   "citation": "T003-005",
+   "source_ref": "《玉篇》",
+   "reason": "用户总表：暖，出生逢春暖之日。"
+  },
+  {
+   "char": "沐",
+   "citation": "T003-006",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：降生遇清雨润身。"
+  },
+  {
+   "char": "春",
+   "citation": "T003-007",
+   "source_ref": "《尚书·尧典》",
+   "reason": "用户总表：春时。"
+  },
+  {
+   "char": "朔",
+   "citation": "T003-008",
+   "source_ref": "《尚书·尧典》",
+   "reason": "用户总表：月初新月之时。"
+  },
+  {
+   "char": "华",
+   "citation": "T003-009",
+   "source_ref": "《诗经·桃夭》",
+   "reason": "用户总表：万物花开时节降生。"
+  },
+  {
+   "char": "润",
+   "citation": "T003-010",
+   "source_ref": "《周易·说卦》",
+   "reason": "用户总表：降生逢甘霖。"
+  },
+  {
+   "char": "安",
+   "citation": "T003-011",
+   "source_ref": "《易经·系辞》",
+   "reason": "用户总表：诞时安稳平和。"
+  },
+  {
+   "char": "丰",
+   "citation": "T003-012",
+   "source_ref": "《诗经·周颂·丰年》",
+   "reason": "用户总表：生于丰收之年。"
+  },
+  {
+   "char": "澜",
+   "citation": "T003-013",
+   "source_ref": "《孟子·尽心上》",
+   "reason": "用户总表：江河初涨之时。"
+  },
+  {
+   "char": "光",
+   "citation": "T003-014",
+   "source_ref": "《周易·坤卦》",
+   "reason": "用户总表：天光焕发。"
+  },
+  {
+   "char": "和",
+   "citation": "T003-015",
+   "source_ref": "《周易·乾卦》",
+   "reason": "用户总表：风和日暖。"
+  },
+  {
+   "char": "昕",
+   "citation": "T003-016",
+   "source_ref": "《礼记·文王世子》",
+   "reason": "用户总表：黎明日出。"
+  },
+  {
+   "char": "晞",
+   "citation": "T002-154",
+   "source_ref": "《诗经·秦风·蒹葭》",
+   "reason": "用户总表：晨露初干。"
+  },
+  {
+   "char": "晏",
+   "citation": "T003-017",
+   "source_ref": "《诗经·氓》",
+   "reason": "用户总表：天色晴和安暖。"
+  },
+  {
+   "char": "昒",
+   "citation": "T003-018",
+   "source_ref": "《汉书·扬雄传》",
+   "reason": "用户总表：拂晓天将明。"
+  },
+  {
+   "char": "朏",
+   "citation": "T003-019",
+   "source_ref": "《尚书·召诰》",
+   "reason": "用户总表：新月初生。"
+  },
+  {
+   "char": "暒",
+   "citation": "T003-020",
+   "source_ref": "《说文》",
+   "reason": "用户总表：天晴。"
+  },
+  {
+   "char": "晛",
+   "citation": "T002-155",
+   "source_ref": "《诗经·小雅·角弓》",
+   "reason": "用户总表：日光乍现。"
+  },
+  {
+   "char": "霂",
+   "citation": "T003-021",
+   "source_ref": "《诗经·小雅·信南山》",
+   "reason": "用户总表：微雨降生。"
+  },
+  {
+   "char": "湜",
+   "citation": "T003-022",
+   "source_ref": "《诗经·邶风·谷风》",
+   "reason": "用户总表：水清澄，诞时静水。"
+  },
+  {
+   "char": "汧",
+   "citation": "T003-023",
+   "source_ref": "《说文》",
+   "reason": "用户总表：水泉潜出。"
+  },
+  {
+   "char": "雩",
+   "citation": "T003-024",
+   "source_ref": "《左传·桓公五年》",
+   "reason": "用户总表：逢甘霖而降。"
+  },
+  {
+   "char": "朓",
+   "citation": "T003-025",
+   "source_ref": "《说文》",
+   "reason": "用户总表：月末月见于西。"
+  },
+  {
+   "char": "昪",
+   "citation": "T003-026",
+   "source_ref": "《说文》",
+   "reason": "用户总表：日光盛明。"
+  },
+  {
+   "char": "永",
+   "citation": "T003-027",
+   "source_ref": "《诗经·周南·汉广》",
+   "reason": "用户总表：时序绵长。"
+  },
+  {
+   "char": "星",
+   "citation": "T003-028",
+   "source_ref": "《尚书·尧典》",
+   "reason": "用户总表：生于星朗之夜。"
+  },
+  {
+   "char": "月",
+   "citation": "T003-029",
+   "source_ref": "《诗经·陈风·月出》",
+   "reason": "用户总表：月夜降生。"
+  },
+  {
+   "char": "洪",
+   "citation": "T003-030",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：大水之时。"
+  },
+  {
+   "char": "凌",
+   "citation": "T003-031",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：生于清冬。"
+  },
+  {
+   "char": "硕",
+   "citation": "T003-032",
+   "source_ref": "《诗经·卫风·硕人》",
+   "reason": "用户总表：初生体态端硕。"
+  },
+  {
+   "char": "维",
+   "citation": "T003-033",
+   "source_ref": "《诗经·大雅·桑柔》",
+   "reason": "用户总表：恰逢其时。"
+  },
+  {
+   "char": "时",
+   "citation": "T003-034",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：合于天时。"
+  },
+  {
+   "char": "启",
+   "citation": "T003-035",
+   "source_ref": "《尚书·尧典》",
+   "reason": "用户总表：时节开启。"
+  },
+  {
+   "char": "载",
+   "citation": "T003-036",
+   "source_ref": "《诗经·鄘风·载驰》",
+   "reason": "用户总表：岁载之时。"
+  },
+  {
+   "char": "茂",
+   "citation": "T003-037",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：万物繁茂。"
+  },
+  {
+   "char": "清",
+   "citation": "T003-038",
+   "source_ref": "《楚辞·渔父》",
+   "reason": "用户总表：天清露净。"
+  },
+  {
+   "char": "高",
+   "citation": "T003-039",
+   "source_ref": "《诗经·小雅·车舝》",
+   "reason": "用户总表：天高气朗。"
+  },
+  {
+   "char": "舒",
+   "citation": "T003-040",
+   "source_ref": "《诗经·陈风·月出》",
+   "reason": "用户总表：云舒天缓。"
+  },
+  {
+   "char": "蔚",
+   "citation": "T003-041",
+   "source_ref": "《易经·革卦》",
+   "reason": "用户总表：草木蔚然，生机勃发。"
+  },
+  {
+   "char": "稷",
+   "citation": "T003-042",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：禾谷成熟时节。"
+  },
+  {
+   "char": "稂",
+   "citation": "T003-043",
+   "source_ref": "《诗经·小雅》",
+   "reason": "用户总表：禾苗茁壮。"
+  },
+  {
+   "char": "宵",
+   "citation": "T003-044",
+   "source_ref": "《诗经·召南·小星》",
+   "reason": "用户总表：夜晚降生。"
+  },
+  {
+   "char": "曙",
+   "citation": "T003-045",
+   "source_ref": "《玉篇》",
+   "reason": "用户总表：天将破晓。"
+  },
+  {
+   "char": "霏",
+   "citation": "T003-046",
+   "source_ref": "《诗经·小雅·采薇》",
+   "reason": "用户总表：细雨濛濛。"
+  },
+  {
+   "char": "祁",
+   "citation": "T003-047",
+   "source_ref": "《诗经·豳风·七月》",
+   "reason": "用户总表：天气舒缓。"
+  },
+  {
+   "char": "芒",
+   "citation": "T003-048",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：麦熟之时。"
+  },
+  {
+   "char": "苗",
+   "citation": "T003-049",
+   "source_ref": "《诗经·小雅·大田》",
+   "reason": "用户总表：青苗初生。"
+  },
+  {
+   "char": "泉",
+   "citation": "T003-050",
+   "source_ref": "《诗经·邶风》",
+   "reason": "用户总表：泉流初生。"
+  },
+  {
+   "char": "辰",
+   "citation": "T003-051",
+   "source_ref": "《尚书·尧典》",
+   "reason": "用户总表：生辰合星辰。"
+  },
+  {
+   "char": "宿",
+   "citation": "T003-052",
+   "source_ref": "《周礼》",
+   "reason": "用户总表：对应星次。"
+  },
+  {
+   "char": "离",
+   "citation": "T003-053",
+   "source_ref": "《周易·离卦》",
+   "reason": "用户总表：附光，丽也。"
+  },
+  {
+   "char": "巽",
+   "citation": "T003-054",
+   "source_ref": "《周易·巽卦》",
+   "reason": "用户总表：顺风，风至之时。"
+  },
+  {
+   "char": "震",
+   "citation": "T003-055",
+   "source_ref": "《周易·震卦》",
+   "reason": "用户总表：春雷降生。"
+  },
+  {
+   "char": "艮",
+   "citation": "T003-056",
+   "source_ref": "《周易·艮卦》",
+   "reason": "用户总表：山静，安宁之时。"
+  },
+  {
+   "char": "兑",
+   "citation": "T003-057",
+   "source_ref": "《周易·兑卦》",
+   "reason": "用户总表：悦泽，雨露润。"
+  },
+  {
+   "char": "泰",
+   "citation": "T003-058",
+   "source_ref": "《周易·泰卦》",
+   "reason": "用户总表：天地交泰，祥和之时。"
+  },
+  {
+   "char": "复",
+   "citation": "T003-059",
+   "source_ref": "《周易·复卦》",
+   "reason": "用户总表：阳气复来。"
+  },
+  {
+   "char": "临",
+   "citation": "T003-060",
+   "source_ref": "《周易·临卦》",
+   "reason": "用户总表：阳气渐临。"
+  },
+  {
+   "char": "观",
+   "citation": "T003-061",
+   "source_ref": "《周易·观卦》",
+   "reason": "用户总表：仰观天象。"
+  },
+  {
+   "char": "颐",
+   "citation": "T003-062",
+   "source_ref": "《周易·颐卦》",
+   "reason": "用户总表：初生得养。"
+  },
+  {
+   "char": "恒",
+   "citation": "T003-063",
+   "source_ref": "《周易·恒卦》",
+   "reason": "用户总表：时序恒久。"
+  },
+  {
+   "char": "晋",
+   "citation": "T003-064",
+   "source_ref": "《周易·晋卦》",
+   "reason": "用户总表：旭日渐进。"
+  },
+  {
+   "char": "益",
+   "citation": "T003-065",
+   "source_ref": "《周易·益卦》",
+   "reason": "用户总表：风雨滋益。"
+  },
+  {
+   "char": "升",
+   "citation": "T003-066",
+   "source_ref": "《周易·升卦》",
+   "reason": "用户总表：地气升腾。"
+  },
+  {
+   "char": "简",
+   "citation": "T003-067",
+   "source_ref": "《周易·系辞》",
+   "reason": "用户总表：简约平和。"
+  },
+  {
+   "char": "萃",
+   "citation": "T003-068",
+   "source_ref": "《周易·萃卦》",
+   "reason": "用户总表：万物萃聚。"
+  },
+  {
+   "char": "革",
+   "citation": "T003-069",
+   "source_ref": "《周易·革卦》",
+   "reason": "用户总表：时序更迭。"
+  },
+  {
+   "char": "鼎",
+   "citation": "T003-070",
+   "source_ref": "《周易·鼎卦》",
+   "reason": "用户总表：新时鼎兴。"
+  },
+  {
+   "char": "渐",
+   "citation": "T003-071",
+   "source_ref": "《周易·渐卦》",
+   "reason": "用户总表：时节渐进。"
+  },
+  {
+   "char": "归",
+   "citation": "T003-072",
+   "source_ref": "《诗经·召南·鹊巢》",
+   "reason": "用户总表：时节当归。"
+  },
+  {
+   "char": "旅",
+   "citation": "T003-073",
+   "source_ref": "《周易·旅卦》",
+   "reason": "用户总表：客星过境。"
+  },
+  {
+   "char": "涣",
+   "citation": "T003-074",
+   "source_ref": "《周易·涣卦》",
+   "reason": "用户总表：春水涣流。"
+  },
+  {
+   "char": "节",
+   "citation": "T003-075",
+   "source_ref": "《周易·节卦》",
+   "reason": "用户总表：时节有节。"
+  },
+  {
+   "char": "中",
+   "citation": "T003-076",
+   "source_ref": "《周易》",
+   "reason": "用户总表：时得其中。"
+  },
+  {
+   "char": "孚",
+   "citation": "T003-077",
+   "source_ref": "《周易·中孚》",
+   "reason": "用户总表：天时信实。"
+  },
+  {
+   "char": "贲",
+   "citation": "T003-078",
+   "source_ref": "《周易·贲卦》",
+   "reason": "用户总表：天象有文。"
+  },
+  {
+   "char": "咸",
+   "citation": "T003-079",
+   "source_ref": "《周易·咸卦》",
+   "reason": "用户总表：阴阳相感。"
+  },
+  {
+   "char": "随",
+   "citation": "T003-080",
+   "source_ref": "《周易·随卦》",
+   "reason": "用户总表：顺随时序。"
+  },
+  {
+   "char": "需",
+   "citation": "T003-081",
+   "source_ref": "《周易·需卦》",
+   "reason": "用户总表：待雨之时。"
+  },
+  {
+   "char": "师",
+   "citation": "T003-082",
+   "source_ref": "《周易·师卦》",
+   "reason": "用户总表：时序有序。"
+  },
+  {
+   "char": "比",
+   "citation": "T003-083",
+   "source_ref": "《周易·比卦》",
+   "reason": "用户总表：天时亲合。"
+  },
+  {
+   "char": "畜",
+   "citation": "T003-084",
+   "source_ref": "《周易·大畜》",
+   "reason": "用户总表：积蓄生机。"
+  },
+  {
+   "char": "履",
+   "citation": "T003-085",
+   "source_ref": "《周易·履卦》",
+   "reason": "用户总表：顺时而行。"
+  },
+  {
+   "char": "同",
+   "citation": "T003-086",
+   "source_ref": "《周易·同人》",
+   "reason": "用户总表：天时和同。"
+  },
+  {
+   "char": "谦",
+   "citation": "T003-087",
+   "source_ref": "《周易·谦卦》",
+   "reason": "用户总表：天时谦润。"
+  },
+  {
+   "char": "豫",
+   "citation": "T003-088",
+   "source_ref": "《周易·豫卦》",
+   "reason": "用户总表：时节安乐。"
+  },
+  {
+   "char": "惇",
+   "citation": "T003-089",
+   "source_ref": "《尚书·舜典》",
+   "reason": "用户总表：敦厚笃善。"
+  },
+  {
+   "char": "祗",
+   "citation": "T003-090",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：恭谨敬肃。"
+  },
+  {
+   "char": "劭",
+   "citation": "T003-091",
+   "source_ref": "《汉书》",
+   "reason": "用户总表：美好崇德。"
+  },
+  {
+   "char": "谌",
+   "citation": "T003-092",
+   "source_ref": "《楚辞·离骚》",
+   "reason": "用户总表：诚信笃定。"
+  },
+  {
+   "char": "懋",
+   "citation": "T003-093",
+   "source_ref": "《尚书·仲虺之诰》",
+   "reason": "用户总表：勤勉修德。"
+  },
+  {
+   "char": "毖",
+   "citation": "T003-094",
+   "source_ref": "《尚书·酒诰》",
+   "reason": "用户总表：慎戒自持。"
+  },
+  {
+   "char": "丕",
+   "citation": "T003-095",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：宏大。"
+  },
+  {
+   "char": "彝",
+   "citation": "T003-096",
+   "source_ref": "《尚书·洪范》",
+   "reason": "用户总表：常道，守恒德。"
+  },
+  {
+   "char": "攸",
+   "citation": "T003-097",
+   "source_ref": "《周易·坤卦》",
+   "reason": "用户总表：从容合道。"
+  },
+  {
+   "char": "恪",
+   "citation": "T003-098",
+   "source_ref": "《左传》",
+   "reason": "用户总表：恭谨守礼。"
+  },
+  {
+   "char": "亹",
+   "citation": "T003-099",
+   "source_ref": "《诗经·大雅·文王》",
+   "reason": "用户总表：勤勉不倦。"
+  },
+  {
+   "char": "嶷",
+   "citation": "T003-100",
+   "source_ref": "《诗经·大雅·生民》",
+   "reason": "用户总表：幼而聪慧，品德端嶷。"
+  },
+  {
+   "char": "徽",
+   "citation": "T003-101",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：善德之音。"
+  },
+  {
+   "char": "甯",
+   "citation": "T003-102",
+   "source_ref": "《易经》",
+   "reason": "用户总表：安宁守善。"
+  },
+  {
+   "char": "勖",
+   "citation": "T003-103",
+   "source_ref": "《尚书·牧誓》",
+   "reason": "用户总表：勉励自修。"
+  },
+  {
+   "char": "祎",
+   "citation": "T002-204",
+   "source_ref": "《尔雅·释诂》",
+   "reason": "用户总表：美善。"
+  },
+  {
+   "char": "秉",
+   "citation": "T003-104",
+   "source_ref": "《诗经·鄘风·定之方中》",
+   "reason": "用户总表：秉德持正。"
+  },
+  {
+   "char": "宥",
+   "citation": "T003-105",
+   "source_ref": "《周易·解卦》",
+   "reason": "用户总表：宽仁容恕。"
+  },
+  {
+   "char": "肃",
+   "citation": "T003-106",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：恭肃端谨。"
+  },
+  {
+   "char": "悫",
+   "citation": "T003-107",
+   "source_ref": "《荀子·王制》",
+   "reason": "用户总表：诚笃。"
+  },
+  {
+   "char": "崧",
+   "citation": "T003-108",
+   "source_ref": "《诗经·大雅·崧高》",
+   "reason": "用户总表：如山之巍然，气度似崧。"
+  },
+  {
+   "char": "岍",
+   "citation": "T003-109",
+   "source_ref": "《尚书·禹贡》",
+   "reason": "用户总表：山之清峻，喻风骨。"
+  },
+  {
+   "char": "玦",
+   "citation": "T003-110",
+   "source_ref": "《左传》",
+   "reason": "用户总表：玉之半环，喻清朗孤秀。"
+  },
+  {
+   "char": "璂",
+   "citation": "T003-111",
+   "source_ref": "《周礼》",
+   "reason": "用户总表：皮弁玉饰，喻文质相彰。"
+  },
+  {
+   "char": "杺",
+   "citation": "T003-112",
+   "source_ref": "《说文》",
+   "reason": "用户总表：木心，喻内秀。"
+  },
+  {
+   "char": "枔",
+   "citation": "T003-113",
+   "source_ref": "《说文》",
+   "reason": "用户总表：树叶相连，喻温润舒展。"
+  },
+  {
+   "char": "崟",
+   "citation": "T003-114",
+   "source_ref": "《楚辞》",
+   "reason": "用户总表：山势秀峙，喻风骨挺拔。"
+  },
+  {
+   "char": "瑱",
+   "citation": "T003-115",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：冠旁玉，喻沉静敛藏。"
+  },
+  {
+   "char": "杓",
+   "citation": "T003-116",
+   "source_ref": "《汉书》",
+   "reason": "用户总表：斗柄，喻身姿朗拔。"
+  },
+  {
+   "char": "岑",
+   "citation": "T003-117",
+   "source_ref": "《孟子》",
+   "reason": "用户总表：小山，喻清简内敛。"
+  },
+  {
+   "char": "琀",
+   "citation": "T003-118",
+   "source_ref": "《说文》",
+   "reason": "用户总表：玉含，温润藏辉。"
+  },
+  {
+   "char": "桭",
+   "citation": "T003-119",
+   "source_ref": "《说文》",
+   "reason": "用户总表：檐木，喻端立如楹。"
+  },
+  {
+   "char": "崒",
+   "citation": "T003-120",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：山高峻，喻卓立。"
+  },
+  {
+   "char": "珵",
+   "citation": "T003-121",
+   "source_ref": "《楚辞》",
+   "reason": "用户总表：美玉，质如珵。"
+  },
+  {
+   "char": "枍",
+   "citation": "T003-122",
+   "source_ref": "《汉书》",
+   "reason": "用户总表：木枝柔茂，喻姿容舒和。"
+  },
+  {
+   "char": "岨",
+   "citation": "T003-123",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：石山，喻坚贞。"
+  },
+  {
+   "char": "瑽",
+   "citation": "T003-124",
+   "source_ref": "《说文》",
+   "reason": "用户总表：玉相击之声，喻清响。"
+  },
+  {
+   "char": "杫",
+   "citation": "T003-125",
+   "source_ref": "《说文》",
+   "reason": "用户总表：木栈，喻稳实。"
+  },
+  {
+   "char": "崨",
+   "citation": "T003-126",
+   "source_ref": "《说文》",
+   "reason": "用户总表：山挺拔，气宇崨然。"
+  },
+  {
+   "char": "珫",
+   "citation": "T003-127",
+   "source_ref": "《说文》",
+   "reason": "用户总表：玉饰，喻雅敛。"
+  },
+  {
+   "char": "荃",
+   "citation": "T003-128",
+   "source_ref": "《楚辞·离骚》",
+   "reason": "用户总表：香草。"
+  },
+  {
+   "char": "苕",
+   "citation": "T002-164",
+   "source_ref": "《诗经·小雅·苕之华》",
+   "reason": "用户总表：凌霄之花。"
+  },
+  {
+   "char": "蘅",
+   "citation": "T003-129",
+   "source_ref": "《楚辞·九歌》",
+   "reason": "用户总表：杜蘅香草。"
+  },
+  {
+   "char": "芃",
+   "citation": "T003-130",
+   "source_ref": "《诗经·鄘风·载驰》",
+   "reason": "用户总表：草木盛茂。"
+  },
+  {
+   "char": "鹢",
+   "citation": "T003-131",
+   "source_ref": "《左传》",
+   "reason": "用户总表：水鸟，轻羽从容。"
+  },
+  {
+   "char": "菀",
+   "citation": "T003-132",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：草木郁茂。"
+  },
+  {
+   "char": "翾",
+   "citation": "T003-133",
+   "source_ref": "《楚辞·九歌》",
+   "reason": "用户总表：小鸟轻飞。"
+  },
+  {
+   "char": "芑",
+   "citation": "T003-134",
+   "source_ref": "《诗经·小雅·采芑》",
+   "reason": "用户总表：白粱嘉禾。"
+  },
+  {
+   "char": "泠",
+   "citation": "T003-135",
+   "source_ref": "《庄子·逍遥游》",
+   "reason": "用户总表：清风。"
+  },
+  {
+   "char": "蕖",
+   "citation": "T003-136",
+   "source_ref": "《尔雅》",
+   "reason": "用户总表：芙蕖，荷。"
+  },
+  {
+   "char": "鹪",
+   "citation": "T003-137",
+   "source_ref": "《庄子·逍遥游》",
+   "reason": "用户总表：鹪鹩，小鸟安栖。"
+  },
+  {
+   "char": "荏",
+   "citation": "T003-138",
+   "source_ref": "《诗经·小雅·巧言》",
+   "reason": "用户总表：白苏柔草。"
+  },
+  {
+   "char": "翂",
+   "citation": "T003-139",
+   "source_ref": "《说文》",
+   "reason": "用户总表：鸟羽轻扬。"
+  },
+  {
+   "char": "楥",
+   "citation": "T003-140",
+   "source_ref": "《说文》",
+   "reason": "用户总表：橘木，嘉木。"
+  },
+  {
+   "char": "霙",
+   "citation": "T003-141",
+   "source_ref": "《楚辞》",
+   "reason": "用户总表：雪珠。"
+  },
+  {
+   "char": "菉",
+   "citation": "T003-142",
+   "source_ref": "《楚辞》",
+   "reason": "用户总表：菉草。"
+  },
+  {
+   "char": "鷖",
+   "citation": "T003-143",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：鸥鸟。"
+  },
+  {
+   "char": "芠",
+   "citation": "T003-144",
+   "source_ref": "《说文》",
+   "reason": "用户总表：草木繁纹。"
+  },
+  {
+   "char": "蘋",
+   "citation": "T003-145",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：水中萍草。"
+  },
+  {
+   "char": "荑",
+   "citation": "T003-146",
+   "source_ref": "《诗经·卫风·硕人》",
+   "reason": "用户总表：柔荑，初生嫩芽。"
+  },
+  {
+   "char": "承",
+   "citation": "T003-147",
+   "source_ref": "《周易·坤卦》",
+   "reason": "用户总表：承续家风。"
+  },
+  {
+   "char": "绍",
+   "citation": "T003-148",
+   "source_ref": "《尚书·盘庚》",
+   "reason": "用户总表：绍继前绪。"
+  },
+  {
+   "char": "继",
+   "citation": "T003-149",
+   "source_ref": "《周易·系辞》",
+   "reason": "用户总表：继先人之善。"
+  },
+  {
+   "char": "延",
+   "citation": "T003-150",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：绵延家声。"
+  },
+  {
+   "char": "传",
+   "citation": "T003-151",
+   "source_ref": "《论语·学而》",
+   "reason": "用户总表：传承祖训。"
+  },
+  {
+   "char": "续",
+   "citation": "T003-152",
+   "source_ref": "《诗经·周颂》",
+   "reason": "用户总表：接续家脉。"
+  },
+  {
+   "char": "嗣",
+   "citation": "T003-153",
+   "source_ref": "《尚书·尧典》",
+   "reason": "用户总表：承嗣延续。"
+  },
+  {
+   "char": "胤",
+   "citation": "T003-154",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：后胤一脉。"
+  },
+  {
+   "char": "赓",
+   "citation": "T003-155",
+   "source_ref": "《尚书·益稷》",
+   "reason": "用户总表：赓续不绝。"
+  },
+  {
+   "char": "缵",
+   "citation": "T003-156",
+   "source_ref": "《诗经·大雅·文王有声》",
+   "reason": "用户总表：继承前人功业。"
+  },
+  {
+   "char": "贻",
+   "citation": "T003-157",
+   "source_ref": "《诗经·大雅·文王有声》",
+   "reason": "用户总表：承父辈所贻善谋。"
+  },
+  {
+   "char": "述",
+   "citation": "T003-158",
+   "source_ref": "《礼记·中庸》",
+   "reason": "用户总表：述先人之志。"
+  },
+  {
+   "char": "绳",
+   "citation": "T003-159",
+   "source_ref": "《诗经·大雅·下武》",
+   "reason": "用户总表：循祖先足迹。"
+  },
+  {
+   "char": "袭",
+   "citation": "T003-160",
+   "source_ref": "《礼记》",
+   "reason": "用户总表：承袭父之行。"
+  },
+  {
+   "char": "祚",
+   "citation": "T003-162",
+   "source_ref": "《左传》",
+   "reason": "用户总表：承家族福祚。"
+  },
+  {
+   "char": "胄",
+   "citation": "T003-163",
+   "source_ref": "《左传》",
+   "reason": "用户总表：宗族后裔。"
+  },
+  {
+   "char": "聿",
+   "citation": "T003-164",
+   "source_ref": "《诗经·大雅·文王》",
+   "reason": "用户总表：修先人之德。"
+  },
+  {
+   "char": "显",
+   "citation": "T003-166",
+   "source_ref": "《尚书·文侯之命》",
+   "reason": "用户总表：显扬先祖。"
+  },
+  {
+   "char": "崇",
+   "citation": "T003-167",
+   "source_ref": "《尚书·毕命》",
+   "reason": "用户总表：尊崇祖德。"
+  },
+  {
+   "char": "弘",
+   "citation": "T003-168",
+   "source_ref": "《论语·卫灵公》",
+   "reason": "用户总表：弘大家声。"
+  },
+  {
+   "char": "守",
+   "citation": "T003-170",
+   "source_ref": "《孟子·离娄下》",
+   "reason": "用户总表：守护家传。"
+  },
+  {
+   "char": "保",
+   "citation": "T003-171",
+   "source_ref": "《尚书·梓材》",
+   "reason": "用户总表：保全宗族。"
+  },
+  {
+   "char": "怀",
+   "citation": "T003-172",
+   "source_ref": "《诗经·大雅·皇矣》",
+   "reason": "用户总表：常怀祖德。"
+  },
+  {
+   "char": "奉",
+   "citation": "T003-173",
+   "source_ref": "《礼记·祭义》",
+   "reason": "用户总表：奉持先祖教诲。"
+  },
+  {
+   "char": "尊",
+   "citation": "T003-174",
+   "source_ref": "《周易·系辞》",
+   "reason": "用户总表：尊承父辈。"
+  },
+  {
+   "char": "敬",
+   "citation": "T003-175",
+   "source_ref": "《尚书·舜典》",
+   "reason": "用户总表：敬承家道。"
+  },
+  {
+   "char": "孝",
+   "citation": "T003-176",
+   "source_ref": "《论语·学而》",
+   "reason": "用户总表：承孝传家。"
+  },
+  {
+   "char": "思",
+   "citation": "T003-177",
+   "source_ref": "《诗经·周颂·敬之》",
+   "reason": "用户总表：思继先祖。"
+  },
+  {
+   "char": "念",
+   "citation": "T003-178",
+   "source_ref": "《尚书·大禹谟》",
+   "reason": "用户总表：常念祖训。"
+  },
+  {
+   "char": "存",
+   "citation": "T003-179",
+   "source_ref": "《孟子·尽心上》",
+   "reason": "用户总表：留存家风。"
+  },
+  {
+   "char": "修",
+   "citation": "T003-164",
+   "source_ref": "《诗经·大雅·文王》",
+   "reason": "用户总表：修继祖德。"
+  },
+  {
+   "char": "持",
+   "citation": "T003-180",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：持承父志。"
+  },
+  {
+   "char": "长",
+   "citation": "T003-182",
+   "source_ref": "《尚书》",
+   "reason": "用户总表：绵长传承。"
+  },
+  {
+   "char": "世",
+   "citation": "T003-183",
+   "source_ref": "《诗经·大雅·文王》",
+   "reason": "用户总表：世代相承。"
+  },
+  {
+   "char": "代",
+   "citation": "T003-184",
+   "source_ref": "《论语》",
+   "reason": "用户总表：代代相传。"
+  },
+  {
+   "char": "昆",
+   "citation": "T003-185",
+   "source_ref": "《诗经·王风》",
+   "reason": "用户总表：同宗一脉。"
+  },
+  {
+   "char": "宗",
+   "citation": "T003-186",
+   "source_ref": "《尚书·舜典》",
+   "reason": "用户总表：宗族根本。"
+  },
+  {
+   "char": "族",
+   "citation": "T003-187",
+   "source_ref": "《左传》",
+   "reason": "用户总表：家族一脉。"
+  },
+  {
+   "char": "本",
+   "citation": "T003-188",
+   "source_ref": "《周易·系辞》",
+   "reason": "用户总表：不忘根本。"
+  },
+  {
+   "char": "源",
+   "citation": "T003-189",
+   "source_ref": "《礼记·学记》",
+   "reason": "用户总表：承本源。"
+  },
+  {
+   "char": "根",
+   "citation": "T003-190",
+   "source_ref": "《诗经》",
+   "reason": "用户总表：固守家根。"
+  },
+  {
+   "char": "基",
+   "citation": "T003-191",
+   "source_ref": "《尚书·康诰》",
+   "reason": "用户总表：承先祖基业。"
+  },
+  {
+   "char": "垣",
+   "citation": "T003-192",
+   "source_ref": "《尚书·梓材》",
+   "reason": "用户总表：护持家垣。"
+  },
+  {
+   "char": "序",
+   "citation": "T003-193",
+   "source_ref": "《孟子·滕文公上》",
+   "reason": "用户总表：辈分有序。"
+  },
+  {
+   "char": "伦",
+   "citation": "T003-194",
+   "source_ref": "《孟子·滕文公上》",
+   "reason": "用户总表：传承人伦家风。"
+  },
+  {
+   "char": "常",
+   "citation": "T003-195",
+   "source_ref": "《周易·系辞》",
+   "reason": "用户总表：常守祖道。"
+  },
+  {
+   "char": "典",
+   "citation": "T003-196",
+   "source_ref": "《尚书·五子之歌》",
+   "reason": "用户总表：承先祖典训。"
+  },
+  {
+   "char": "则",
+   "citation": "T003-197",
+   "source_ref": "《诗经·小雅·鹿鸣》",
+   "reason": "用户总表：效法父辈。"
+  },
+  {
+   "char": "法",
+   "citation": "T003-198",
+   "source_ref": "《孟子》",
+   "reason": "用户总表：取法祖德。"
+  },
+  {
+   "char": "效",
+   "citation": "T003-197",
+   "source_ref": "《诗经·小雅·鹿鸣》",
+   "reason": "用户总表：效仿先人德行。"
+  },
+  {
+   "char": "模",
+   "citation": "T003-199",
+   "source_ref": "《说文》",
+   "reason": "用户总表：以父为楷模。"
+  },
+  {
+   "char": "范",
+   "citation": "T003-200",
+   "source_ref": "《尚书·洪范》",
+   "reason": "用户总表：范式家风。"
+  },
+  {
+   "char": "型",
+   "citation": "T003-201",
+   "source_ref": "《诗经·大雅·思齐》",
+   "reason": "用户总表：以为典型。"
+  },
+  {
+   "char": "仪",
+   "citation": "T003-202",
+   "source_ref": "《诗经·小雅·湛露》",
+   "reason": "用户总表：承家风威仪。"
+  },
+  {
+   "char": "容",
+   "citation": "T003-203",
+   "source_ref": "《尚书·君陈》",
+   "reason": "用户总表：承父辈气度。"
+  },
+  {
+   "char": "望",
+   "citation": "T003-204",
+   "source_ref": "《左传》",
+   "reason": "用户总表：不负家望。"
+  },
+  {
+   "char": "誉",
+   "citation": "T003-205",
+   "source_ref": "《诗经·小雅·蓼萧》",
+   "reason": "用户总表：承家族美誉。"
+  },
+  {
+   "char": "声",
+   "citation": "T003-206",
+   "source_ref": "《诗经·大雅·文王有声》",
+   "reason": "用户总表：承先人声名。"
+  },
+  {
+   "char": "闻",
+   "citation": "T003-207",
+   "source_ref": "《诗经·大雅·文王》",
+   "reason": "用户总表：承美名。"
+  },
+  {
+   "char": "名",
+   "citation": "T003-208",
+   "source_ref": "《论语·卫灵公》",
+   "reason": "用户总表：续家门之名。"
+  },
+  {
+   "char": "立",
+   "citation": "T003-209",
+   "source_ref": "《周易·说卦》",
+   "reason": "用户总表：立身承家。"
+  },
+  {
+   "char": "树",
+   "citation": "T003-210",
+   "source_ref": "《尚书·泰誓》",
+   "reason": "用户总表：树立家风。"
+  },
+  {
+   "char": "建",
+   "citation": "T003-211",
+   "source_ref": "《尚书·舜典》",
+   "reason": "用户总表：建设家基。"
+  },
+  {
+   "char": "兴",
+   "citation": "T003-212",
+   "source_ref": "《诗经·小雅·小宛》",
+   "reason": "用户总表：振兴家道。"
+  },
+  {
+   "char": "振",
+   "citation": "T003-213",
+   "source_ref": "《尚书·盘庚》",
+   "reason": "用户总表：振起家声。"
+  },
+  {
+   "char": "起",
+   "citation": "T003-214",
+   "source_ref": "《孟子·梁惠王下》",
+   "reason": "用户总表：继起承续。"
+  },
+  {
+   "char": "盛",
+   "citation": "T003-215",
+   "source_ref": "《周易·系辞》",
+   "reason": "用户总表：家门兴盛。"
+  },
+  {
+   "char": "隆",
+   "citation": "T003-216",
+   "source_ref": "《尚书·大禹谟》",
+   "reason": "用户总表：家道兴隆。"
+  },
+  {
+   "char": "睦",
+   "citation": "T003-219",
+   "source_ref": "《尚书·尧典》",
+   "reason": "用户总表：宗族和睦。"
+  },
+  {
+   "char": "协",
+   "citation": "T003-220",
+   "source_ref": "《尚书·尧典》",
+   "reason": "用户总表：宗族同心。"
+  },
+  {
+   "char": "齐",
+   "citation": "T003-221",
+   "source_ref": "《论语·为政》",
+   "reason": "用户总表：整肃家风。"
+  },
+  {
+   "char": "治",
+   "citation": "T003-222",
+   "source_ref": "《大学》",
+   "reason": "用户总表：治理家声。"
+  },
+  {
+   "char": "理",
+   "citation": "T003-223",
+   "source_ref": "《周易·说卦》",
+   "reason": "用户总表：理顺家脉。"
+  },
+  {
+   "char": "道",
+   "citation": "T003-224",
+   "source_ref": "《论语》",
+   "reason": "用户总表：承家之道。"
+  },
+  {
+   "char": "德",
+   "citation": "T003-225",
+   "source_ref": "《尚书·大禹谟》",
+   "reason": "用户总表：承先人之德。"
+  },
+  {
+   "char": "仁",
+   "citation": "T003-226",
+   "source_ref": "《论语·颜渊》",
+   "reason": "用户总表：传仁善家风。"
+  },
+  {
+   "char": "义",
+   "citation": "T003-227",
+   "source_ref": "《孟子·公孙丑上》",
+   "reason": "用户总表：承道义。"
+  },
+  {
+   "char": "礼",
+   "citation": "T002-113",
+   "source_ref": "《论语·季氏》",
+   "reason": "用户总表：守家礼。"
+  },
+  {
+   "char": "信",
+   "citation": "T003-228",
+   "source_ref": "《论语·学而》",
+   "reason": "用户总表：传信于家。"
+  },
+  {
+   "char": "良",
+   "citation": "T003-033",
+   "source_ref": "《诗经·大雅·桑柔》",
+   "reason": "用户总表：承良善家风。"
+  },
+  {
+   "char": "善",
+   "citation": "T003-229",
+   "source_ref": "《周易·坤卦》",
+   "reason": "用户总表：积善承续。"
+  },
+  {
+   "char": "嘉",
+   "citation": "T003-230",
+   "source_ref": "《诗经·小雅·鹿鸣》",
+   "reason": "用户总表：承嘉美之行。"
+  },
+  {
+   "char": "懿",
+   "citation": "T003-231",
+   "source_ref": "《尚书·君陈》",
+   "reason": "用户总表：承懿美家风。"
+  },
+  {
+   "char": "俦",
+   "citation": "T003-232",
+   "source_ref": "《说文》",
+   "reason": "用户总表：与父辈同类相契。"
+  }
+ ]
+}

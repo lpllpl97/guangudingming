@@ -1,0 +1,273 @@
+{
+ "_note": [
+  "第八批：为字库中「有明确原句可引」的字补上原文ID，把出处从『文化约定』提升为『原文可核』。",
+  "规则：只写确实存在于该典籍该篇的句子，不虚构；同一篇多句合并为一条原文条目并注明。",
+  "new_texts 里每条文本只在其 content 中收录可核验的句子，source_note 说明合并范围。"
+ ],
+ "new_texts": [
+  {
+   "text_id": "T002-120",
+   "classic_id": "J007",
+   "chapter": "小雅·巷伯",
+   "content": "骄人好好，劳人草草。苍天苍天，视彼骄人，矜此劳人。",
+   "paraphrase": "《诗经·小雅·巷伯》篇句，篇中亦见“投畀有昊”之语。",
+   "naming_point": "“昊”为广大的天，取开阔广大之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·巷伯》"
+  },
+  {
+   "text_id": "T002-121",
+   "classic_id": "J007",
+   "chapter": "陈风·月出",
+   "content": "月出皎兮，佼人僚兮。",
+   "paraphrase": "月亮出来多么洁白明亮。",
+   "naming_point": "“皎”为洁白明净，取月色清朗之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·陈风·月出》"
+  },
+  {
+   "text_id": "T002-122",
+   "classic_id": "J007",
+   "chapter": "卫风·淇奥",
+   "content": "有匪君子，如切如磋，如琢如磨。",
+   "paraphrase": "君子修德如加工玉石，切磋琢磨。",
+   "naming_point": "“琢”“磨”取砥砺精进之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·卫风·淇奥》"
+  },
+  {
+   "text_id": "T002-123",
+   "classic_id": "J007",
+   "chapter": "小雅·鹿鸣",
+   "content": "呦呦鹿鸣，食野之苹。我有嘉宾，鼓瑟吹笙。",
+   "paraphrase": "鹿鸣相呼，宴饮嘉宾时鼓瑟吹笙。",
+   "naming_point": "“瑟”“笙”“鼓”为雅乐之器，取和乐之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·鹿鸣》"
+  },
+  {
+   "text_id": "T002-124",
+   "classic_id": "J007",
+   "chapter": "周南·关雎",
+   "content": "窈窕淑女，琴瑟友之。",
+   "paraphrase": "以琴瑟与淑女相和。",
+   "naming_point": "“琴”“瑟”为雅乐之器，取和乐自持之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·周南·关雎》"
+  },
+  {
+   "text_id": "T002-125",
+   "classic_id": "J007",
+   "chapter": "卫风·木瓜",
+   "content": "投我以木瓜，报之以琼琚。",
+   "paraphrase": "以美玉回报赠物，取其厚报之义。",
+   "naming_point": "“琼”“琚”为佩玉，借玉取美好守礼之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·卫风·木瓜》"
+  },
+  {
+   "text_id": "T002-126",
+   "classic_id": "J007",
+   "chapter": "大雅·泮水",
+   "content": "憬彼淮夷，来献其琛。",
+   "paraphrase": "淮夷来献珍宝。",
+   "naming_point": "“琛”为珍宝，借物取珍贵之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·泮水》"
+  },
+  {
+   "text_id": "T002-127",
+   "classic_id": "J007",
+   "chapter": "小雅·斯干",
+   "content": "乃生男子，载寝之床，载衣之裳，载弄之璋。",
+   "paraphrase": "生男则让他玩玉璋。",
+   "naming_point": "“璋”为礼器玉璋，借取贵重成器之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·斯干》"
+  },
+  {
+   "text_id": "T002-128",
+   "classic_id": "J007",
+   "chapter": "鄘风·载驰",
+   "content": "我行其野，芃芃其麦。",
+   "paraphrase": "我行走在田野，麦子长得茂盛。",
+   "naming_point": "“芃”为草木茂盛，取生机繁盛之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·鄘风·载驰》"
+  },
+  {
+   "text_id": "T002-129",
+   "classic_id": "J007",
+   "chapter": "大雅·烝民",
+   "content": "天生烝民，有物有则。民之秉彝，好是懿德。",
+   "paraphrase": "天生众民，有其常道；民心守常，喜好美德。",
+   "naming_point": "“懿”为美善之德，“彝”为常道，取守常向善之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·烝民》"
+  },
+  {
+   "text_id": "T002-130",
+   "classic_id": "J009",
+   "chapter": "离骚",
+   "content": "荃不察余之中情兮，反信谗而齌怒。",
+   "paraphrase": "荃（香草，喻君）不能体察我内心的真情。",
+   "naming_point": "“荃”为香草，取芳香修洁之象。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·离骚》"
+  },
+  {
+   "text_id": "T002-131",
+   "classic_id": "J009",
+   "chapter": "九歌·湘夫人",
+   "content": "沅有芷兮澧有兰，思公子兮未敢言。",
+   "paraphrase": "沅水有芷草，澧水有兰草。",
+   "naming_point": "“沅”“兰”“芷”同出此句，为香草水泽之象。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·九歌·湘夫人》"
+  }
+ ],
+ "char_citation_patch": [
+  {
+   "char": "昊",
+   "citation": "T002-120",
+   "source_ref": "《诗经·小雅·巷伯》",
+   "reason": "补“昊”的原文依据。"
+  },
+  {
+   "char": "皓",
+   "citation": "T002-121",
+   "source_ref": "《诗经·陈风·月出》",
+   "reason": "补“皓”“皎”的原文依据（同篇）。"
+  },
+  {
+   "char": "皎",
+   "citation": "T002-121",
+   "source_ref": "《诗经·陈风·月出》",
+   "reason": "同上。"
+  },
+  {
+   "char": "琢",
+   "citation": "T002-122",
+   "source_ref": "《诗经·卫风·淇奥》",
+   "reason": "补“琢”“磨”的原文依据。"
+  },
+  {
+   "char": "磨",
+   "citation": "T002-122",
+   "source_ref": "《诗经·卫风·淇奥》",
+   "reason": "同上。"
+  },
+  {
+   "char": "瑟",
+   "citation": "T002-123",
+   "source_ref": "《诗经·小雅·鹿鸣》《诗经·周南·关雎》",
+   "reason": "补“瑟”的原文依据。",
+   "support": [
+    "T002-124"
+   ]
+  },
+  {
+   "char": "笙",
+   "citation": "T002-123",
+   "source_ref": "《诗经·小雅·鹿鸣》",
+   "reason": "补“笙”的原文依据。"
+  },
+  {
+   "char": "鼓",
+   "citation": "T002-123",
+   "source_ref": "《诗经·小雅·鹿鸣》",
+   "reason": "补“鼓”的原文依据。"
+  },
+  {
+   "char": "琴",
+   "citation": "T002-124",
+   "source_ref": "《诗经·周南·关雎》",
+   "reason": "补“琴”的原文依据。"
+  },
+  {
+   "char": "琚",
+   "citation": "T002-125",
+   "source_ref": "《诗经·卫风·木瓜》",
+   "reason": "补“琚”的原文依据。"
+  },
+  {
+   "char": "琛",
+   "citation": "T002-126",
+   "source_ref": "《诗经·大雅·泮水》",
+   "reason": "补“琛”的原文依据。"
+  },
+  {
+   "char": "璋",
+   "citation": "T002-127",
+   "source_ref": "《诗经·小雅·斯干》",
+   "reason": "补“璋”的原文依据。"
+  },
+  {
+   "char": "芃",
+   "citation": "T002-128",
+   "source_ref": "《诗经·鄘风·载驰》",
+   "reason": "补“芃”的原文依据。"
+  },
+  {
+   "char": "懿",
+   "citation": "T002-129",
+   "source_ref": "《诗经·大雅·烝民》",
+   "reason": "补“懿”的原文依据。"
+  },
+  {
+   "char": "彝",
+   "citation": "T002-129",
+   "source_ref": "《诗经·大雅·烝民》",
+   "reason": "补“彝”的原文依据。"
+  },
+  {
+   "char": "荃",
+   "citation": "T002-130",
+   "source_ref": "《楚辞·离骚》",
+   "reason": "补“荃”的原文依据。"
+  },
+  {
+   "char": "沅",
+   "citation": "T002-131",
+   "source_ref": "《楚辞·九歌·湘夫人》",
+   "reason": "补“沅”的原文依据。"
+  }
+ ],
+ "semantic_char_patch": [
+  {
+   "semantic_id": "SEM043",
+   "char": "荃",
+   "contribution": "香草、修洁"
+  },
+  {
+   "semantic_id": "SEM043",
+   "char": "蘅",
+   "contribution": "香草、修洁"
+  },
+  {
+   "semantic_id": "SEM043",
+   "char": "荪",
+   "contribution": "香草、修洁"
+  },
+  {
+   "semantic_id": "SEM043",
+   "char": "沅",
+   "contribution": "香草水泽"
+  },
+  {
+   "semantic_id": "SEM043",
+   "char": "湘",
+   "contribution": "香草水泽"
+  },
+  {
+   "semantic_id": "SEM023",
+   "char": "明",
+   "contribution": "明德、清正"
+  },
+  {
+   "semantic_id": "SEM011",
+   "char": "德",
+   "contribution": "明德、光明"
+  }
+ ]
+}

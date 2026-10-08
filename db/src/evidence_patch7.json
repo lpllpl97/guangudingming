@@ -1,0 +1,64 @@
+{
+ "_note": [
+  "补齐「爽朗豪迈 / 明媚灿烂」两个表达目标的可用字。",
+  "能确证单句出处的标 verified；其余标文化约定。"
+ ],
+ "new_texts": [
+  {
+   "text_id": "T003-611",
+   "classic_id": "J007",
+   "chapter": "豳风·东山",
+   "content": "仓庚于飞，熠耀其羽。",
+   "paraphrase": "黄莺飞翔，羽毛光耀鲜明。",
+   "naming_point": "“熠”取光耀鲜明之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·豳风·东山》"
+  },
+  {
+   "text_id": "T003-612",
+   "classic_id": "J006",
+   "chapter": "八佾",
+   "content": "巧笑倩兮，美目盼兮，素以为绚兮。",
+   "paraphrase": "笑容美好、眼目顾盼，以素为本而文采绚烂。",
+   "naming_point": "“绚”取绚烂有文采之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·八佾》"
+  },
+  {
+   "text_id": "T003-613",
+   "classic_id": "J012",
+   "chapter": "报任安书",
+   "content": "唯倜傥非常之人称焉。",
+   "paraphrase": "只有卓异不凡的人才被后世称道。",
+   "naming_point": "“倜”“傥”取卓异洒脱之义。",
+   "evidence_code": "A",
+   "source_note": "《史记·报任安书》"
+  }
+ ],
+ "char_citation_patch": [
+  {
+   "char": "倜",
+   "citation": "T003-613",
+   "source_ref": "《史记·报任安书》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "傥",
+   "citation": "T003-613",
+   "source_ref": "《史记·报任安书》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "熠",
+   "citation": "T003-611",
+   "source_ref": "《诗经·豳风·东山》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "绚",
+   "citation": "T003-612",
+   "source_ref": "《论语·八佾》",
+   "reason": "补该字的可核出处"
+  }
+ ]
+}

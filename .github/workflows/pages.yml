@@ -1,0 +1,57 @@
+name: 发布到 GitHub Pages
+
+# 触发：推送到 main，或在 Actions 页面手动运行
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Pages 部署需要的权限（最小集）
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同时只允许一个发布在跑；新的推送取消旧的发布
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 关键一步：网页数据不手工提交，而是每次在服务器上**从知识库重新生成**。
+      # 这样 db/naming.db 就是唯一输入，"网页数据落后于知识库"这类漂移不可能发生。
+      - name: 由知识库重新生成网页数据
+        run: python tools/export_frontend_data.py
+
+      # 数据充分性自检：会走一遍"字 → 语义 → 原文 → 古籍"的引文链，
+      # 一条都走不通就判定数据不完整（防止导出一个空壳还照样发布）。
+      - name: 校验导出数据充分
+        run: python tools/export_frontend_data.py --verify
+
+      - uses: actions/configure-pages@v5
+
+      # 只发布 web/ 一个目录：仓库里还有 engine/ db/ docs/ 等，
+      # 它们不是网站内容（其中 db/ 是权威知识库，供上面的重建步骤使用）。
+      - name: 打包站点（仅 web/）
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

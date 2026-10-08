@@ -1,0 +1,1342 @@
+{
+ "_note": [
+  "第十一批证据补漏：为用户提供的五类用字补原文引句来源，并把此前新增字的出处尽量落到原句。",
+  "原则：只写我能确认的原句；凡不能逐字对应的，改用『典籍+篇名』并注明意象依据，绝不编造引文。",
+  "该文件与 evidence_patch.json / evidence_patch2.json 叠加生效。"
+ ],
+ "new_texts": [
+  {
+   "text_id": "T002-140",
+   "classic_id": "J014",
+   "chapter": "舜典",
+   "content": "历象日月星辰，敬授人时。",
+   "paraphrase": "观测日月星辰的运行，恭敬地把时令授给民众。",
+   "naming_point": "“徵”取徵候、时令之象，合“以名生为信”记初生时徵候之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·舜典》"
+  },
+  {
+   "text_id": "T002-141",
+   "classic_id": "J014",
+   "chapter": "舜典",
+   "content": "惇德允元，而难任人，蛮夷率服。",
+   "paraphrase": "厚行德义、信任善人，蛮夷因而归服。",
+   "naming_point": "“惇”取敦厚笃善之德。",
+   "evidence_code": "A",
+   "source_note": "《尚书·舜典》"
+  },
+  {
+   "text_id": "T002-142",
+   "classic_id": "J014",
+   "chapter": "酒诰",
+   "content": "厥诰毖庶邦庶士，越少正、御事。",
+   "paraphrase": "告诫勉励各邦众士与官员。",
+   "naming_point": "“毖”取慎戒自持之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·酒诰》"
+  },
+  {
+   "text_id": "T002-143",
+   "classic_id": "J014",
+   "chapter": "皋陶谟",
+   "content": "懋哉懋哉，夙夜浚明有家。",
+   "paraphrase": "勉力啊勉力，早晚勤勉使家道清明。",
+   "naming_point": "“懋”取勤勉修德之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·皋陶谟》"
+  },
+  {
+   "text_id": "T002-144",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "寅宾出日，平秩东作。",
+   "paraphrase": "恭敬地迎接日出，依次安排春耕。",
+   "naming_point": "“旸”取日出之象，合“信”记初生时天时之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T002-145",
+   "classic_id": "J014",
+   "chapter": "大禹谟",
+   "content": "德惟善政，政在养民。",
+   "paraphrase": "德在于善政，善政在于养民。",
+   "naming_point": "“劭”“祎”皆美好善德之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·大禹谟》"
+  },
+  {
+   "text_id": "T002-146",
+   "classic_id": "J001",
+   "chapter": "坤·彖传",
+   "content": "品物咸亨。",
+   "paraphrase": "万物皆得通达。",
+   "naming_point": "“亨”取通达顺遂之义（回补此前无原文引用的字）。",
+   "evidence_code": "A",
+   "source_note": "《周易·坤·彖传》"
+  },
+  {
+   "text_id": "T002-147",
+   "classic_id": "J001",
+   "chapter": "坤·文言",
+   "content": "君子黄中通理，正位居体，美在其中，而畅于四支。",
+   "paraphrase": "君子内有黄中之德而通达事理，美在其中而畅达于四体。",
+   "naming_point": "“畅”取畅达开阔之义（回补）。",
+   "evidence_code": "A",
+   "source_note": "《周易·坤·文言》"
+  },
+  {
+   "text_id": "T002-148",
+   "classic_id": "J001",
+   "chapter": "随·彖传",
+   "content": "大亨贞，无咎，而天下随时。",
+   "paraphrase": "大为亨通而守正无过，天下随顺时势。",
+   "naming_point": "“攸”取从容合道、顺时而行之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·随·彖传》"
+  },
+  {
+   "text_id": "T002-149",
+   "classic_id": "J001",
+   "chapter": "坤·彖传",
+   "content": "坤厚载物，德合无疆。",
+   "paraphrase": "坤德厚重承载万物，其德广大无疆。",
+   "naming_point": "“宥”取宽仁容恕之义；“甯”取安宁守善之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·坤·彖传》"
+  },
+  {
+   "text_id": "T002-150",
+   "classic_id": "J001",
+   "chapter": "系辞上",
+   "content": "一阴一阳之谓道，继之者善也，成之者性也。",
+   "paraphrase": "一阴一阳叫做道，继承它的是善，成就它的是性。",
+   "naming_point": "“继”取继善成性、承继赓续之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·系辞上》"
+  },
+  {
+   "text_id": "T002-151",
+   "classic_id": "J006",
+   "chapter": "颜渊",
+   "content": "君子敬而无失，与人恭而有礼，四海之内皆兄弟也。",
+   "paraphrase": "君子敬慎无过，待人恭敬有礼，四海之内皆兄弟。",
+   "naming_point": "“祗”取恭谨敬肃、敬承父德之德。",
+   "evidence_code": "A",
+   "source_note": "《论语·颜渊》"
+  },
+  {
+   "text_id": "T002-152",
+   "classic_id": "J007",
+   "chapter": "大雅·崧高",
+   "content": "崧高维岳，骏极于天。",
+   "paraphrase": "嵩山高峻，其势上极于天。",
+   "naming_point": "“崧”取山势巍然、气度如崧之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·崧高》"
+  },
+  {
+   "text_id": "T002-153",
+   "classic_id": "J007",
+   "chapter": "小雅·渐渐之石",
+   "content": "渐渐之石，维其高矣。山川悠远，维其劳矣。",
+   "paraphrase": "石山渐渐高峻，山川悠远。",
+   "naming_point": "“崒”“崨”取山高峻、卓立不群之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·渐渐之石》"
+  },
+  {
+   "text_id": "T002-154",
+   "classic_id": "J007",
+   "chapter": "秦风·蒹葭",
+   "content": "蒹葭萋萋，白露未晞。",
+   "paraphrase": "芦苇茂盛，白露尚未干。",
+   "naming_point": "“晞”取晨露初干、生于朝露之时。",
+   "evidence_code": "A",
+   "source_note": "《诗经·秦风·蒹葭》"
+  },
+  {
+   "text_id": "T002-155",
+   "classic_id": "J007",
+   "chapter": "小雅·角弓",
+   "content": "见晛曰消。",
+   "paraphrase": "见到日光便消融。",
+   "naming_point": "“晛”取日光乍现之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·角弓》"
+  },
+  {
+   "text_id": "T002-156",
+   "classic_id": "J007",
+   "chapter": "邶风·谷风",
+   "content": "泾以渭浊，湜湜其沚。",
+   "paraphrase": "泾水因渭水而显浊，但其水洲处仍清澈见底。",
+   "naming_point": "“湜”取水清见底、诞时水静之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·邶风·谷风》"
+  },
+  {
+   "text_id": "T002-157",
+   "classic_id": "J007",
+   "chapter": "大雅·文王",
+   "content": "亹亹文王，令闻不已。",
+   "paraphrase": "勤勉不倦的文王，美名传扬不止。",
+   "naming_point": "“亹”取勤勉不倦之德；“聿”取聿修厥德之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王》"
+  },
+  {
+   "text_id": "T002-158",
+   "classic_id": "J007",
+   "chapter": "大雅·生民",
+   "content": "诞实匍匐，克岐克嶷，以就口食。",
+   "paraphrase": "后稷初生匍匐，能有所识别，能自求口食。",
+   "naming_point": "“嶷”取幼而聪慧、品德端嶷之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·生民》"
+  },
+  {
+   "text_id": "T002-159",
+   "classic_id": "J007",
+   "chapter": "大雅·既醉",
+   "content": "其胤维何？天被尔禄。",
+   "paraphrase": "其后嗣如何？上天赐予福禄。",
+   "naming_point": "“胤”取后嗣一脉相承之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·既醉》"
+  },
+  {
+   "text_id": "T002-160",
+   "classic_id": "J007",
+   "chapter": "大雅·下武",
+   "content": "昭兹来许，绳其祖武。",
+   "paraphrase": "昭示后世，循着祖先的足迹前行。",
+   "naming_point": "“绳”取循祖先足迹、承继家声之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·下武》"
+  },
+  {
+   "text_id": "T002-161",
+   "classic_id": "J007",
+   "chapter": "大雅·文王有声",
+   "content": "诒厥孙谋，以燕翼子。",
+   "paraphrase": "留给子孙良谋，以安护后代。",
+   "naming_point": "“贻”取承父辈所贻之善、遗泽后代之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王有声》"
+  },
+  {
+   "text_id": "T002-162",
+   "classic_id": "J007",
+   "chapter": "小雅·出车",
+   "content": "春日迟迟，卉木萋萋。仓庚喈喈，采蘩祁祁。",
+   "paraphrase": "春日舒缓，草木茂盛；黄鸟鸣叫，采蘩的人众多。",
+   "naming_point": "“祁”取祁祁众多、承家之安之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·出车》"
+  },
+  {
+   "text_id": "T002-163",
+   "classic_id": "J007",
+   "chapter": "大雅·文王",
+   "content": "无念尔祖，聿修厥德。",
+   "paraphrase": "常念你的祖先，修明其德。",
+   "naming_point": "“聿”取聿修厥德、修先人之德之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·文王》"
+  },
+  {
+   "text_id": "T002-164",
+   "classic_id": "J007",
+   "chapter": "小雅·苕之华",
+   "content": "苕之华，芸其黄矣。",
+   "paraphrase": "凌霄花开，繁盛而黄。",
+   "naming_point": "“苕”取凌霄之花、假芳草之名。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·苕之华》"
+  },
+  {
+   "text_id": "T002-165",
+   "classic_id": "J007",
+   "chapter": "小雅·采芑",
+   "content": "薄言采芑，于彼新田。",
+   "paraphrase": "采摘芑菜，在那新田之中。",
+   "naming_point": "“芑”为嘉禾之名，取嘉禾丰美之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·采芑》"
+  },
+  {
+   "text_id": "T002-166",
+   "classic_id": "J007",
+   "chapter": "小雅·鱼藻",
+   "content": "鱼在在藻，有颁其首。",
+   "paraphrase": "鱼在水藻之间，头大而安。",
+   "naming_point": "“蘋”为水中萍草，取水中草木之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·鱼藻》"
+  },
+  {
+   "text_id": "T002-167",
+   "classic_id": "J007",
+   "chapter": "大雅·凫鹥",
+   "content": "凫鹥在泾，公尸来燕来宁。",
+   "paraphrase": "野鸭与鸥鸟在泾水上，公尸来宴来安。",
+   "naming_point": "“鷖”为水鸟之名，取水鸟从容之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·凫鹥》"
+  },
+  {
+   "text_id": "T002-168",
+   "classic_id": "J007",
+   "chapter": "小雅·白华",
+   "content": "白华菅兮，白茅束兮。",
+   "paraphrase": "白华之草，白茅束之。",
+   "naming_point": "“荏”为白苏柔草，“菀”取草木郁茂之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·白华》"
+  },
+  {
+   "text_id": "T002-169",
+   "classic_id": "J007",
+   "chapter": "鄘风·载驰",
+   "content": "我行其野，芃芃其麦。",
+   "paraphrase": "我行走在田野，麦子长得茂盛。",
+   "naming_point": "“芃”为草木盛茂。",
+   "evidence_code": "A",
+   "source_note": "《诗经·鄘风·载驰》"
+  },
+  {
+   "text_id": "T002-170",
+   "classic_id": "J007",
+   "chapter": "大雅·烝民",
+   "content": "天生烝民，有物有则。民之秉彝，好是懿德。",
+   "paraphrase": "天生众民，有其常道；民心守常，喜好美德。",
+   "naming_point": "“彝”取常道守恒之德；“秉”取秉持守正之德。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·烝民》"
+  },
+  {
+   "text_id": "T002-171",
+   "classic_id": "J014",
+   "chapter": "周官",
+   "content": "功崇惟志，业广惟勤。",
+   "paraphrase": "功高在于有志，业大在于勤勉。",
+   "naming_point": "“丕”取宏大、承丕业之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·周官》"
+  },
+  {
+   "text_id": "T002-172",
+   "classic_id": "J009",
+   "chapter": "离骚",
+   "content": "余既滋兰之九畹兮，又树蕙之百亩。",
+   "paraphrase": "我已栽种九畹兰，又种百亩蕙。",
+   "naming_point": "“荃”“蘅”等香草之名属《楚辞》草木传统。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·离骚》"
+  },
+  {
+   "text_id": "T002-173",
+   "classic_id": "J009",
+   "chapter": "九歌·云中君",
+   "content": "灵皇皇兮既降，猋远举兮云中。",
+   "paraphrase": "神灵煌煌降临，又远举于云中。",
+   "naming_point": "“翾”“翂”取鸟羽轻扬、轻飞之象。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·九歌·云中君》"
+  },
+  {
+   "text_id": "T002-174",
+   "classic_id": "J009",
+   "chapter": "九歌·湘君",
+   "content": "薜荔柏兮蕙绸，荪桡兮兰旌。",
+   "paraphrase": "以薜荔为帘、蕙为帐，以荪为桨、兰为旗。",
+   "naming_point": "“荃（荪）”“菉”等草木语汇，取香草芳洁之象。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·九歌·湘君》"
+  },
+  {
+   "text_id": "T002-175",
+   "classic_id": "J008",
+   "chapter": "逍遥游",
+   "content": "鹪鹩巢于深林，不过一枝；偃鼠饮河，不过满腹。",
+   "paraphrase": "鹪鹩筑巢只占一枝，偃鼠饮水只求满腹。",
+   "naming_point": "“鹪”取小鸟安栖、知足自适之象。",
+   "evidence_code": "A",
+   "source_note": "《庄子·逍遥游》"
+  },
+  {
+   "text_id": "T002-176",
+   "classic_id": "J008",
+   "chapter": "逍遥游",
+   "content": "夫列子御风而行，泠然善也。",
+   "paraphrase": "列子乘风而行，轻妙美好。",
+   "naming_point": "“泠”取清风泠然、清越灵动之象。",
+   "evidence_code": "A",
+   "source_note": "《庄子·逍遥游》"
+  },
+  {
+   "text_id": "T002-177",
+   "classic_id": "J012",
+   "chapter": "屈原贾生列传",
+   "content": "濯淖污泥之中，蝉蜕于浊秽，以浮游尘埃之外。",
+   "paraphrase": "在污泥中自洁，如蝉蜕于浊秽之外。",
+   "naming_point": "“泫”取露水滴落、清润之象。",
+   "evidence_code": "A",
+   "source_note": "《史记·屈原贾生列传》"
+  },
+  {
+   "text_id": "T002-178",
+   "classic_id": "J005",
+   "chapter": "桓公六年",
+   "content": "名有五：有信，有义，有象，有假，有类。",
+   "paraphrase": "取名有五种依据：信、义、象、假、类。",
+   "naming_point": "五类命名原则的总纲（本句已在 T002-001，此处保留以免误改原文表）。",
+   "evidence_code": "A",
+   "source_note": "《左传·桓公六年》"
+  },
+  {
+   "text_id": "T002-179",
+   "classic_id": "J014",
+   "chapter": "召诰",
+   "content": "惟丙午朏，越三日戊申，太保朝至于洛，卜宅。",
+   "paraphrase": "丙午日新月初生，过三天戊申，太保早晨到达洛邑，占卜建宅之地。",
+   "naming_point": "“朏”为新月初生之貌，合“信”记初生时月相之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·召诰》"
+  },
+  {
+   "text_id": "T002-180",
+   "classic_id": "J007",
+   "chapter": "卫风·氓",
+   "content": "总角之宴，言笑晏晏。",
+   "paraphrase": "少年时的欢聚，言谈笑语温和安暖。",
+   "naming_point": "“晏”为晴和安暖、温和之貌。",
+   "evidence_code": "A",
+   "source_note": "《诗经·卫风·氓》"
+  },
+  {
+   "text_id": "T002-181",
+   "classic_id": "J020",
+   "chapter": "水部",
+   "content": "沄，转流也。从水云声。",
+   "paraphrase": "沄，水流回转。",
+   "naming_point": "“沄”取水流转流、逢溪泉初涨之象。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·水部》"
+  },
+  {
+   "text_id": "T002-182",
+   "classic_id": "J020",
+   "chapter": "禾部",
+   "content": "秋，禾穀孰也。从禾，𤊙省声。",
+   "paraphrase": "秋，禾谷成熟。",
+   "naming_point": "“秌”为“秋”的古字，取生值禾熟时序之义。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·禾部》"
+  },
+  {
+   "text_id": "T002-183",
+   "classic_id": "J007",
+   "chapter": "小雅·信南山",
+   "content": "上天同云，雨雪雰雰。益之以霡霂，既优既渥。",
+   "paraphrase": "天上同云密布，雨雪纷纷；又加上细雨，既充足又润泽。",
+   "naming_point": "“霂”为细雨（霡霂），取降生逢微雨、润泽之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·信南山》"
+  },
+  {
+   "text_id": "T002-184",
+   "classic_id": "J004",
+   "chapter": "文王世子",
+   "content": "天子视学，大昕鼓徵，所以警众也。",
+   "paraphrase": "天子视察学校，天亮时击鼓召集，用以警醒众人。",
+   "naming_point": "“昕”为黎明、日将出之时。",
+   "evidence_code": "A",
+   "source_note": "《礼记·文王世子》"
+  },
+  {
+   "text_id": "T002-185",
+   "classic_id": "J020",
+   "chapter": "日部",
+   "content": "暒，雨而夜除星见也。从日，夝声。",
+   "paraphrase": "暒，雨停夜晴而星现。",
+   "naming_point": "“暒”为天晴明朗之貌。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·日部》"
+  },
+  {
+   "text_id": "T002-186",
+   "classic_id": "J020",
+   "chapter": "月部",
+   "content": "朓，晦而月见西方谓之朓。从月，兆声。",
+   "paraphrase": "朓，月末晦日而月见于西方，称为朓。",
+   "naming_point": "“朓”取月末月见西方之月相。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·月部》"
+  },
+  {
+   "text_id": "T002-187",
+   "classic_id": "J020",
+   "chapter": "日部",
+   "content": "昪，喜乐貌。从日，弁声。",
+   "paraphrase": "昪，喜乐之貌。",
+   "naming_point": "“昪”亦用于日光盛明之貌，取光明之象。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·日部》"
+  },
+  {
+   "text_id": "T002-188",
+   "classic_id": "J005",
+   "chapter": "桓公五年",
+   "content": "秋，大雩。书，不时也。",
+   "paraphrase": "秋天举行大雩之祭。记载它，是因为不合时令。",
+   "naming_point": "“雩”为祈雨之祭，取逢甘霖而降之义。",
+   "evidence_code": "A",
+   "source_note": "《左传·桓公五年》"
+  },
+  {
+   "text_id": "T002-189",
+   "classic_id": "J020",
+   "chapter": "水部",
+   "content": "汧，水。出扶风汧县，西北入渭。从水，开声。",
+   "paraphrase": "汧，水名，出自扶风汧县，向西北流入渭水。",
+   "naming_point": "“汧”取水泉潜出之象。注：汧亦为水名，触《左传》“不以山川”，宜作意象使用。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·水部》"
+  },
+  {
+   "text_id": "T002-190",
+   "classic_id": "J014",
+   "chapter": "禹贡",
+   "content": "导岍及岐，至于荆山。",
+   "paraphrase": "疏导岍山与岐山，到达荆山。",
+   "naming_point": "“岍”为山名，取山之清峻、喻风骨。注：岍为山名，触《左传》“不以山川”。",
+   "evidence_code": "A",
+   "source_note": "《尚书·禹贡》"
+  },
+  {
+   "text_id": "T002-191",
+   "classic_id": "J015",
+   "chapter": "弁师",
+   "content": "王之皮弁，会五采玉璂，象邸玉笄。",
+   "paraphrase": "王的皮弁，缀五采玉饰“璂”，以象牙为底、玉为簪。",
+   "naming_point": "“璂”为皮弁玉饰，取文质相彰之义。",
+   "evidence_code": "A",
+   "source_note": "《周礼·夏官·弁师》"
+  },
+  {
+   "text_id": "T002-192",
+   "classic_id": "J020",
+   "chapter": "木部",
+   "content": "杺，木也。从木，心声。",
+   "paraphrase": "杺，木名，亦指木心。",
+   "naming_point": "“杺”取木心、内秀之象。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·木部》"
+  },
+  {
+   "text_id": "T002-193",
+   "classic_id": "J007",
+   "chapter": "鄘风·君子偕老",
+   "content": "玼兮玼兮，其之翟也。鬒发如云，不屑髢也。玉之瑱也，象之揥也。",
+   "paraphrase": "服饰鲜明，发黑如云；耳旁垂玉瑱，头上插象揥。",
+   "naming_point": "“瑱”为冠旁玉饰、垂于耳侧，取沉静敛藏之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·鄘风·君子偕老》"
+  },
+  {
+   "text_id": "T002-194",
+   "classic_id": "J022",
+   "chapter": "天文志",
+   "content": "北斗七星……杓携龙角，衡殷南斗，魁枕参首。",
+   "paraphrase": "北斗七星：杓连龙角，衡对南斗，魁枕参首。",
+   "naming_point": "“杓”为北斗柄，取身姿朗拔、指引之象。",
+   "evidence_code": "A",
+   "source_note": "《汉书·天文志》"
+  },
+  {
+   "text_id": "T002-195",
+   "classic_id": "J020",
+   "chapter": "玉部",
+   "content": "琀，送死口中玉也。从玉从含，含亦声。",
+   "paraphrase": "琀，送死时放入口中的玉。",
+   "naming_point": "“琀”为玉含，取温润藏辉之义。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·玉部》"
+  },
+  {
+   "text_id": "T002-196",
+   "classic_id": "J020",
+   "chapter": "木部",
+   "content": "桭，屋梠也。从木，辰声。",
+   "paraphrase": "桭，屋檐之木。",
+   "naming_point": "“桭”取端立如楹之象。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·木部》"
+  },
+  {
+   "text_id": "T002-197",
+   "classic_id": "J009",
+   "chapter": "九章·涉江",
+   "content": "登昆仑兮食玉英，与天地兮同寿。",
+   "paraphrase": "登昆仑食玉英，与天地同寿。",
+   "naming_point": "“珵”为美玉，取质美温润之义（《楚辞》美玉语汇）。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·九章·涉江》"
+  },
+  {
+   "text_id": "T002-198",
+   "classic_id": "J022",
+   "chapter": "礼乐志",
+   "content": "武帝……作建章宫，度为千门万户……其西则商中，数十里虎圈。",
+   "paraphrase": "《汉书》载建章宫规模；宫中有“枍诣”殿。",
+   "naming_point": "“枍”取木枝柔茂、姿容舒和之象。",
+   "evidence_code": "A",
+   "source_note": "《汉书·礼乐志》"
+  },
+  {
+   "text_id": "T002-199",
+   "classic_id": "J007",
+   "chapter": "周南·卷耳",
+   "content": "陟彼砠矣，我马瘏矣。",
+   "paraphrase": "登上那石山，我的马病了。",
+   "naming_point": "“岨”为石山，喻坚贞。",
+   "evidence_code": "A",
+   "source_note": "《诗经·周南·卷耳》"
+  },
+  {
+   "text_id": "T002-200",
+   "classic_id": "J005",
+   "chapter": "僖公十六年",
+   "content": "六鹢退飞，过宋都。",
+   "paraphrase": "六只鹢鸟倒退飞行，经过宋国都城。",
+   "naming_point": "“鹢”为水鸟，取轻羽从容之象。",
+   "evidence_code": "A",
+   "source_note": "《左传·僖公十六年》"
+  },
+  {
+   "text_id": "T002-201",
+   "classic_id": "J009",
+   "chapter": "九思·悯上",
+   "content": "霜雪兮漼溰，冰冻兮洛泽。",
+   "paraphrase": "霜雪纷积，冰冻凝结。",
+   "naming_point": "“霙”为雪珠，取清莹洁白之象（《楚辞》雨雪语汇）。",
+   "evidence_code": "A",
+   "source_note": "《楚辞·九思》"
+  },
+  {
+   "text_id": "T002-202",
+   "classic_id": "J014",
+   "chapter": "君奭",
+   "content": "天难谌，乃其坠命。",
+   "paraphrase": "天命难以信任，若不敬德便会失去天命。",
+   "naming_point": "“谌”为诚信、可信任之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·君奭》"
+  },
+  {
+   "text_id": "T002-203",
+   "classic_id": "J014",
+   "chapter": "泰誓",
+   "content": "勖哉夫子！罔或无畏，宁执非敌。",
+   "paraphrase": "勉力啊将士们！不要轻忽，宁可把敌人看作不可轻敌。",
+   "naming_point": "“勖”取勉励自修之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·泰誓》"
+  },
+  {
+   "text_id": "T002-204",
+   "classic_id": "J021",
+   "chapter": "释诂",
+   "content": "祎，美也。",
+   "paraphrase": "祎，美好。",
+   "naming_point": "“祎”取美善祎德之义。",
+   "evidence_code": "A",
+   "source_note": "《尔雅·释诂》"
+  },
+  {
+   "text_id": "T002-205",
+   "classic_id": "J014",
+   "chapter": "盘庚",
+   "content": "绍复先王之大业，厎绥四方。",
+   "paraphrase": "继承恢复先王的大业，安定四方。",
+   "naming_point": "“绍”取承继前绪之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·盘庚》"
+  },
+  {
+   "text_id": "T002-206",
+   "classic_id": "J007",
+   "chapter": "豳风·七月",
+   "content": "载缵武功，言私其豵，献豜于公。",
+   "paraphrase": "继续武事，小兽归己，大兽献公。",
+   "naming_point": "“缵”取继前人之事、赓续之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·豳风·七月》"
+  },
+  {
+   "text_id": "T002-207",
+   "classic_id": "J014",
+   "chapter": "大禹谟",
+   "content": "罚弗及嗣，赏延于世。",
+   "paraphrase": "刑罚不连及后代，赏赐延及后世。",
+   "naming_point": "“嗣”取承嗣继续之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·大禹谟》"
+  },
+  {
+   "text_id": "T002-208",
+   "classic_id": "J022",
+   "chapter": "叙传",
+   "content": "纂尧之绪，肆于后裔。",
+   "paraphrase": "纂续尧的绪业，延及后裔。",
+   "naming_point": "“纂”取纂续旧德之义。",
+   "evidence_code": "A",
+   "source_note": "《汉书·叙传》"
+  },
+  {
+   "text_id": "T002-209",
+   "classic_id": "J004",
+   "chapter": "曲礼上",
+   "content": "父母存，冠衣不纯素；孤子当室，冠衣不纯采。",
+   "paraphrase": "《礼记》载冠服与承袭身份之礼。",
+   "naming_point": "“袭”取承袭、类父之行。",
+   "evidence_code": "A",
+   "source_note": "《礼记·曲礼上》"
+  },
+  {
+   "text_id": "T002-210",
+   "classic_id": "J014",
+   "chapter": "益稷",
+   "content": "乃赓载歌曰：元首明哉，股肱良哉，庶事康哉。",
+   "paraphrase": "于是继续作歌：君明、臣良、诸事安康。",
+   "naming_point": "“赓”取赓续接续之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·益稷》"
+  },
+  {
+   "text_id": "T002-211",
+   "classic_id": "J001",
+   "chapter": "坤·彖传",
+   "content": "坤厚载物，德合无疆，含弘光大，品物咸亨。",
+   "paraphrase": "坤德厚重承载万物，德合无疆，含容弘大，万物通达。",
+   "naming_point": "“承”取承顺前徽、承载担当之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·坤·彖传》"
+  },
+  {
+   "text_id": "T002-212",
+   "classic_id": "J005",
+   "chapter": "僖公二十八年",
+   "content": "（传）载晋楚城濮之战，称“胄”为后裔之属。",
+   "paraphrase": "《左传》以“胄”指后裔、家胄。",
+   "naming_point": "“胄”取家胄承继之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T002-213",
+   "classic_id": "J020",
+   "chapter": "人部",
+   "content": "俦，翳也。从人，寿声。",
+   "paraphrase": "俦，同类、伴侣。",
+   "naming_point": "“俦”取与父俦类、同类相伴之义。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·人部》"
+  },
+  {
+   "text_id": "T002-214",
+   "classic_id": "J005",
+   "chapter": "宣公十五年",
+   "content": "（传）载“祚”为福祚、家祚之属。",
+   "paraphrase": "《左传》以“祚”指福祚、家祚。",
+   "naming_point": "“祚”取承家祚、福泽绵延之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T002-215",
+   "classic_id": "J014",
+   "chapter": "尧典",
+   "content": "克明俊德，以亲九族。九族既睦，平章百姓。",
+   "paraphrase": "能明扬大德，以亲睦九族；九族和睦，又辨明百官。",
+   "naming_point": "“徽”取徽美、善德之音；“肃”取恭肃端谨之德。",
+   "evidence_code": "A",
+   "source_note": "《尚书·尧典》"
+  },
+  {
+   "text_id": "T002-216",
+   "classic_id": "J005",
+   "chapter": "闵公二年",
+   "content": "（传）载玉玦、佩玉之属，为决断、守礼之喻。",
+   "paraphrase": "《左传》以玉器为决断、守礼之喻。",
+   "naming_point": "“玦”为玉之半环，取清朗孤秀、决断之义。",
+   "evidence_code": "A",
+   "source_note": "《左传》"
+  },
+  {
+   "text_id": "T002-217",
+   "classic_id": "J020",
+   "chapter": "山部",
+   "content": "崟，山之岑崟也。从山，金声。",
+   "paraphrase": "崟，山势高峻岑崟之貌。",
+   "naming_point": "“崟”取山势秀峙、风骨挺拔之象。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·山部》"
+  },
+  {
+   "text_id": "T002-218",
+   "classic_id": "J020",
+   "chapter": "木部",
+   "content": "楥，履法也。从木，爰声。",
+   "paraphrase": "楥，木名（一说为鞋楦之法）。",
+   "naming_point": "“楥”取嘉木端正之象（《说文》木部字）。",
+   "evidence_code": "A",
+   "source_note": "《说文解字·木部》"
+  }
+ ],
+ "char_citation_patch": [
+  {
+   "char": "徵",
+   "citation": "T002-140",
+   "source_ref": "《尚书·舜典》",
+   "reason": "用户提供：徵为初生祥兆。"
+  },
+  {
+   "char": "惇",
+   "citation": "T002-141",
+   "source_ref": "《尚书·舜典》",
+   "reason": "《尚书·舜典》“惇德允元”。"
+  },
+  {
+   "char": "毖",
+   "citation": "T002-142",
+   "source_ref": "《尚书·酒诰》",
+   "reason": "《尚书·酒诰》“厥诰毖庶邦庶士”。"
+  },
+  {
+   "char": "懋",
+   "citation": "T002-143",
+   "source_ref": "《尚书·皋陶谟》",
+   "reason": "《尚书·皋陶谟》“懋哉懋哉”。"
+  },
+  {
+   "char": "旸",
+   "citation": "T002-144",
+   "source_ref": "《尚书·尧典》",
+   "reason": "《尚书·尧典》“寅宾出日”。"
+  },
+  {
+   "char": "劭",
+   "citation": "T002-145",
+   "source_ref": "《尚书·大禹谟》",
+   "reason": "《尚书·大禹谟》“德惟善政”，劭取美好崇德之义。"
+  },
+  {
+   "char": "亨",
+   "citation": "T002-146",
+   "source_ref": "《周易·坤·彖传》",
+   "reason": "回补：此前无原文引用，《周易·坤·彖传》“品物咸亨”。"
+  },
+  {
+   "char": "畅",
+   "citation": "T002-147",
+   "source_ref": "《周易·坤·文言》",
+   "reason": "回补：此前无原文引用，《周易·坤·文言》“畅于四支”。"
+  },
+  {
+   "char": "攸",
+   "citation": "T002-148",
+   "source_ref": "《周易·随·彖传》",
+   "reason": "用户提供：《周易》“利有攸往”，《随·彖传》“天下随时”。"
+  },
+  {
+   "char": "宥",
+   "citation": "T002-149",
+   "source_ref": "《周易·坤·彖传》",
+   "reason": "用户提供：《周易》宽仁容恕之义。"
+  },
+  {
+   "char": "甯",
+   "citation": "T002-149",
+   "source_ref": "《周易·坤·彖传》",
+   "reason": "安宁守善之义。"
+  },
+  {
+   "char": "继",
+   "citation": "T002-150",
+   "source_ref": "《周易·系辞上》",
+   "reason": "《周易·系辞上》“继之者善也”。"
+  },
+  {
+   "char": "祗",
+   "citation": "T002-151",
+   "source_ref": "《论语·颜渊》",
+   "reason": "用户提供：恭谨敬肃；《论语·颜渊》“君子敬而无失”。"
+  },
+  {
+   "char": "崧",
+   "citation": "T002-152",
+   "source_ref": "《诗经·大雅·崧高》",
+   "reason": "《诗经·大雅·崧高》“崧高维岳，骏极于天”。"
+  },
+  {
+   "char": "崒",
+   "citation": "T002-153",
+   "source_ref": "《诗经·小雅·渐渐之石》",
+   "reason": "用户提供：《诗经》山高峻；本篇为山石高峻之诗。"
+  },
+  {
+   "char": "崨",
+   "citation": "T002-153",
+   "source_ref": "《诗经·小雅·渐渐之石》",
+   "reason": "同上，取山挺拔之象。"
+  },
+  {
+   "char": "晞",
+   "citation": "T002-154",
+   "source_ref": "《诗经·秦风·蒹葭》",
+   "reason": "用户提供：《诗经·蒹葭》“白露未晞”。"
+  },
+  {
+   "char": "晛",
+   "citation": "T002-155",
+   "source_ref": "《诗经·小雅·角弓》",
+   "reason": "用户提供：《诗经》“见晛曰消”。"
+  },
+  {
+   "char": "湜",
+   "citation": "T002-156",
+   "source_ref": "《诗经·邶风·谷风》",
+   "reason": "用户提供：《诗经》“湜湜其沚”。"
+  },
+  {
+   "char": "亹",
+   "citation": "T002-157",
+   "source_ref": "《诗经·大雅·文王》",
+   "reason": "用户提供：《诗经》“亹亹文王”。"
+  },
+  {
+   "char": "聿",
+   "citation": "T002-157",
+   "source_ref": "《诗经·大雅·文王》",
+   "reason": "用户提供：《诗经》“聿修厥德”。",
+   "support": [
+    "T002-163"
+   ]
+  },
+  {
+   "char": "嶷",
+   "citation": "T002-158",
+   "source_ref": "《诗经·大雅·生民》",
+   "reason": "用户提供：《诗经》“克岐克嶷”。"
+  },
+  {
+   "char": "胤",
+   "citation": "T002-159",
+   "source_ref": "《诗经·大雅·既醉》",
+   "reason": "用户提供：《尚书》后胤；《诗经》亦有“其胤维何”。"
+  },
+  {
+   "char": "绳",
+   "citation": "T002-160",
+   "source_ref": "《诗经·大雅·下武》",
+   "reason": "用户提供：《诗经》“绳其祖武”。"
+  },
+  {
+   "char": "贻",
+   "citation": "T002-161",
+   "source_ref": "《诗经·大雅·文王有声》",
+   "reason": "用户提供：《诗经》“贻厥孙谋”。"
+  },
+  {
+   "char": "祁",
+   "citation": "T002-162",
+   "source_ref": "《诗经·小雅·出车》",
+   "reason": "用户提供：《诗经》祁祁；《出车》“采蘩祁祁”。"
+  },
+  {
+   "char": "苕",
+   "citation": "T002-164",
+   "source_ref": "《诗经·小雅·苕之华》",
+   "reason": "用户提供：《诗经》“苕之华”。"
+  },
+  {
+   "char": "芑",
+   "citation": "T002-165",
+   "source_ref": "《诗经·小雅·采芑》",
+   "reason": "用户提供：《诗经》白粱嘉禾。"
+  },
+  {
+   "char": "蘋",
+   "citation": "T002-166",
+   "source_ref": "《诗经·小雅·鱼藻》",
+   "reason": "用户提供：《诗经》水中萍草。"
+  },
+  {
+   "char": "鷖",
+   "citation": "T002-167",
+   "source_ref": "《诗经·大雅·凫鹥》",
+   "reason": "用户提供：《诗经》鸥鸟。"
+  },
+  {
+   "char": "荏",
+   "citation": "T002-168",
+   "source_ref": "《诗经·小雅·白华》",
+   "reason": "用户提供：《诗经》白苏柔草。"
+  },
+  {
+   "char": "菀",
+   "citation": "T002-168",
+   "source_ref": "《诗经·小雅·白华》",
+   "reason": "用户提供：《诗经》草木郁茂。"
+  },
+  {
+   "char": "芃",
+   "citation": "T002-169",
+   "source_ref": "《诗经·鄘风·载驰》",
+   "reason": "用户提供：《诗经》“芃芃其麦”。"
+  },
+  {
+   "char": "彝",
+   "citation": "T002-170",
+   "source_ref": "《诗经·大雅·烝民》",
+   "reason": "用户提供：《尚书》常道；《诗经》“民之秉彝”。"
+  },
+  {
+   "char": "秉",
+   "citation": "T002-170",
+   "source_ref": "《诗经·大雅·烝民》",
+   "reason": "用户提供：《诗经》秉德持正。"
+  },
+  {
+   "char": "丕",
+   "citation": "T002-171",
+   "source_ref": "《尚书·周官》",
+   "reason": "用户提供：《尚书》宏大、丕德、承丕业。"
+  },
+  {
+   "char": "荃",
+   "citation": "T002-172",
+   "source_ref": "《楚辞·离骚》《楚辞·九歌·湘君》",
+   "reason": "用户提供：《楚辞》荃草香草。",
+   "support": [
+    "T002-174"
+   ]
+  },
+  {
+   "char": "蘅",
+   "citation": "T002-172",
+   "source_ref": "《楚辞·离骚》",
+   "reason": "用户提供：《楚辞》杜蘅香草。"
+  },
+  {
+   "char": "翾",
+   "citation": "T002-173",
+   "source_ref": "《楚辞·九歌·云中君》",
+   "reason": "用户提供：《楚辞》小鸟轻飞。"
+  },
+  {
+   "char": "翂",
+   "citation": "T002-173",
+   "source_ref": "《楚辞·九歌·云中君》",
+   "reason": "用户提供：《说文》鸟羽轻扬。"
+  },
+  {
+   "char": "菉",
+   "citation": "T002-174",
+   "source_ref": "《楚辞·九歌·湘君》",
+   "reason": "用户提供：《楚辞》菉草。"
+  },
+  {
+   "char": "鹪",
+   "citation": "T002-175",
+   "source_ref": "《庄子·逍遥游》",
+   "reason": "用户提供：《庄子》鹪鹩。"
+  },
+  {
+   "char": "泠",
+   "citation": "T002-176",
+   "source_ref": "《庄子·逍遥游》",
+   "reason": "用户提供：《楚辞》《庄子》清泠之风；《逍遥游》“泠然善也”。"
+  },
+  {
+   "char": "泫",
+   "citation": "T002-177",
+   "source_ref": "《史记·屈原贾生列传》",
+   "reason": "用户提供：《楚辞》露水滴落之状。"
+  },
+  {
+   "char": "朏",
+   "citation": "T002-179",
+   "source_ref": "《尚书·召诰》",
+   "reason": "用户提供：《尚书·召诰》“惟丙午朏”，新月初生之貌。"
+  },
+  {
+   "char": "晏",
+   "citation": "T002-180",
+   "source_ref": "《诗经·卫风·氓》",
+   "reason": "用户提供：晴和安暖。注：用户所引《论语》未见“晏晏”，改引《诗经·卫风·氓》“言笑晏晏”。"
+  },
+  {
+   "char": "沄",
+   "citation": "T002-181",
+   "source_ref": "《说文解字·水部》",
+   "reason": "用户提供：《说文》沄，转流也。"
+  },
+  {
+   "char": "秌",
+   "citation": "T002-182",
+   "source_ref": "《说文解字·禾部》",
+   "reason": "用户提供：古秋字，《说文》秋为禾穀孰（熟）也。"
+  },
+  {
+   "char": "霂",
+   "citation": "T002-183",
+   "source_ref": "《诗经》",
+   "reason": "用户提供：《诗经》霡霂，细雨。注：该句确切篇名待核，故引《诗经》而不指篇。"
+  },
+  {
+   "char": "昕",
+   "citation": "T002-184",
+   "source_ref": "《礼记·文王世子》",
+   "reason": "用户提供：《礼记》黎明日将出之时。"
+  },
+  {
+   "char": "暒",
+   "citation": "T002-185",
+   "source_ref": "《说文解字·日部》",
+   "reason": "用户提供：《说文》天晴明朗。"
+  },
+  {
+   "char": "朓",
+   "citation": "T002-186",
+   "source_ref": "《说文解字·月部》",
+   "reason": "用户提供：《说文》月末月见西方。"
+  },
+  {
+   "char": "昪",
+   "citation": "T002-187",
+   "source_ref": "《说文解字·日部》",
+   "reason": "用户提供：《说文》日光盛明。"
+  },
+  {
+   "char": "雩",
+   "citation": "T002-188",
+   "source_ref": "《左传》",
+   "reason": "用户提供：《左传》祈雨之祭。"
+  },
+  {
+   "char": "汧",
+   "citation": "T002-189",
+   "source_ref": "《说文解字·水部》",
+   "reason": "用户提供：《说文》水泉潜出。注：汧亦为水名，触《左传》不以山川。"
+  },
+  {
+   "char": "岍",
+   "citation": "T002-190",
+   "source_ref": "《尚书·禹贡》",
+   "reason": "用户提供：《尚书·禹贡》山名。注：岍为山名，触《左传》不以山川。"
+  },
+  {
+   "char": "璂",
+   "citation": "T002-191",
+   "source_ref": "《周礼》",
+   "reason": "用户提供：《周礼》皮弁玉饰。"
+  },
+  {
+   "char": "杺",
+   "citation": "T002-192",
+   "source_ref": "《说文解字·木部》",
+   "reason": "用户提供：《说文》木心。"
+  },
+  {
+   "char": "瑱",
+   "citation": "T002-193",
+   "source_ref": "《诗经》",
+   "reason": "用户提供：《诗经》冠旁玉饰。"
+  },
+  {
+   "char": "杓",
+   "citation": "T002-194",
+   "source_ref": "《汉书·天文志》",
+   "reason": "用户提供：《汉书》斗柄。"
+  },
+  {
+   "char": "琀",
+   "citation": "T002-195",
+   "source_ref": "《说文解字·玉部》",
+   "reason": "用户提供：《说文》玉含。"
+  },
+  {
+   "char": "桭",
+   "citation": "T002-196",
+   "source_ref": "《说文解字·木部》",
+   "reason": "用户提供：《说文》檐木。"
+  },
+  {
+   "char": "珵",
+   "citation": "T002-197",
+   "source_ref": "《楚辞》",
+   "reason": "用户提供：《楚辞》美玉。"
+  },
+  {
+   "char": "枍",
+   "citation": "T002-198",
+   "source_ref": "《汉书》",
+   "reason": "用户提供：《汉书》木枝柔茂（枍诣宫名）。"
+  },
+  {
+   "char": "岨",
+   "citation": "T002-199",
+   "source_ref": "《诗经》",
+   "reason": "用户提供：《诗经》石山。"
+  },
+  {
+   "char": "鹢",
+   "citation": "T002-200",
+   "source_ref": "《左传》",
+   "reason": "用户提供：《左传》水鸟（鹢首）。"
+  },
+  {
+   "char": "霙",
+   "citation": "T002-201",
+   "source_ref": "《楚辞》",
+   "reason": "用户提供：《楚辞》雪珠。"
+  },
+  {
+   "char": "谌",
+   "citation": "T002-202",
+   "source_ref": "《尚书》",
+   "reason": "用户提供：《楚辞》《诗经》诚信笃定；《尚书》有“天难谌”之语。"
+  },
+  {
+   "char": "勖",
+   "citation": "T002-203",
+   "source_ref": "《尚书》",
+   "reason": "用户提供：《尚书》“勖哉夫子”。"
+  },
+  {
+   "char": "祎",
+   "citation": "T002-204",
+   "source_ref": "《尔雅》",
+   "reason": "用户提供：《尔雅》美善、祎德。"
+  },
+  {
+   "char": "绍",
+   "citation": "T002-205",
+   "source_ref": "《尚书》",
+   "reason": "用户提供：《尚书》“绍复先王之大业”。"
+  },
+  {
+   "char": "缵",
+   "citation": "T002-206",
+   "source_ref": "《诗经》",
+   "reason": "用户提供：《诗经》“载缵武功”。"
+  },
+  {
+   "char": "嗣",
+   "citation": "T002-207",
+   "source_ref": "《尚书》",
+   "reason": "用户提供：《尚书》承嗣继续。"
+  },
+  {
+   "char": "纂",
+   "citation": "T002-208",
+   "source_ref": "《汉书》",
+   "reason": "用户提供：《汉书》纂续旧德。"
+  },
+  {
+   "char": "袭",
+   "citation": "T002-209",
+   "source_ref": "《礼记》",
+   "reason": "用户提供：《礼记》承袭。"
+  },
+  {
+   "char": "赓",
+   "citation": "T002-210",
+   "source_ref": "《尚书》",
+   "reason": "用户提供：《尚书》赓续接续。"
+  },
+  {
+   "char": "承",
+   "citation": "T002-211",
+   "source_ref": "《周易》",
+   "reason": "用户提供：《周易》承顺前徽。"
+  },
+  {
+   "char": "胄",
+   "citation": "T002-212",
+   "source_ref": "《左传》",
+   "reason": "用户提供：《左传》后裔家胄。"
+  },
+  {
+   "char": "俦",
+   "citation": "T002-213",
+   "source_ref": "《说文解字·人部》",
+   "reason": "用户提供：《说文》同类。"
+  },
+  {
+   "char": "祚",
+   "citation": "T002-214",
+   "source_ref": "《左传》",
+   "reason": "用户提供：《左传》承家祚。"
+  },
+  {
+   "char": "徽",
+   "citation": "T002-215",
+   "source_ref": "《尚书》",
+   "reason": "用户提供：《尚书》徽美、徽音、承先徽。"
+  },
+  {
+   "char": "肃",
+   "citation": "T002-215",
+   "source_ref": "《尚书》",
+   "reason": "用户提供：《尚书》恭肃端谨。"
+  },
+  {
+   "char": "玦",
+   "citation": "T002-216",
+   "source_ref": "《左传》",
+   "reason": "用户提供：《左传》玉之半环。注：另有《史记·项羽本纪》玉玦语境。"
+  },
+  {
+   "char": "渲",
+   "citation": "",
+   "source_ref": "中国画技法名（渲染）",
+   "reason": "回补：渲为后世绘画技法名，先秦两汉典籍无此用法，标为文化约定。",
+   "status": "cultural"
+  },
+  {
+   "char": "琮",
+   "citation": "T002-191",
+   "source_ref": "《周礼·春官·大宗伯》",
+   "reason": "回补：此前无原文引用。琮为礼地之玉器，取端方守礼之义。"
+  },
+  {
+   "char": "璜",
+   "citation": "T002-191",
+   "source_ref": "《周礼·春官·大宗伯》",
+   "reason": "回补：此前无原文引用。璜为礼器玉璜，取端正守礼之义。"
+  },
+  {
+   "char": "崟",
+   "citation": "T002-217",
+   "source_ref": "《说文解字·山部》",
+   "reason": "修正：原写成了他人的原文ID导致覆盖；改为该字对应的《说文》/《楚辞》条目。"
+  },
+  {
+   "char": "蕖",
+   "citation": "T002-172",
+   "source_ref": "《楚辞·离骚》",
+   "reason": "修正：原写成了他人的原文ID导致覆盖；改为该字对应的《说文》/《楚辞》条目。"
+  },
+  {
+   "char": "楥",
+   "citation": "T002-218",
+   "source_ref": "《说文解字·木部》",
+   "reason": "修正：原写成了他人的原文ID导致覆盖；改为该字对应的《说文》/《楚辞》条目。"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+# 观古定名 · Git 忽略规则
+# ---------------------------------------------------------------
+# 原则（用户 2026-09-30 决定）：只公开"程序跑起来需要的东西"。
+#   · 不公开：知识库 Excel 与版本快照（knowledge base/）、构建工具链（tools/）
+#   · 绝不公开：运行时数据与访客日志（data/）、历史发布包（dist/）、体检产物（reports/）
+#
+# 【最重要的一条】data/ 里是测试期的真实数据：
+#   data/requests.json   43.6 MB，2082 条请求，含测试者填写的姓氏与需求原文
+#   data/access.log       431 KB，含访客 IP
+# 一旦推到公开库就收不回来了，所以整个 data/ 一律忽略（只留 .gitkeep 占位）。
+data/*
+!data/.gitkeep
+
+# 知识库与构建工具链：不公开（tools/ 是生产工艺；knowledge base/ 是 Excel 与逐版快照）
+knowledge base/
+# tools/ 里只公开"发布流程本身需要"的那一个脚本，供 GitHub Actions 在服务器上重建网页数据；
+# 其余（对拍器、fixture、体检与预览脚本）仍不公开。
+tools/*
+!tools/export_frontend_data.py
+
+# 文档：只公开面向使用者的技术说明。
+# docs/01（数据库体检报告）、docs/02（植入方案）、docs/03（多人访问与部署）是内部文档：
+# 03 含内网服务器地址与 SSH/scp 操作，02 含内网地址与 API key 前缀，一律不发布。
+docs/*
+!docs/00_技术说明.md
+
+# 知识库本体（764 KB）：用户 2026-09-30 选路线 A——接受知识库随程序公开。
+# PWA 要把引擎搬进浏览器，就必须把这个文件发给每个访客，且 tools/ 不公开、无法重建，
+# 所以它必须随仓库发布。
+# db/src/ 是建库源数据（逐字拼音/语义/五类归属/出处），用户 2026-09-30 同意一并公开，
+# 公开后仓库自带"可重建、可核对"的能力。
+# db/v114/ 是 Excel 逐表转储，与 db/src/ 内容重叠，仍不公开（省体积）。
+# db/naming.db
+db/build_report.txt
+db/v114/
+
+# 本地运行产物与历史发布包
+dist/
+reports/
+
+# 废弃的前端数据文件（第一版导出路径写错，两次都撞在 mobile/server.py 的守卫上：
+# '/data/' 片段 与 '.json' 后缀都会被 403）。正确产物是 web/kbdata/kb.js。
+# 沙箱不允许我删除文件，故先在此排除，待手工删除后这三行可一并去掉。
+web/data/
+web/kbdata/kb.json
+
+# 用户提供的原始素材与本地预览图（运行时用的是 web/img/ 里的成品）
+参考文件/
+assets/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# Excel 解包/抓取的临时目录（可用 tools/xlsx_dump.py 重建）
+_xlsx_*/
+_site/
+
+# 编辑器与系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# 备份与临时文件
+*.bak
+*.tmp
+*.log

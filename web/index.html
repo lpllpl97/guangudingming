@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>观古定名 · 左传五类</title>
+<link rel="stylesheet" href="css/style.css?v=11">
+</head>
+<body>
+<div id="bgFill"></div>
+<div id="app">
+
+  <header id="topbar">
+    <div id="brand"><b>观古定名</b><span>《左传·桓公六年》名有五：信 · 义 · 象 · 假 · 类</span></div>
+    <button id="btnAbout" class="ghost">取名依据</button>
+  </header>
+
+  <!-- 第一步：取名对象 -->
+  <section class="card" id="step1">
+    <div class="cardHead"><span class="idx">一</span>先说说取名对象</div>
+    <div class="field">
+      <label>姓氏</label>
+      <div class="row">
+        <input id="surname" maxlength="2" placeholder="如：林" autocomplete="off">
+        <div id="surnameHint" class="hint">支持复姓；未收录读音的姓氏不做音律评分</div>
+      </div>
+    </div>
+    <div class="field">
+      <label>名字字数</label>
+      <div class="chips" id="lenChips">
+        <button data-v="2" class="chip on">双字名</button>
+        <button data-v="1" class="chip">单字名</button>
+      </div>
+    </div>
+    <div class="field">
+      <label>性别倾向<span class="sub">（选了就会让名字明显偏该倾向）</span></label>
+      <div class="chips" id="genderChips">
+        <button data-v="中性" class="chip on">中性</button>
+        <button data-v="偏男性" class="chip">偏男性</button>
+        <button data-v="偏女性" class="chip">偏女性</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 第二步：命名依据（五类） -->
+  <section class="card" id="step2">
+    <div class="cardHead"><span class="idx">二</span>选择命名依据（左传五类）</div>
+    <p class="tip">
+      《左传·桓公六年》记载古人取名的五种依据：“名有五：有信，有义，有象，有假，有类。”
+    </p>
+    <div class="multiHint"><b>最多选 2 项</b><span>两个字承载不了太多意义，选中的类别会在下方展开需要你确认的内容</span></div>
+    <div class="principles" id="principleList"></div>
+    <div id="principlePanels"></div>
+    <p class="tip" id="principleHint">未选择任何类别时，系统会按你在第三步写的期望，自动推导最贴近的命名依据。</p>
+  </section>
+
+  <!-- 第三步：补充信息与约束 -->
+  <section class="card" id="step3">
+    <div class="cardHead"><span class="idx">三</span>补充信息与约束</div>
+    <div class="field">
+      <label>还有什么想说的<span class="sub">（非必填）</span></label>
+      <textarea id="rawInput" rows="2" maxlength="80"
+        placeholder="如：希望孩子聪慧好学、性格温润，将来有远大志向；或补充上面没覆盖到的要求"></textarea>
+    </div>
+    <div class="field">
+      <label>约束与避用</label>
+      <div class="field sub2">
+        <label class="lbl2">必须保留的字<span class="sub">（每个候选名都会包含）</span></label>
+        <input id="fixedChars" maxlength="2" placeholder="如：敖" autocomplete="off">
+      </div>
+      <div class="field sub2">
+        <label class="lbl2">避用的字<span class="sub">（不会出现在候选名里）</span></label>
+        <input id="avoidChars" maxlength="8" placeholder="如：清、明" autocomplete="off">
+      </div>
+      <label class="check"><input type="checkbox" id="allowRare"> 允许使用生僻字</label>
+    </div>
+    <div class="actions">
+      <button id="btnGenerate" class="primary">开始取名</button>
+      <button id="btnReset" class="ghost">重置</button>
+    </div>
+  </section>
+
+  <!-- 结果 -->
+  <section id="resultWrap" class="hidden">
+    <div id="metaBar"></div>
+    <div id="candList"></div>
+    <div class="actions">
+      <button id="btnMore" class="primary">换一批</button>
+      <button id="btnTop" class="ghost">回到顶部</button>
+    </div>
+  </section>
+
+  <footer id="foot">
+    本结果依《左传》五类原则与可解释的文化语义生成，不作命运、财富、疾病等吉凶预测，也不涉及算卦起卦。
+    <span id="verInfo"></span>
+  </footer>
+</div>
+
+<!-- 详情面板 -->
+<div id="detailPanel" class="hidden">
+  <div id="detailHead"><span id="detailTitle">取名依据</span><button id="btnDetailClose">✕</button></div>
+  <div id="detailBody"></div>
+</div>
+
+<!-- 取名依据弹窗 -->
+<div id="aboutModal" class="hidden">
+  <div id="aboutBox">
+    <div class="modalHead">取名依据 · 左传五类 <button id="btnAboutClose">✕</button></div>
+    <div id="aboutBody"></div>
+  </div>
+</div>
+
+<script src="js/app.js?v=11"></script>
+</body>
+</html>

@@ -1,0 +1,2389 @@
+{
+ "_note": "用户提供的《左传·桓公六年·名有五 取名用字总表》原始 260 条，作为并入依据留档。",
+ "rows": [
+  {
+   "category": "信（以名生为信）",
+   "no": "1",
+   "char": "昭",
+   "pinyin": "zhao",
+   "meaning": "晨光初显，生于朝旦",
+   "source": "《诗经·大雅·文王》",
+   "quote": "文王在上，於昭于天"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "2",
+   "char": "景",
+   "pinyin": "jing",
+   "meaning": "日光景，出生逢晴日",
+   "source": "《诗经·小雅·车舝》",
+   "quote": "高山仰止，景行行止"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "3",
+   "char": "晨",
+   "pinyin": "chen",
+   "meaning": "清晨降生",
+   "source": "《尔雅》",
+   "quote": "晨，早也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "4",
+   "char": "曦",
+   "pinyin": "xi",
+   "meaning": "朝阳",
+   "source": "《楚辞·九歌》",
+   "quote": "日安不到，烛龙何照，晞光为曦"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "5",
+   "char": "明",
+   "pinyin": "ming",
+   "meaning": "天光澄明",
+   "source": "《周易·离卦》",
+   "quote": "明两作离，大人以继明照于四方"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "6",
+   "char": "暄",
+   "pinyin": "xuan",
+   "meaning": "暖，出生逢春暖之日",
+   "source": "《玉篇》",
+   "quote": "暄，暖也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "7",
+   "char": "沐",
+   "pinyin": "mu",
+   "meaning": "降生遇清雨润身",
+   "source": "《诗经》",
+   "quote": "如沐春风"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "8",
+   "char": "秋",
+   "pinyin": "qiu",
+   "meaning": "禾熟之季",
+   "source": "《诗经·周颂》",
+   "quote": "有实其积，万亿及秭"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "9",
+   "char": "春",
+   "pinyin": "chun",
+   "meaning": "春时",
+   "source": "《尚书·尧典》",
+   "quote": "日中星鸟，以殷仲春"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "10",
+   "char": "朔",
+   "pinyin": "shuo",
+   "meaning": "月初新月之时",
+   "source": "《尚书·尧典》",
+   "quote": "朔，月初也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "11",
+   "char": "华",
+   "pinyin": "hua",
+   "meaning": "万物花开时节降生",
+   "source": "《诗经·桃夭》",
+   "quote": "桃之夭夭，灼灼其华"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "12",
+   "char": "澄",
+   "pinyin": "cheng",
+   "meaning": "天清水平",
+   "source": "《楚辞·九章》",
+   "quote": "使江水兮安流"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "13",
+   "char": "润",
+   "pinyin": "run",
+   "meaning": "降生逢甘霖",
+   "source": "《周易·说卦》",
+   "quote": "雨以润之"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "14",
+   "char": "初",
+   "pinyin": "chu",
+   "meaning": "初生之本",
+   "source": "《诗经·淇奥》",
+   "quote": "如切如磋，如琢如磨"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "15",
+   "char": "安",
+   "pinyin": "an",
+   "meaning": "诞时安稳平和",
+   "source": "《易经·系辞》",
+   "quote": "君子安而不忘危"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "16",
+   "char": "丰",
+   "pinyin": "feng",
+   "meaning": "生于丰收之年",
+   "source": "《诗经·周颂·丰年》",
+   "quote": "丰年多黍多稌"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "17",
+   "char": "云",
+   "pinyin": "yun",
+   "meaning": "云气舒卷",
+   "source": "《诗经·郑风》",
+   "quote": "有女同车，颜如舜华"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "18",
+   "char": "澜",
+   "pinyin": "lan",
+   "meaning": "江河初涨之时",
+   "source": "《孟子·尽心上》",
+   "quote": "观水有术，必观其澜"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "19",
+   "char": "光",
+   "pinyin": "guang",
+   "meaning": "天光焕发",
+   "source": "《周易·坤卦》",
+   "quote": "含弘光大"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "20",
+   "char": "和",
+   "pinyin": "he",
+   "meaning": "风和日暖",
+   "source": "《周易·乾卦》",
+   "quote": "保合太和"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "21",
+   "char": "昕",
+   "pinyin": "xin",
+   "meaning": "黎明日出",
+   "source": "《礼记·文王世子》",
+   "quote": "大昕，早旦也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "22",
+   "char": "晞",
+   "pinyin": "xi",
+   "meaning": "晨露初干",
+   "source": "《诗经·蒹葭》",
+   "quote": "蒹葭萋萋，白露未晞"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "23",
+   "char": "晏",
+   "pinyin": "yan",
+   "meaning": "天色晴和安暖",
+   "source": "《诗经·氓》",
+   "quote": "言笑晏晏"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "24",
+   "char": "昒",
+   "pinyin": "hu",
+   "meaning": "拂晓天将明",
+   "source": "《汉书·扬雄传》",
+   "quote": "昒昕，黎明也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "25",
+   "char": "朏",
+   "pinyin": "fei",
+   "meaning": "新月初生",
+   "source": "《尚书·召诰》",
+   "quote": "惟丙午朏"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "26",
+   "char": "暒",
+   "pinyin": "qing",
+   "meaning": "天晴",
+   "source": "《说文》",
+   "quote": "暒，天晴也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "27",
+   "char": "晛",
+   "pinyin": "xian",
+   "meaning": "日光乍现",
+   "source": "《诗经·小雅·角弓》",
+   "quote": "见晛曰消"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "28",
+   "char": "旸",
+   "pinyin": "yang",
+   "meaning": "日出",
+   "source": "《尚书·尧典》",
+   "quote": "寅宾出日，平秩东作"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "29",
+   "char": "泫",
+   "pinyin": "xuan",
+   "meaning": "露水滴落",
+   "source": "《楚辞·九辩》",
+   "quote": "涕潺湲兮下沾轼"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "30",
+   "char": "霂",
+   "pinyin": "mu",
+   "meaning": "微雨降生",
+   "source": "《诗经·小雅·信南山》",
+   "quote": "霡霂，小雨也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "31",
+   "char": "湜",
+   "pinyin": "shi",
+   "meaning": "水清澄，诞时静水",
+   "source": "《诗经·邶风·谷风》",
+   "quote": "湜湜其沚"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "32",
+   "char": "泠",
+   "pinyin": "ling",
+   "meaning": "清泠之风",
+   "source": "《楚辞·渔父》",
+   "quote": "沧浪之水清兮，可以濯吾缨"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "33",
+   "char": "汧",
+   "pinyin": "qian",
+   "meaning": "水泉潜出",
+   "source": "《说文》",
+   "quote": "汧，水泉潜出"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "34",
+   "char": "雩",
+   "pinyin": "yu",
+   "meaning": "逢甘霖而降",
+   "source": "《左传·桓公五年》",
+   "quote": "龙见而雩"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "35",
+   "char": "朓",
+   "pinyin": "tiao",
+   "meaning": "月末月见于西",
+   "source": "《说文》",
+   "quote": "朓，晦而月见西方"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "36",
+   "char": "昪",
+   "pinyin": "bian",
+   "meaning": "日光盛明",
+   "source": "《说文》",
+   "quote": "昪，日光明"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "37",
+   "char": "永",
+   "pinyin": "yong",
+   "meaning": "时序绵长",
+   "source": "《诗经·周南·汉广》",
+   "quote": "永言配命"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "38",
+   "char": "星",
+   "pinyin": "xing",
+   "meaning": "生于星朗之夜",
+   "source": "《尚书·尧典》",
+   "quote": "历象日月星辰"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "39",
+   "char": "月",
+   "pinyin": "yue",
+   "meaning": "月夜降生",
+   "source": "《诗经·陈风·月出》",
+   "quote": "月出皎兮"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "40",
+   "char": "霖",
+   "pinyin": "lin",
+   "meaning": "连绵时雨",
+   "source": "《尚书》",
+   "quote": "若大旱之望云霓"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "41",
+   "char": "洪",
+   "pinyin": "hong",
+   "meaning": "大水之时",
+   "source": "《尚书》",
+   "quote": "洪水滔天"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "42",
+   "char": "凌",
+   "pinyin": "ling",
+   "meaning": "生于清冬",
+   "source": "《诗经》",
+   "quote": "凌冬"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "43",
+   "char": "硕",
+   "pinyin": "shuo",
+   "meaning": "初生体态端硕",
+   "source": "《诗经·卫风·硕人》",
+   "quote": "硕人其颀"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "44",
+   "char": "维",
+   "pinyin": "wei",
+   "meaning": "恰逢其时",
+   "source": "《诗经·大雅》",
+   "quote": "维此良人"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "45",
+   "char": "时",
+   "pinyin": "shi",
+   "meaning": "合于天时",
+   "source": "《尚书》",
+   "quote": "惟时懋哉"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "46",
+   "char": "启",
+   "pinyin": "qi",
+   "meaning": "时节开启",
+   "source": "《尚书·尧典》",
+   "quote": "启，开也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "47",
+   "char": "载",
+   "pinyin": "zai",
+   "meaning": "岁载之时",
+   "source": "《诗经·鄘风·载驰》",
+   "quote": "载驰载驱"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "48",
+   "char": "茂",
+   "pinyin": "mao",
+   "meaning": "万物繁茂",
+   "source": "《诗经》",
+   "quote": "草木茂实"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "49",
+   "char": "清",
+   "pinyin": "qing",
+   "meaning": "天清露净",
+   "source": "《楚辞·渔父》",
+   "quote": "沧浪水清"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "50",
+   "char": "高",
+   "pinyin": "gao",
+   "meaning": "天高气朗",
+   "source": "《诗经·小雅·车舝》",
+   "quote": "高山仰止"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "51",
+   "char": "舒",
+   "pinyin": "shu",
+   "meaning": "云舒天缓",
+   "source": "《诗经·陈风·月出》",
+   "quote": "舒窈纠兮"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "52",
+   "char": "蔚",
+   "pinyin": "wei",
+   "meaning": "草木蔚然，生机勃发",
+   "source": "《易经·革卦》",
+   "quote": "其文蔚也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "53",
+   "char": "稷",
+   "pinyin": "ji",
+   "meaning": "禾谷成熟时节",
+   "source": "《诗经》",
+   "quote": "黍稷油油"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "54",
+   "char": "稂",
+   "pinyin": "lang",
+   "meaning": "禾苗茁壮",
+   "source": "《诗经·小雅》",
+   "quote": "不稂不莠"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "55",
+   "char": "宵",
+   "pinyin": "xiao",
+   "meaning": "夜晚降生",
+   "source": "《诗经·召南·小星》",
+   "quote": "宵征"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "56",
+   "char": "曙",
+   "pinyin": "shu",
+   "meaning": "天将破晓",
+   "source": "《玉篇》",
+   "quote": "曙，晓也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "57",
+   "char": "霏",
+   "pinyin": "fei",
+   "meaning": "细雨濛濛",
+   "source": "《诗经·小雅·采薇》",
+   "quote": "今我来思，雨雪霏霏"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "58",
+   "char": "祁",
+   "pinyin": "qi",
+   "meaning": "天气舒缓",
+   "source": "《诗经·豳风·七月》",
+   "quote": "春日迟迟，采蘩祁祁"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "59",
+   "char": "芒",
+   "pinyin": "mang",
+   "meaning": "麦熟之时",
+   "source": "《诗经》",
+   "quote": "麦芒"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "60",
+   "char": "苗",
+   "pinyin": "miao",
+   "meaning": "青苗初生",
+   "source": "《诗经·小雅·大田》",
+   "quote": "大田有苗"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "61",
+   "char": "泉",
+   "pinyin": "quan",
+   "meaning": "泉流初生",
+   "source": "《诗经·邶风》",
+   "quote": "泉源在左"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "62",
+   "char": "波",
+   "pinyin": "bo",
+   "meaning": "水波清浅",
+   "source": "《诗经·卫风·淇奥》",
+   "quote": "淇水汤汤"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "63",
+   "char": "辰",
+   "pinyin": "chen",
+   "meaning": "生辰合星辰",
+   "source": "《尚书·尧典》",
+   "quote": "历数日月星辰"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "64",
+   "char": "宿",
+   "pinyin": "xiu",
+   "meaning": "对应星次",
+   "source": "《周礼》",
+   "quote": "凡二十八宿"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "65",
+   "char": "离",
+   "pinyin": "li",
+   "meaning": "附光，丽也",
+   "source": "《周易·离卦》",
+   "quote": "离，丽也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "66",
+   "char": "巽",
+   "pinyin": "xun",
+   "meaning": "顺风，风至之时",
+   "source": "《周易·巽卦》",
+   "quote": "巽为风"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "67",
+   "char": "震",
+   "pinyin": "zhen",
+   "meaning": "春雷降生",
+   "source": "《周易·震卦》",
+   "quote": "震，雷也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "68",
+   "char": "艮",
+   "pinyin": "gen",
+   "meaning": "山静，安宁之时",
+   "source": "《周易·艮卦》",
+   "quote": "艮为山"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "69",
+   "char": "兑",
+   "pinyin": "dui",
+   "meaning": "悦泽，雨露润",
+   "source": "《周易·兑卦》",
+   "quote": "兑为泽"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "70",
+   "char": "泰",
+   "pinyin": "tai",
+   "meaning": "天地交泰，祥和之时",
+   "source": "《周易·泰卦》",
+   "quote": "泰，天地交而万物通"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "71",
+   "char": "复",
+   "pinyin": "fu",
+   "meaning": "阳气复来",
+   "source": "《周易·复卦》",
+   "quote": "复，一阳来复"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "72",
+   "char": "临",
+   "pinyin": "lin",
+   "meaning": "阳气渐临",
+   "source": "《周易·临卦》",
+   "quote": "临，刚浸而长"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "73",
+   "char": "观",
+   "pinyin": "guan",
+   "meaning": "仰观天象",
+   "source": "《周易·观卦》",
+   "quote": "仰以观于天文"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "74",
+   "char": "颐",
+   "pinyin": "yi",
+   "meaning": "初生得养",
+   "source": "《周易·颐卦》",
+   "quote": "颐，养也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "75",
+   "char": "恒",
+   "pinyin": "heng",
+   "meaning": "时序恒久",
+   "source": "《周易·恒卦》",
+   "quote": "恒，久也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "76",
+   "char": "晋",
+   "pinyin": "jin",
+   "meaning": "旭日渐进",
+   "source": "《周易·晋卦》",
+   "quote": "晋，明出地上"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "77",
+   "char": "益",
+   "pinyin": "yi",
+   "meaning": "风雨滋益",
+   "source": "《周易·益卦》",
+   "quote": "益，损上益下"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "78",
+   "char": "升",
+   "pinyin": "sheng",
+   "meaning": "地气升腾",
+   "source": "《周易·升卦》",
+   "quote": "地中生木，升"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "79",
+   "char": "简",
+   "pinyin": "jian",
+   "meaning": "简约平和",
+   "source": "《周易·系辞》",
+   "quote": "乾以易知，坤以简能"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "80",
+   "char": "萃",
+   "pinyin": "cui",
+   "meaning": "万物萃聚",
+   "source": "《周易·萃卦》",
+   "quote": "萃，聚也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "81",
+   "char": "革",
+   "pinyin": "ge",
+   "meaning": "时序更迭",
+   "source": "《周易·革卦》",
+   "quote": "天地革而四时成"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "82",
+   "char": "鼎",
+   "pinyin": "ding",
+   "meaning": "新时鼎兴",
+   "source": "《周易·鼎卦》",
+   "quote": "鼎，新也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "83",
+   "char": "渐",
+   "pinyin": "jian",
+   "meaning": "时节渐进",
+   "source": "《周易·渐卦》",
+   "quote": "渐，进也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "84",
+   "char": "归",
+   "pinyin": "gui",
+   "meaning": "时节当归",
+   "source": "《诗经·召南·鹊巢》",
+   "quote": "之子于归"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "85",
+   "char": "旅",
+   "pinyin": "lv",
+   "meaning": "客星过境",
+   "source": "《周易·旅卦》",
+   "quote": "旅，客也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "86",
+   "char": "涣",
+   "pinyin": "huan",
+   "meaning": "春水涣流",
+   "source": "《周易·涣卦》",
+   "quote": "涣，水流散"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "87",
+   "char": "节",
+   "pinyin": "jie",
+   "meaning": "时节有节",
+   "source": "《周易·节卦》",
+   "quote": "节，节制也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "88",
+   "char": "中",
+   "pinyin": "zhong",
+   "meaning": "时得其中",
+   "source": "《周易》",
+   "quote": "刚柔得中"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "89",
+   "char": "孚",
+   "pinyin": "fu",
+   "meaning": "天时信实",
+   "source": "《周易·中孚》",
+   "quote": "中孚，信也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "90",
+   "char": "贲",
+   "pinyin": "bi",
+   "meaning": "天象有文",
+   "source": "《周易·贲卦》",
+   "quote": "贲，饰也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "91",
+   "char": "咸",
+   "pinyin": "xian",
+   "meaning": "阴阳相感",
+   "source": "《周易·咸卦》",
+   "quote": "咸，感也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "92",
+   "char": "随",
+   "pinyin": "sui",
+   "meaning": "顺随时序",
+   "source": "《周易·随卦》",
+   "quote": "随，随也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "93",
+   "char": "需",
+   "pinyin": "xu",
+   "meaning": "待雨之时",
+   "source": "《周易·需卦》",
+   "quote": "需，须也，待也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "94",
+   "char": "师",
+   "pinyin": "shi",
+   "meaning": "时序有序",
+   "source": "《周易·师卦》",
+   "quote": "师，众也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "95",
+   "char": "比",
+   "pinyin": "bi",
+   "meaning": "天时亲合",
+   "source": "《周易·比卦》",
+   "quote": "比，亲也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "96",
+   "char": "畜",
+   "pinyin": "xu",
+   "meaning": "积蓄生机",
+   "source": "《周易·大畜》",
+   "quote": "小畜，寡畜而积"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "97",
+   "char": "履",
+   "pinyin": "lv",
+   "meaning": "顺时而行",
+   "source": "《周易·履卦》",
+   "quote": "履，礼也"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "98",
+   "char": "同",
+   "pinyin": "tong",
+   "meaning": "天时和同",
+   "source": "《周易·同人》",
+   "quote": "同人于野"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "99",
+   "char": "谦",
+   "pinyin": "qian",
+   "meaning": "天时谦润",
+   "source": "《周易·谦卦》",
+   "quote": "谦尊而光"
+  },
+  {
+   "category": "信（以名生为信）",
+   "no": "100",
+   "char": "豫",
+   "pinyin": "yu",
+   "meaning": "时节安乐",
+   "source": "《周易·豫卦》",
+   "quote": "豫，乐也"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "1",
+   "char": "惇",
+   "pinyin": "dun",
+   "meaning": "敦厚笃善",
+   "source": "《尚书·舜典》",
+   "quote": "惇德允元"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "2",
+   "char": "祗",
+   "pinyin": "zhi",
+   "meaning": "恭谨敬肃",
+   "source": "《尚书》",
+   "quote": "祗若兹"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "3",
+   "char": "劭",
+   "pinyin": "shao",
+   "meaning": "美好崇德",
+   "source": "《汉书》",
+   "quote": "劭德"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "4",
+   "char": "谌",
+   "pinyin": "chen",
+   "meaning": "诚信笃定",
+   "source": "《楚辞·离骚》",
+   "quote": "天难谌斯"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "5",
+   "char": "懋",
+   "pinyin": "mao",
+   "meaning": "勤勉修德",
+   "source": "《尚书·仲虺之诰》",
+   "quote": "懋哉懋哉"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "6",
+   "char": "毖",
+   "pinyin": "bi",
+   "meaning": "慎戒自持",
+   "source": "《尚书·酒诰》",
+   "quote": "厥诰毖庶邦庶士"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "7",
+   "char": "丕",
+   "pinyin": "pi",
+   "meaning": "宏大",
+   "source": "《尚书》",
+   "quote": "丕显哉文王谟"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "8",
+   "char": "彝",
+   "pinyin": "yi",
+   "meaning": "常道，守恒德",
+   "source": "《尚书·洪范》",
+   "quote": "彝伦攸叙"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "9",
+   "char": "攸",
+   "pinyin": "you",
+   "meaning": "从容合道",
+   "source": "《周易·坤卦》",
+   "quote": "利有攸往"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "10",
+   "char": "恪",
+   "pinyin": "ke",
+   "meaning": "恭谨守礼",
+   "source": "《左传》",
+   "quote": "恪共臣职"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "11",
+   "char": "亹",
+   "pinyin": "wei",
+   "meaning": "勤勉不倦",
+   "source": "《诗经·大雅·文王》",
+   "quote": "亹亹文王"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "12",
+   "char": "嶷",
+   "pinyin": "yi",
+   "meaning": "幼而聪慧，品德端嶷",
+   "source": "《诗经·大雅·生民》",
+   "quote": "克岐克嶷"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "13",
+   "char": "徽",
+   "pinyin": "hui",
+   "meaning": "善德之音",
+   "source": "《尚书》",
+   "quote": "徽音"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "14",
+   "char": "甯",
+   "pinyin": "ning",
+   "meaning": "安宁守善",
+   "source": "《易经》",
+   "quote": "安甯"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "15",
+   "char": "勖",
+   "pinyin": "xu",
+   "meaning": "勉励自修",
+   "source": "《尚书·牧誓》",
+   "quote": "勖哉夫子"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "16",
+   "char": "祎",
+   "pinyin": "yi",
+   "meaning": "美善",
+   "source": "《尔雅》",
+   "quote": "祎，美也"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "17",
+   "char": "秉",
+   "pinyin": "bing",
+   "meaning": "秉德持正",
+   "source": "《诗经·小雅》",
+   "quote": "秉心塞渊"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "18",
+   "char": "宥",
+   "pinyin": "you",
+   "meaning": "宽仁容恕",
+   "source": "《周易·解卦》",
+   "quote": "宥罪赦过"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "19",
+   "char": "肃",
+   "pinyin": "su",
+   "meaning": "恭肃端谨",
+   "source": "《尚书》",
+   "quote": "肃恭神人"
+  },
+  {
+   "category": "义（以德命为义）",
+   "no": "20",
+   "char": "悫",
+   "pinyin": "que",
+   "meaning": "诚笃",
+   "source": "《荀子·王制》",
+   "quote": "悫然忠信"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "1",
+   "char": "崧",
+   "pinyin": "song",
+   "meaning": "如山之巍然，气度似崧",
+   "source": "《诗经·大雅·崧高》",
+   "quote": "崧高维岳"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "2",
+   "char": "岍",
+   "pinyin": "qian",
+   "meaning": "山之清峻，喻风骨",
+   "source": "《尚书·禹贡》",
+   "quote": "导岍及岐"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "3",
+   "char": "玦",
+   "pinyin": "jue",
+   "meaning": "玉之半环，喻清朗孤秀",
+   "source": "《左传》",
+   "quote": "赐之玦以决"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "4",
+   "char": "璂",
+   "pinyin": "qi",
+   "meaning": "皮弁玉饰，喻文质相彰",
+   "source": "《周礼》",
+   "quote": "王之皮弁，会五采玉璂"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "5",
+   "char": "杺",
+   "pinyin": "xin",
+   "meaning": "木心，喻内秀",
+   "source": "《说文》",
+   "quote": "杺，木心"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "6",
+   "char": "枔",
+   "pinyin": "xin",
+   "meaning": "树叶相连，喻温润舒展",
+   "source": "《说文》",
+   "quote": "枔，树叶也"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "7",
+   "char": "崟",
+   "pinyin": "yin",
+   "meaning": "山势秀峙，喻风骨挺拔",
+   "source": "《楚辞》",
+   "quote": "山峻高而嵚崟"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "8",
+   "char": "瑱",
+   "pinyin": "tian",
+   "meaning": "冠旁玉，喻沉静敛藏",
+   "source": "《诗经》",
+   "quote": "玉之瑱也"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "9",
+   "char": "杓",
+   "pinyin": "biao",
+   "meaning": "斗柄，喻身姿朗拔",
+   "source": "《汉书》",
+   "quote": "杓携龙角"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "10",
+   "char": "岑",
+   "pinyin": "cen",
+   "meaning": "小山，喻清简内敛",
+   "source": "《孟子》",
+   "quote": "方寸之木，可使高于岑楼"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "11",
+   "char": "琀",
+   "pinyin": "han",
+   "meaning": "玉含，温润藏辉",
+   "source": "《说文》",
+   "quote": "琀，送死口中玉"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "12",
+   "char": "桭",
+   "pinyin": "chen",
+   "meaning": "檐木，喻端立如楹",
+   "source": "《说文》",
+   "quote": "桭，檐间木"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "13",
+   "char": "崒",
+   "pinyin": "zu",
+   "meaning": "山高峻，喻卓立",
+   "source": "《诗经》",
+   "quote": "山峻高而崒"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "14",
+   "char": "珵",
+   "pinyin": "cheng",
+   "meaning": "美玉，质如珵",
+   "source": "《楚辞》",
+   "quote": "览察草木其犹未得兮，岂珵美之能当"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "15",
+   "char": "枍",
+   "pinyin": "yi",
+   "meaning": "木枝柔茂，喻姿容舒和",
+   "source": "《汉书》",
+   "quote": "枍诣，木貌"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "16",
+   "char": "岨",
+   "pinyin": "ju",
+   "meaning": "石山，喻坚贞",
+   "source": "《诗经》",
+   "quote": "陟彼岨矣"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "17",
+   "char": "瑽",
+   "pinyin": "cong",
+   "meaning": "玉相击之声，喻清响",
+   "source": "《说文》",
+   "quote": "瑽，玉声"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "18",
+   "char": "杫",
+   "pinyin": "si",
+   "meaning": "木栈，喻稳实",
+   "source": "《说文》",
+   "quote": "杫，栈也"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "19",
+   "char": "崨",
+   "pinyin": "jie",
+   "meaning": "山挺拔，气宇崨然",
+   "source": "《说文》",
+   "quote": "崨，山高貌"
+  },
+  {
+   "category": "象（以类命为象）",
+   "no": "20",
+   "char": "珫",
+   "pinyin": "chong",
+   "meaning": "玉饰，喻雅敛",
+   "source": "《说文》",
+   "quote": "珫，珫耳也"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "1",
+   "char": "荃",
+   "pinyin": "quan",
+   "meaning": "香草",
+   "source": "《楚辞·离骚》",
+   "quote": "荃不察余之中情兮"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "2",
+   "char": "苕",
+   "pinyin": "tiao",
+   "meaning": "凌霄之花",
+   "source": "《诗经·小雅·苕之华》",
+   "quote": "苕之华，芸其黄矣"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "3",
+   "char": "蘅",
+   "pinyin": "heng",
+   "meaning": "杜蘅香草",
+   "source": "《楚辞·九歌》",
+   "quote": "杂杜蘅与芳芷"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "4",
+   "char": "芃",
+   "pinyin": "peng",
+   "meaning": "草木盛茂",
+   "source": "《诗经·鄘风·载驰》",
+   "quote": "芃芃其麦"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "5",
+   "char": "鹢",
+   "pinyin": "yi",
+   "meaning": "水鸟，轻羽从容",
+   "source": "《左传》",
+   "quote": "鹢退飞，六鹢退飞"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "6",
+   "char": "菀",
+   "pinyin": "wan",
+   "meaning": "草木郁茂",
+   "source": "《诗经》",
+   "quote": "有菀其特"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "7",
+   "char": "翾",
+   "pinyin": "xuan",
+   "meaning": "小鸟轻飞",
+   "source": "《楚辞·九歌》",
+   "quote": "翾飞兮翠曾"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "8",
+   "char": "芑",
+   "pinyin": "qi",
+   "meaning": "白粱嘉禾",
+   "source": "《诗经·小雅·采芑》",
+   "quote": "薄采其芑"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "9",
+   "char": "泠",
+   "pinyin": "ling",
+   "meaning": "清风",
+   "source": "《庄子·逍遥游》",
+   "quote": "泠风则小和"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "10",
+   "char": "蕖",
+   "pinyin": "qu",
+   "meaning": "芙蕖，荷",
+   "source": "《尔雅》",
+   "quote": "荷，芙蕖"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "11",
+   "char": "鹪",
+   "pinyin": "jiao",
+   "meaning": "鹪鹩，小鸟安栖",
+   "source": "《庄子·逍遥游》",
+   "quote": "鹪鹩巢于深林"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "12",
+   "char": "荏",
+   "pinyin": "ren",
+   "meaning": "白苏柔草",
+   "source": "《诗经·小雅·巧言》",
+   "quote": "荏染柔木"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "13",
+   "char": "翂",
+   "pinyin": "fen",
+   "meaning": "鸟羽轻扬",
+   "source": "《说文》",
+   "quote": "翂，羽声"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "14",
+   "char": "楥",
+   "pinyin": "xuan",
+   "meaning": "橘木，嘉木",
+   "source": "《说文》",
+   "quote": "楥，柜柳也"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "15",
+   "char": "霙",
+   "pinyin": "ying",
+   "meaning": "雪珠",
+   "source": "《楚辞》",
+   "quote": "霙霰纷糅"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "16",
+   "char": "菉",
+   "pinyin": "lu",
+   "meaning": "菉草",
+   "source": "《楚辞》",
+   "quote": "资菉施以盈室兮"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "17",
+   "char": "鷖",
+   "pinyin": "yi",
+   "meaning": "鸥鸟",
+   "source": "《诗经》",
+   "quote": "凫鷖在泾"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "18",
+   "char": "芠",
+   "pinyin": "wen",
+   "meaning": "草木繁纹",
+   "source": "《说文》",
+   "quote": "芠，草貌"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "19",
+   "char": "蘋",
+   "pinyin": "ping",
+   "meaning": "水中萍草",
+   "source": "《诗经》",
+   "quote": "于以采蘋"
+  },
+  {
+   "category": "假（取于物为假）",
+   "no": "20",
+   "char": "荑",
+   "pinyin": "ti",
+   "meaning": "柔荑，初生嫩芽",
+   "source": "《诗经·卫风·硕人》",
+   "quote": "手如柔荑"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "1",
+   "char": "承",
+   "pinyin": "cheng",
+   "meaning": "承续家风",
+   "source": "《周易·坤卦》",
+   "quote": "承天而时行"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "2",
+   "char": "绍",
+   "pinyin": "shao",
+   "meaning": "绍继前绪",
+   "source": "《尚书·盘庚》",
+   "quote": "绍复先王大业"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "3",
+   "char": "继",
+   "pinyin": "ji",
+   "meaning": "继先人之善",
+   "source": "《周易·系辞》",
+   "quote": "继善成性"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "4",
+   "char": "延",
+   "pinyin": "yan",
+   "meaning": "绵延家声",
+   "source": "《尚书》",
+   "quote": "延及后世"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "5",
+   "char": "传",
+   "pinyin": "chuan",
+   "meaning": "传承祖训",
+   "source": "《论语·学而》",
+   "quote": "传不习乎"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "6",
+   "char": "续",
+   "pinyin": "xu",
+   "meaning": "接续家脉",
+   "source": "《诗经·周颂》",
+   "quote": "续古之人"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "7",
+   "char": "嗣",
+   "pinyin": "si",
+   "meaning": "承嗣延续",
+   "source": "《尚书·尧典》",
+   "quote": "嗣，继也"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "8",
+   "char": "胤",
+   "pinyin": "yin",
+   "meaning": "后胤一脉",
+   "source": "《尚书》",
+   "quote": "予乃胤保大相东土"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "9",
+   "char": "赓",
+   "pinyin": "geng",
+   "meaning": "赓续不绝",
+   "source": "《尚书·益稷》",
+   "quote": "赓载歌曰"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "10",
+   "char": "缵",
+   "pinyin": "zuan",
+   "meaning": "继承前人功业",
+   "source": "《诗经·大雅·文王有声》",
+   "quote": "载缵武功"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "11",
+   "char": "贻",
+   "pinyin": "yi",
+   "meaning": "承父辈所贻善谋",
+   "source": "《诗经·大雅·文王有声》",
+   "quote": "贻厥孙谋"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "12",
+   "char": "述",
+   "pinyin": "shu",
+   "meaning": "述先人之志",
+   "source": "《礼记·中庸》",
+   "quote": "述而不作"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "13",
+   "char": "绳",
+   "pinyin": "sheng",
+   "meaning": "循祖先足迹",
+   "source": "《诗经·大雅·下武》",
+   "quote": "绳其祖武"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "14",
+   "char": "袭",
+   "pinyin": "xi",
+   "meaning": "承袭父之行",
+   "source": "《礼记》",
+   "quote": "承袭旧德"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "15",
+   "char": "徽",
+   "pinyin": "hui",
+   "meaning": "承先人徽名",
+   "source": "《尚书》",
+   "quote": "徽美"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "16",
+   "char": "祚",
+   "pinyin": "zuo",
+   "meaning": "承家族福祚",
+   "source": "《左传》",
+   "quote": "永保家祚"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "17",
+   "char": "胄",
+   "pinyin": "zhou",
+   "meaning": "宗族后裔",
+   "source": "《左传》",
+   "quote": "公室之胄"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "18",
+   "char": "聿",
+   "pinyin": "yu",
+   "meaning": "修先人之德",
+   "source": "《诗经·大雅·文王》",
+   "quote": "聿修厥德"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "19",
+   "char": "光",
+   "pinyin": "guang",
+   "meaning": "光耀家门",
+   "source": "《诗经·小雅·南山有台》",
+   "quote": "光昭祖考"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "20",
+   "char": "显",
+   "pinyin": "xian",
+   "meaning": "显扬先祖",
+   "source": "《尚书·文侯之命》",
+   "quote": "不显文王"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "21",
+   "char": "崇",
+   "pinyin": "chong",
+   "meaning": "尊崇祖德",
+   "source": "《尚书·毕命》",
+   "quote": "崇德报功"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "22",
+   "char": "弘",
+   "pinyin": "hong",
+   "meaning": "弘大家声",
+   "source": "《论语·卫灵公》",
+   "quote": "人能弘道"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "23",
+   "char": "大",
+   "pinyin": "da",
+   "meaning": "光大先业",
+   "source": "《尚书》",
+   "quote": "丕显"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "24",
+   "char": "丕",
+   "pinyin": "pi",
+   "meaning": "宏大祖基",
+   "source": "《尚书·立政》",
+   "quote": "丕基"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "25",
+   "char": "守",
+   "pinyin": "shou",
+   "meaning": "守护家传",
+   "source": "《孟子·离娄下》",
+   "quote": "守先王之道"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "26",
+   "char": "保",
+   "pinyin": "bao",
+   "meaning": "保全宗族",
+   "source": "《尚书·梓材》",
+   "quote": "保有家邦"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "27",
+   "char": "怀",
+   "pinyin": "huai",
+   "meaning": "常怀祖德",
+   "source": "《诗经·大雅·皇矣》",
+   "quote": "怀德维宁"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "28",
+   "char": "奉",
+   "pinyin": "feng",
+   "meaning": "奉持先祖教诲",
+   "source": "《礼记·祭义》",
+   "quote": "奉先思孝"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "29",
+   "char": "尊",
+   "pinyin": "zun",
+   "meaning": "尊承父辈",
+   "source": "《周易·系辞》",
+   "quote": "尊乾而法坤"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "30",
+   "char": "敬",
+   "pinyin": "jing",
+   "meaning": "敬承家道",
+   "source": "《尚书·舜典》",
+   "quote": "敬敷五教"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "31",
+   "char": "孝",
+   "pinyin": "xiao",
+   "meaning": "承孝传家",
+   "source": "《论语·学而》",
+   "quote": "孝悌为本"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "32",
+   "char": "思",
+   "pinyin": "si",
+   "meaning": "思继先祖",
+   "source": "《诗经·周颂·敬之》",
+   "quote": "思成"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "33",
+   "char": "念",
+   "pinyin": "nian",
+   "meaning": "常念祖训",
+   "source": "《尚书·大禹谟》",
+   "quote": "念兹在兹"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "34",
+   "char": "存",
+   "pinyin": "cun",
+   "meaning": "留存家风",
+   "source": "《孟子·尽心上》",
+   "quote": "存其本心"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "35",
+   "char": "修",
+   "pinyin": "xiu",
+   "meaning": "修继祖德",
+   "source": "《诗经·大雅·文王》",
+   "quote": "聿修厥德"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "36",
+   "char": "秉",
+   "pinyin": "bing",
+   "meaning": "秉守家传",
+   "source": "《诗经·邶风·谷风》",
+   "quote": "秉心塞渊"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "37",
+   "char": "持",
+   "pinyin": "chi",
+   "meaning": "持承父志",
+   "source": "《尚书》",
+   "quote": "持守善道"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "38",
+   "char": "永",
+   "pinyin": "yong",
+   "meaning": "永传家声",
+   "source": "《诗经·周颂》",
+   "quote": "永锡尔类"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "39",
+   "char": "长",
+   "pinyin": "chang",
+   "meaning": "绵长传承",
+   "source": "《尚书》",
+   "quote": "长久其家"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "40",
+   "char": "世",
+   "pinyin": "shi",
+   "meaning": "世代相承",
+   "source": "《诗经·大雅·文王》",
+   "quote": "世德作求"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "41",
+   "char": "代",
+   "pinyin": "dai",
+   "meaning": "代代相传",
+   "source": "《论语》",
+   "quote": "世代相继"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "42",
+   "char": "昆",
+   "pinyin": "kun",
+   "meaning": "同宗一脉",
+   "source": "《诗经·王风》",
+   "quote": "昆弟"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "43",
+   "char": "宗",
+   "pinyin": "zong",
+   "meaning": "宗族根本",
+   "source": "《尚书·舜典》",
+   "quote": "宗祀文王"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "44",
+   "char": "族",
+   "pinyin": "zu",
+   "meaning": "家族一脉",
+   "source": "《左传》",
+   "quote": "聚族而居"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "45",
+   "char": "本",
+   "pinyin": "ben",
+   "meaning": "不忘根本",
+   "source": "《周易·系辞》",
+   "quote": "复其本"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "46",
+   "char": "源",
+   "pinyin": "yuan",
+   "meaning": "承本源",
+   "source": "《礼记·学记》",
+   "quote": "源清流洁"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "47",
+   "char": "根",
+   "pinyin": "gen",
+   "meaning": "固守家根",
+   "source": "《诗经》",
+   "quote": "本根不摇"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "48",
+   "char": "基",
+   "pinyin": "ji",
+   "meaning": "承先祖基业",
+   "source": "《尚书·康诰》",
+   "quote": "奠基"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "49",
+   "char": "垣",
+   "pinyin": "yuan",
+   "meaning": "护持家垣",
+   "source": "《尚书·梓材》",
+   "quote": "垣墉"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "50",
+   "char": "堂",
+   "pinyin": "tang",
+   "meaning": "高堂家宅",
+   "source": "《诗经·豳风·七月》",
+   "quote": "于粲洒扫，陈馈八簋"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "51",
+   "char": "庭",
+   "pinyin": "ting",
+   "meaning": "门庭家声",
+   "source": "《周易·师卦》",
+   "quote": "大君有命，开国承家"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "52",
+   "char": "阶",
+   "pinyin": "jie",
+   "meaning": "家阶世代",
+   "source": "《诗经·大雅》",
+   "quote": "自堂徂基"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "53",
+   "char": "序",
+   "pinyin": "xu",
+   "meaning": "辈分有序",
+   "source": "《孟子·滕文公上》",
+   "quote": "长幼有序"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "54",
+   "char": "伦",
+   "pinyin": "lun",
+   "meaning": "传承人伦家风",
+   "source": "《孟子·滕文公上》",
+   "quote": "明人伦"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "55",
+   "char": "彝",
+   "pinyin": "yi",
+   "meaning": "恒久家常",
+   "source": "《尚书·洪范》",
+   "quote": "彝伦攸叙"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "56",
+   "char": "常",
+   "pinyin": "chang",
+   "meaning": "常守祖道",
+   "source": "《周易·系辞》",
+   "quote": "恒久为常"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "57",
+   "char": "典",
+   "pinyin": "dian",
+   "meaning": "承先祖典训",
+   "source": "《尚书·五子之歌》",
+   "quote": "有典有则"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "58",
+   "char": "则",
+   "pinyin": "ze",
+   "meaning": "效法父辈",
+   "source": "《诗经·小雅·鹿鸣》",
+   "quote": "是则是效"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "59",
+   "char": "法",
+   "pinyin": "fa",
+   "meaning": "取法祖德",
+   "source": "《孟子》",
+   "quote": "法先王"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "60",
+   "char": "效",
+   "pinyin": "xiao",
+   "meaning": "效仿先人德行",
+   "source": "《诗经·小雅·鹿鸣》",
+   "quote": "是则是效"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "61",
+   "char": "模",
+   "pinyin": "mo",
+   "meaning": "以父为楷模",
+   "source": "《说文》",
+   "quote": "模，法也"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "62",
+   "char": "范",
+   "pinyin": "fan",
+   "meaning": "范式家风",
+   "source": "《尚书·洪范》",
+   "quote": "洪范"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "63",
+   "char": "型",
+   "pinyin": "xing",
+   "meaning": "以为典型",
+   "source": "《诗经·大雅·思齐》",
+   "quote": "刑于寡妻（刑通型）"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "64",
+   "char": "仪",
+   "pinyin": "yi",
+   "meaning": "承家风威仪",
+   "source": "《诗经·小雅·湛露》",
+   "quote": "令仪令色"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "65",
+   "char": "容",
+   "pinyin": "rong",
+   "meaning": "承父辈气度",
+   "source": "《尚书·君陈》",
+   "quote": "有容德乃大"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "66",
+   "char": "望",
+   "pinyin": "wang",
+   "meaning": "不负家望",
+   "source": "《左传》",
+   "quote": "望族"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "67",
+   "char": "誉",
+   "pinyin": "yu",
+   "meaning": "承家族美誉",
+   "source": "《诗经·小雅·蓼萧》",
+   "quote": "誉处兮"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "68",
+   "char": "声",
+   "pinyin": "sheng",
+   "meaning": "承先人声名",
+   "source": "《诗经·大雅·文王有声》",
+   "quote": "令闻令声"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "69",
+   "char": "闻",
+   "pinyin": "wen",
+   "meaning": "承美名",
+   "source": "《诗经·大雅·文王》",
+   "quote": "令闻不已"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "70",
+   "char": "名",
+   "pinyin": "ming",
+   "meaning": "续家门之名",
+   "source": "《论语·卫灵公》",
+   "quote": "立身成名"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "71",
+   "char": "立",
+   "pinyin": "li",
+   "meaning": "立身承家",
+   "source": "《周易·说卦》",
+   "quote": "立人之道"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "72",
+   "char": "树",
+   "pinyin": "shu",
+   "meaning": "树立家风",
+   "source": "《尚书·泰誓》",
+   "quote": "树德"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "73",
+   "char": "建",
+   "pinyin": "jian",
+   "meaning": "建设家基",
+   "source": "《尚书·舜典》",
+   "quote": "建邦"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "74",
+   "char": "兴",
+   "pinyin": "xing",
+   "meaning": "振兴家道",
+   "source": "《诗经·小雅·小宛》",
+   "quote": "夙兴夜寐"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "75",
+   "char": "振",
+   "pinyin": "zhen",
+   "meaning": "振起家声",
+   "source": "《尚书·盘庚》",
+   "quote": "振民育德"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "76",
+   "char": "起",
+   "pinyin": "qi",
+   "meaning": "继起承续",
+   "source": "《孟子·梁惠王下》",
+   "quote": "兴起"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "77",
+   "char": "昌",
+   "pinyin": "chang",
+   "meaning": "家道昌隆",
+   "source": "《诗经·鲁颂·閟宫》",
+   "quote": "邦家之光"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "78",
+   "char": "盛",
+   "pinyin": "sheng",
+   "meaning": "家门兴盛",
+   "source": "《周易·系辞》",
+   "quote": "日新之盛"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "79",
+   "char": "隆",
+   "pinyin": "long",
+   "meaning": "家道兴隆",
+   "source": "《尚书·大禹谟》",
+   "quote": "德隆"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "80",
+   "char": "宁",
+   "pinyin": "ning",
+   "meaning": "使家族安宁",
+   "source": "《易经》",
+   "quote": "安甯"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "81",
+   "char": "安",
+   "pinyin": "an",
+   "meaning": "安稳传承",
+   "source": "《周易·系辞》",
+   "quote": "安其家"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "82",
+   "char": "和",
+   "pinyin": "he",
+   "meaning": "家和永续",
+   "source": "《诗经·小雅·常棣》",
+   "quote": "和乐且湛"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "83",
+   "char": "睦",
+   "pinyin": "mu",
+   "meaning": "宗族和睦",
+   "source": "《尚书·尧典》",
+   "quote": "九族既睦"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "84",
+   "char": "协",
+   "pinyin": "xie",
+   "meaning": "宗族同心",
+   "source": "《尚书·尧典》",
+   "quote": "协和万邦"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "85",
+   "char": "同",
+   "pinyin": "tong",
+   "meaning": "同族同心",
+   "source": "《周易·同人》",
+   "quote": "同人于野"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "86",
+   "char": "齐",
+   "pinyin": "qi",
+   "meaning": "整肃家风",
+   "source": "《论语·为政》",
+   "quote": "齐家"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "87",
+   "char": "治",
+   "pinyin": "zhi",
+   "meaning": "治理家声",
+   "source": "《大学》",
+   "quote": "治国齐家"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "88",
+   "char": "理",
+   "pinyin": "li",
+   "meaning": "理顺家脉",
+   "source": "《周易·说卦》",
+   "quote": "顺理"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "89",
+   "char": "道",
+   "pinyin": "dao",
+   "meaning": "承家之道",
+   "source": "《论语》",
+   "quote": "父道"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "90",
+   "char": "德",
+   "pinyin": "de",
+   "meaning": "承先人之德",
+   "source": "《尚书·大禹谟》",
+   "quote": "德惟善政"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "91",
+   "char": "仁",
+   "pinyin": "ren",
+   "meaning": "传仁善家风",
+   "source": "《论语·颜渊》",
+   "quote": "仁者爱人"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "92",
+   "char": "义",
+   "pinyin": "yi",
+   "meaning": "承道义",
+   "source": "《孟子·公孙丑上》",
+   "quote": "义人之根"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "93",
+   "char": "礼",
+   "pinyin": "li",
+   "meaning": "守家礼",
+   "source": "《礼记·曲礼》",
+   "quote": "不学礼无以立"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "94",
+   "char": "智",
+   "pinyin": "zhi",
+   "meaning": "承先祖智识",
+   "source": "《周易·系辞》",
+   "quote": "知几其神"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "95",
+   "char": "信",
+   "pinyin": "xin",
+   "meaning": "传信于家",
+   "source": "《论语·学而》",
+   "quote": "言而有信"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "96",
+   "char": "良",
+   "pinyin": "liang",
+   "meaning": "承良善家风",
+   "source": "《诗经·秦风·黄鸟》",
+   "quote": "维此良人"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "97",
+   "char": "善",
+   "pinyin": "shan",
+   "meaning": "积善承续",
+   "source": "《周易·坤卦》",
+   "quote": "积善之家"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "98",
+   "char": "嘉",
+   "pinyin": "jia",
+   "meaning": "承嘉美之行",
+   "source": "《诗经·小雅·鹿鸣》",
+   "quote": "嘉言懿行"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "99",
+   "char": "懿",
+   "pinyin": "yi",
+   "meaning": "承懿美家风",
+   "source": "《尚书·君陈》",
+   "quote": "嘉言懿德"
+  },
+  {
+   "category": "类（取于父为类）",
+   "no": "100",
+   "char": "俦",
+   "pinyin": "chou",
+   "meaning": "与父辈同类相契",
+   "source": "《说文》",
+   "quote": "俦，同类也"
+  }
+ ],
+ "source_fixes": [
+  {
+   "char": "景",
+   "quote": "高山仰止，景行行止",
+   "stated": "《诗经·小雅·车舝》",
+   "real": "《诗经·小雅·车辖》"
+  },
+  {
+   "char": "晞",
+   "quote": "蒹葭萋萋，白露未晞",
+   "stated": "《诗经·蒹葭》",
+   "real": "《诗经·秦风·蒹葭》"
+  },
+  {
+   "char": "维",
+   "quote": "维此良人",
+   "stated": "《诗经·大雅》",
+   "real": "《诗经·大雅·桑柔》"
+  },
+  {
+   "char": "祎",
+   "quote": "祎，美也",
+   "stated": "《尔雅》",
+   "real": "《尔雅·释诂》"
+  },
+  {
+   "char": "秉",
+   "quote": "秉心塞渊",
+   "stated": "《诗经·小雅》",
+   "real": "《诗经·鄘风·定之方中》"
+  },
+  {
+   "char": "礼",
+   "quote": "不学礼无以立",
+   "stated": "《礼记·曲礼》",
+   "real": "《论语·季氏》"
+  },
+  {
+   "char": "良",
+   "quote": "维此良人",
+   "stated": "《诗经·秦风·黄鸟》",
+   "real": "《诗经·大雅·桑柔》"
+  }
+ ]
+}

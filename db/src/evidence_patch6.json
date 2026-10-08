@@ -1,0 +1,154 @@
+{
+ "_note": [
+  "「偏女孩气质 / 活泼大气」表达目标的补字批（expand_batch14）。",
+  "能确证单句出处的标 verified；现代语义为主、典籍无固定用法的标 cultural。"
+ ],
+ "new_texts": [
+  {
+   "text_id": "T003-601",
+   "classic_id": "J007",
+   "chapter": "大雅·烝民",
+   "content": "柔嘉维则。",
+   "paraphrase": "温和而美善，可为法则。",
+   "naming_point": "“柔”取温和柔顺之德。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·烝民》"
+  },
+  {
+   "text_id": "T003-602",
+   "classic_id": "J007",
+   "chapter": "大雅·生民",
+   "content": "实发实秀。",
+   "paraphrase": "禾苗抽发、吐穗扬花。",
+   "naming_point": "“秀”取秀美、出众之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·生民》"
+  },
+  {
+   "text_id": "T003-603",
+   "classic_id": "J001",
+   "chapter": "离·彖传",
+   "content": "离，丽也。",
+   "paraphrase": "离就是附丽、明丽。",
+   "naming_point": "“丽”取明丽、美好之义。",
+   "evidence_code": "A",
+   "source_note": "《周易·离卦》"
+  },
+  {
+   "text_id": "T003-604",
+   "classic_id": "J006",
+   "chapter": "为政",
+   "content": "临之以庄则敬。",
+   "paraphrase": "以庄重之态临民，百姓就会恭敬。",
+   "naming_point": "“庄”取端庄庄重之义。",
+   "evidence_code": "A",
+   "source_note": "《论语·为政》"
+  },
+  {
+   "text_id": "T003-605",
+   "classic_id": "J014",
+   "chapter": "泰誓上",
+   "content": "惟人万物之灵。",
+   "paraphrase": "人是万物中最有灵性的。",
+   "naming_point": "“灵”取灵秀、聪慧之义。",
+   "evidence_code": "A",
+   "source_note": "《尚书·泰誓上》"
+  },
+  {
+   "text_id": "T003-606",
+   "classic_id": "J008",
+   "chapter": "天道",
+   "content": "中心物恺，兼爱无私。",
+   "paraphrase": "内心和乐待物，兼爱而没有偏私。",
+   "naming_point": "“恺”取和乐和善之义。",
+   "evidence_code": "A",
+   "source_note": "《庄子·天道》"
+  },
+  {
+   "text_id": "T003-607",
+   "classic_id": "J007",
+   "chapter": "大雅·思齐",
+   "content": "媚兹一人。",
+   "paraphrase": "敬爱这一位君主。",
+   "naming_point": "“媚”取美好可爱之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·大雅·思齐》"
+  },
+  {
+   "text_id": "T003-608",
+   "classic_id": "J007",
+   "chapter": "卫风·硕人",
+   "content": "巧笑倩兮，美目盼兮。",
+   "paraphrase": "笑起来嘴角美好，眼睛顾盼有神。",
+   "naming_point": "“倩”取美好俏丽之义。",
+   "evidence_code": "A",
+   "source_note": "《诗经·卫风·硕人》"
+  },
+  {
+   "text_id": "T003-609",
+   "classic_id": "J007",
+   "chapter": "小雅·鸿雁",
+   "content": "鸿雁于飞，肃肃其羽。",
+   "paraphrase": "鸿雁飞翔，翅膀发出肃肃之声。",
+   "naming_point": "“飞”取高飞飞扬之象。",
+   "evidence_code": "A",
+   "source_note": "《诗经·小雅·鸿雁》"
+  }
+ ],
+ "char_citation_patch": [
+  {
+   "char": "柔",
+   "citation": "T003-601",
+   "source_ref": "《诗经·大雅·烝民》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "秀",
+   "citation": "T003-602",
+   "source_ref": "《诗经·大雅·生民》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "丽",
+   "citation": "T003-603",
+   "source_ref": "《周易·离卦》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "庄",
+   "citation": "T003-604",
+   "source_ref": "《论语·为政》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "灵",
+   "citation": "T003-605",
+   "source_ref": "《尚书·泰誓上》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "恺",
+   "citation": "T003-606",
+   "source_ref": "《庄子·天道》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "媚",
+   "citation": "T003-607",
+   "source_ref": "《诗经·大雅·思齐》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "倩",
+   "citation": "T003-608",
+   "source_ref": "《诗经·卫风·硕人》",
+   "reason": "补该字的可核出处"
+  },
+  {
+   "char": "飞",
+   "citation": "T003-609",
+   "source_ref": "《诗经·小雅·鸿雁》",
+   "reason": "补该字的可核出处"
+  }
+ ]
+}

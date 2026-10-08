@@ -1,0 +1,36 @@
+# 行尾规则 —— 仓库在 Windows 上开发、在 Linux 上构建（GitHub Actions）。
+#
+# 【为什么必须写这个】批处理文件一旦被换成 LF 行尾就会失效：cmd 会把行首吃掉，
+# 报出 'IOENCODING' is not recognized 这类莫名其妙的错误（本项目真实踩过）。
+# 所以 *.bat 固定 CRLF，其余文本统一 LF，保证两个平台上取到的内容一致。
+#
+# 二进制文件不做任何转换，避免图片/数据库被"换行归一"损坏。
+
+* text=auto
+
+# 批处理：必须是 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 源码与文本：统一 LF
+*.py   text eol=lf
+*.js   text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sql  text eol=lf
+*.txt  text eol=lf
+
+# 二进制：不做行尾转换，也不要在 diff 里当成文本
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.webp binary
+*.db   binary
+*.woff binary
+*.woff2 binary
