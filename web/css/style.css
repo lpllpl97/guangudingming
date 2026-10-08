@@ -455,12 +455,25 @@ button.ghost:hover { border-color: var(--gold-3); }
   .cardHead .idx { margin-top: 1px; }
   /* 品牌副标题：手机一行放不下，去掉过大的字距免得断成难看的碎行 */
   #brand span { letter-spacing: .4px; line-height: 1.75; }
+  /* 印章与标题对齐：base 里的 top:8.5px 是按 27px 标题标定的；
+     手机标题缩到 23px，行盒变矮，印章就显得偏低。
+     实测（截图放大后量像素）：23px 下印章中心比标题墨迹中心低 2.2px，故 8.5 → 6.3。 */
+  #brand b::after { top: 6.3px; }
   /* 「最多选 2 项」提示条：说明文字允许换到第二行，而不是把整个条挤宽 */
   .multiHint { flex-wrap: wrap; }
   .multiHint span { flex: 1 1 100%; }
   /* 五类卡片：名字 + "N 字"同行；窄屏再收一点字距，避免 150 字 被顶到下一行 */
   .pcard { padding: 11px 11px 12px 13px; }
   .pcard b { letter-spacing: 2px; }
+  /* --- 步骤卡底部：原来的 68px 下内边距是为 180×64 的桌面水印留的，
+         在手机上显得空出一大块（用户反馈"框底被图案顶下去了"）。
+         收窄水印并把卡底上移：水印上沿 = 46px，正好等于下内边距，
+         文字与水印不重叠，间距也不再浪费。 --- */
+  #step1, #step2 { padding-bottom: 46px; }
+  #step1::after, #step2::after { width: 132px; height: 42px; right: 4px; bottom: 4px; }
+  /* 万一文字与水印重叠，文字必须在前（水印是装饰，不能压字） */
+  #step1 > *, #step2 > * { position: relative; z-index: 1; }
+  #step1::after, #step2::after { z-index: 0; }
   #principlePanels { gap: 9px; }
   .panel { padding: 13px 13px; }
   /* 按钮：手机上千位字距让"开始取名"显松散，收紧并保证整行可点 */
@@ -479,4 +492,6 @@ button.ghost:hover { border-color: var(--gold-3); }
   /* 副标题整体缩小：五类枚举是不可断行的整组，字号不降会在 320px 上横向溢出 */
   #brand span { font-size: 11.5px; letter-spacing: .2px; }
   #btnAbout { padding: 9px 12px; font-size: 13px; }
+  /* 21px 标题下印章再上移（同 23px 的推导：墨迹中心随字号线性变化） */
+  #brand b::after { top: 4.5px; }
 }
