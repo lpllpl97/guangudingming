@@ -194,7 +194,9 @@ input:focus, textarea:focus { border-color: var(--gold); box-shadow: 0 0 0 3px r
   text-align: left; font-family: inherit; cursor: pointer; padding: 12px 12px 12px 15px;
   background: linear-gradient(180deg, #fffdf8, #faf6ec);
   border: 1px solid var(--line-3); border-radius: 10px; transition: .15s;
-  display: flex; flex-direction: column; align-items: flex-start;
+  /* 显式指定文字色：iOS Safari 会把没写 color 的 <button> 文字渲染成系统蓝，
+     五类字（信/义/象/假/类）因此变蓝。这里写死墨色一劳永逸。 */
+  color: var(--ink);
   box-shadow: 0 1px 3px rgba(120,105,80,.05);
 }
 .pcard::before {
@@ -210,7 +212,7 @@ input:focus, textarea:focus { border-color: var(--gold); box-shadow: 0 0 0 3px r
 .pcard b { font-family: var(--kai); font-size: 19px; letter-spacing: 3px; }
 .pcard i { font-style: normal; font-size: 11.5px; color: var(--gold); margin-left: 6px; }
 .pcard p { margin: 5px 0 0; font-size: 12px; color: var(--ink-4); line-height: 1.65; }
-.pcard .more { margin-top: 7px; font-size: 11.5px; color: var(--gold); border-bottom: 1px dotted #d9c49a; }
+.pcard .more { display: inline-block; margin-top: 7px; font-size: 11.5px; color: var(--gold); border-bottom: 1px dotted #d9c49a; }
 /* 可多选提示条：要让用户一眼看到"最多选 2 项" */
 .multiHint {
   display: flex; align-items: center; gap: 9px; margin: 10px 0 12px;
@@ -440,4 +442,31 @@ button.ghost:hover { border-color: var(--gold-3); }
   /* 窄屏下不裁切山水：整幅横向铺满，景带自然变矮 */
   #bgFill::before { height: 24vh; min-height: 110px; max-height: none; background-size: 100% auto; }
   #bgFill::after  { height: 22vh; min-height: 100px; max-height: none; background-size: 100% auto; }
+
+  /* --- 自适应：标题换行时序号圆点保持顶对齐，不"掉行"错位 --- */
+  .cardHead { align-items: flex-start; flex-wrap: wrap; letter-spacing: 1.8px; line-height: 1.5; }
+  .cardHead .idx { margin-top: 1px; }
+  /* 品牌副标题：手机一行放不下，去掉过大的字距免得断成难看的碎行 */
+  #brand span { letter-spacing: .4px; line-height: 1.75; }
+  /* 「最多选 2 项」提示条：说明文字允许换到第二行，而不是把整个条挤宽 */
+  .multiHint { flex-wrap: wrap; }
+  .multiHint span { flex: 1 1 100%; }
+  /* 五类卡片：名字 + "N 字"同行；窄屏再收一点字距，避免 150 字 被顶到下一行 */
+  .pcard { padding: 11px 11px 12px 13px; }
+  .pcard b { letter-spacing: 2px; }
+  #principlePanels { gap: 9px; }
+  .panel { padding: 13px 13px; }
+  /* 按钮：手机上千位字距让"开始取名"显松散，收紧并保证整行可点 */
+  button.primary { letter-spacing: 2.5px; }
+  .actions { gap: 8px; }
+}
+
+@media (max-width: 380px) {
+  /* 极小屏（iPhone SE / 320px）：五类卡片强制单列，避免两列挤到把"查看说明"压成两行 */
+  .principles { grid-template-columns: 1fr; }
+  .bar { grid-template-columns: 56px 1fr 30px; gap: 5px; font-size: 11.5px; }
+  .candName { font-size: 23px; letter-spacing: 5px; }
+  .cand { padding: 15px 14px 14px; }
+  #brand b { font-size: 21px; letter-spacing: 3px; padding-right: 30px; }
+  #app { padding: 14px 12px 54px; }
 }
