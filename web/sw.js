@@ -12,7 +12,8 @@
 'use strict';
 
 // 改动页面外壳（html/css/js/图标）后请把版本号 +1，用户的旧缓存才会被替换
-var CACHE = 'gdm-v1';
+// v2：图标改为朱砂印章 + 繁体「觀」（与页头印章同源）
+var CACHE = 'gdm-v2';
 var SHELL = [
   './',
   './index.html',
