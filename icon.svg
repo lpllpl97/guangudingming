@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="观古定名">
+  <!-- 与网页页头印章同源：规格抄自 css/style.css 的 #brand b::after
+       字 觀 · 字色 #fff8f2 · 底色 vertical-gradient(#b53c31,#8f2a22)
+       圆角 5/27 · 字号 15/27 · 内描边 1px rgba(255,255,255,.45)
+       PNG 版本由 tools/make_icons.ps1 用同一规格渲染（STKaiti），两者外观一致。 -->
+  <defs>
+    <linearGradient id="seal" x1="0" y1="0.14" x2="0" y2="0.86">
+      <stop offset="0" stop-color="#b53c31"/>
+      <stop offset="1" stop-color="#8f2a22"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#f4ede0"/>
+  <rect x="56.5" y="56.5" width="399" height="399" rx="73.9" ry="73.9"
+        fill="url(#seal)" stroke="#ffffff" stroke-opacity="0.45" stroke-width="2"/>
+  <text x="256" y="256" fill="#fff8f2" font-size="221.7" text-anchor="middle"
+        dominant-baseline="central" font-family="STKaiti, KaiTi, 'Kaiti SC', '楷体', serif">觀</text>
+</svg>

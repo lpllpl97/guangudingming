@@ -14,6 +14,10 @@ data/
 # 本地核对工具：会进仓库的文件清单（由 tools/gen_file_list.py 生成）
 GIT_FILE_LIST.md
 
+# 误生成的垃圾文件：某次命令把 web/img/icon.svg 按错误编码写回了仓库根目录
+# （内容为 GBK 误解码的乱码）。真正的图标在 web/img/，此处排除以免被 git add -A 收进仓库。
+/icon.svg
+
 # 本机自用的双击启动脚本：仓库里已给出等价命令（python mobile/server.py 6700），
 # 且这个脚本会引用未公开的 tools/ 脚本，故不随仓库发布（文件仍保留在本地）。
 启动取名服务.bat

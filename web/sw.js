@@ -19,9 +19,11 @@ var SHELL = [
   './index.html',
   './css/style.css',
   './manifest.webmanifest',
-  './img/icon.svg',
-  './img/icon-192.png',
-  './img/icon-512.png'
+  // 与 index.html 里引用的 URL 保持一致（都带 ?v=2）：键相同才命中预缓存，
+  // 换了图标时旧键自然失效，不会继续命中缓存里的旧图标
+  './img/icon.svg?v=2',
+  './img/icon-192.png?v=2',
+  './img/icon-512.png?v=2'
 ];
 // 缓存优先的资源：体积大 / 几乎不变
 var DATA_PREFIX = 'kbdata/';
