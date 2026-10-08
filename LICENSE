@@ -24,4 +24,4 @@ SOFTWARE.
 适用范围：本许可证覆盖**代码**部分，即 engine/、naming/、mobile/、web/ 下的
 程序代码（Python 与 JavaScript）以及构建脚本 tools/export_frontend_data.py。
 
-知识库数据（db/ 下的 naming.db 与 db/src/）采用另一份许可证，见 DATA_LICENSE.md。
+知识库数据（`db/naming.db` 与由它导出的 `web/kbdata/kb.js`）采用另一份许可证，见 DATA_LICENSE.md。

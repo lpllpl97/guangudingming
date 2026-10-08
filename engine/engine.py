@@ -24,7 +24,8 @@ from pinyin_util import key as pykey, toneless as pytoneless  # noqa: E402
 # 事实关联强度权重：strong（事实直接对应字）> medium（典型物象）> weak（氛围类）
 _FACT_W = {'strong': 1.0, 'medium': 0.7, 'weak': 0.4}
 
-# 人工确认过的「字→语义」精确配对（来源：db/src/evidence_patch.json 的 allow_specific）
+# 人工确认过的「字→语义」精确配对（来源：作者本地源数据 db/src/evidence_patch.json 的
+# allow_specific；该目录未随仓库发布）
 ALLOW_SPECIFIC = {
     ('知', 'SEM017'), ('山', 'SEM018'), ('明', 'SEM011'), ('思', 'SEM044'),
     ('笃', 'SEM045'), ('博', 'SEM045'), ('学', 'SEM045'), ('修', 'SEM041'),

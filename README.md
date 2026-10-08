@@ -82,15 +82,8 @@ python engine/engine.py --help
 │           ├── pyround.js     Python 的 round   request.js    请求对象
 │           └── pinyin.js      拼音工具
 ├── db/                        知识库
-│   ├── naming.db              ★ 权威知识库（SQLite）。改数据请改 src/ 后重建，不要直接改它
-│   ├── schema.sql             建表语句（含每张表的设计理由）
-│   └── src/                   ★ 建库源数据
-│       ├── hanzi.json             逐字拼音/声调/笔画/意象/语义/风险/出处/五类归属
-│       ├── principles.json        五类原则 ↔ 字/语义 桥表 + 用户向说明 + 风险词表
-│       ├── expand_batch*.json     分批扩充字库的原始条目
-│       ├── evidence_patch*.json   证据补漏包（补原文、修正引用错位）
-│       └── 另有 imagery_cue / homophone_lexicon / fact_lexicon / goal_affinity /
-│           taboo_chars / classic_patch / borrow_options_patch 等
+│   ├── naming.db              ★ 权威知识库（SQLite）：随仓库发布，要改数据就改它
+│   └── schema.sql             建表语句（含每张表的设计理由）
 ├── naming/api.py              ★ 接口适配层：一份实现，两种用法（独立服务 / 挂进宿主服务）
 ├── mobile/server.py           本机运行用的 HTTP 服务（静态页面 + REST API，默认 6700）
 ├── tools/export_frontend_data.py  ★ 由知识库生成 web/kbdata/kb.js（Actions 也用它）
@@ -112,7 +105,8 @@ python engine/engine.py --help
 | `docs/01` `docs/02` `docs/03` | 内部文档：部署方案与体检报告，含内网服务器地址与 SSH 操作 |
 | `data/` | **测试期真实数据**：2082 条请求（含测试者填写的姓氏与需求原文）、访客日志 |
 | `reports/` `dist/` | 体检输出、历史发布包 |
-| `db/v114/` `db/build_report.txt` | Excel 逐表转储（与 `db/src/` 重叠）、构建日志 |
+| `db/src/` | 33 个 JSON：作者本地的人工核校层（逐字数据与各版本补丁），用于追溯这份知识库是怎么一版版校出来的。**对运行无用**——出处的可核验性保存在 `naming.db` 内部 |
+| `db/v114/` `db/build_report.txt` | Excel 逐表转储（重建数据库的输入之一）、构建日志 |
 | `启动取名服务.bat` | 我本机自用的双击启动脚本；仓库里已给出等价命令（`python mobile/server.py 6700`） |
 
 想确认本地哪些文件会进仓库，在仓库根目录执行：
@@ -166,30 +160,34 @@ git status       # 看有没有未提交或多出来的改动
 
 ## 更新知识库
 
-**改数据，不要改代码。改动后必须走完下面 5 步**（Excel 是导出产物，不要直接改 Excel）：
+### 你是下载者：改 `db/naming.db` 就行
+
+`db/naming.db` 是随仓库发布的**权威知识库**（SQLite）。想要增字、改语义、补出处，直接用任意 SQLite 工具改它，然后重新导出网页数据：
 
 ```bash
-# 1) 改数据源
-#    db/src/hanzi.json            加字 / 改语义 / 补出处
-#    db/src/expand_batch*.json    分批扩充字库（新增字放这里，便于追溯）
-#    db/src/principles.json       五类归属 + 原则用户说明 + 风险词表
-#    db/src/fact_lexicon.json     出生事实 → 字
-#    db/src/evidence_patch*.json  补可核验原文 / 修正出处
+python tools/export_frontend_data.py    # 重新生成 web/kbdata/kb.js
+python tools/export_frontend_data.py --verify   # 数据充分性自检（走一遍引文链）
+```
 
+刷新页面即可生效。**出处能不能核验，取决于 `naming.db` 里的原文库与引文链**（`original_text` + `hanzi.citation` + `semantic_char`），不依赖任何外部文件——所以只拿这一个数据库就足够。
+
+### 作者维护流程（这些工具与源数据不随仓库发布）
+
+下面这套是作者本地的工作流，跑在**更上游的源数据层**（`db/src/` 与 `db/v114/`，均未发布），这里列出是为了说明数据是怎么产生的：
+
+```bash
+# 1) 改源数据：db/src/hanzi.json（加字/改语义/补出处）、db/src/expand_batch*.json（扩充字库）、
+#    db/src/principles.json（五类归属）、db/src/evidence_patch*.json（补可核验原文）
 # 2) 重建数据库（先停服务，否则数据库被占用会报错）
 python tools/build_db.py
-
 # 3) 跑回归
-node tools/test_api.js && node tools/test_web.js && node tools/test_single_char.js
-python tools/test_integration.py
+python tools/test_api.js && python tools/test_web.js && python tools/test_integration.py
 python tools/verify_citations.py     # 出处质检，应为 0 项待复核
-
-# 4) 导出新版本数据库 Excel（同时写版本清单、SQLite 快照、报告版本记录）
-python tools/export_excel.py --note-file 变更说明.txt
-
-# 5) 重启服务
-python mobile/server.py 6700
+# 4) 导出 Excel 版本与快照：python tools/export_excel.py --note-file 变更说明.txt
+# 5) 重新生成网页数据并重启服务：python tools/export_frontend_data.py && python mobile/server.py 6700
 ```
+
+**改数据，不要改代码**；Excel 是导出产物，也不要直接改 Excel。
 
 **版本留痕三处同步**：`knowledge base/` 里的 Excel「00_版本记录」、
 `VERSION_MANIFEST.json`、`docs/01_数据库体检与优化报告.md` 的「版本记录」区。
@@ -246,7 +244,7 @@ python tools/export_frontend_data.py --verify          # 数据充分性（走�
    不过带明确性别色彩的常用字仍有不少没收录，可继续补。
 4. **出处覆盖率**：326/757 字的引文可核验（原文库 402 条原文），其余标注为文化约定。
    新增字多数只到"典籍+篇名"这一级，未逐条绑定原句。要进一步提升，需要继续往
-   `db/src/evidence_patch*.json` 里补可核验的原文（每条都标明典籍与篇名）。
+   作者本地源数据（`db/src/evidence_patch*.json`，未随仓库发布）里补可核验的原文（每条都标明典籍与篇名）。
 5. **风险词表是种子级**：33 条。谐音陷阱与公众人物/品牌近似名需要持续补充。
 6. **音律只按普通话**：未考虑方言读音与姓氏古音；声母/韵母规则是启发式的。
 7. **「信」的事实识别依赖关键词**：目前覆盖时令/天气/时辰/节庆 14 类。
@@ -269,7 +267,7 @@ python tools/export_frontend_data.py --verify          # 数据充分性（走�
 | 部分 | 许可 |
 |---|---|
 | 代码（`engine/`、`naming/`、`mobile/`、`web/`、构建脚本） | **MIT**，见 [`LICENSE`](LICENSE) |
-| 知识库数据（`db/naming.db`、`db/src/`、`web/kbdata/kb.js`） | **CC BY 4.0**（署名即可，允许商用），见 [`DATA_LICENSE.md`](DATA_LICENSE.md) |
+| 知识库数据（`db/naming.db`、`web/kbdata/kb.js`） | **CC BY 4.0**（署名即可，允许商用），见 [`DATA_LICENSE.md`](DATA_LICENSE.md) |
 
 古籍原文属公有领域；许可主张的是**整理与标注**部分的工作成果。
 
