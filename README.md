@@ -54,57 +54,73 @@ python engine/engine.py --help
 
 ---
 
-## 目录结构
+## 仓库里有什么
+
+**本仓库只包含"程序跑起来需要的东西"**：73 个文件、约 3 MB。下面 ✅ 就是仓库的全部内容；⛔ 是开发时留在本地的资料，**不在仓库里，GitHub 上也看不到**。
+
+### ✅ 会发布
 
 ```
-├── engine/                 取名引擎（纯标准库）
-│   ├── engine.py           需求解析→原则匹配→语义转化→选字→组合→规则→评分→解释
-│   └── phonetics.py        音律（声调/声母/韵母）与字形（笔画/结构/生僻度）规则
-├── naming/
-│   └── api.py              ★ 接口适配层：一份实现，两种用法
-│                             · 独立服务直接用（mobile/server.py 就是调它）
-│                             · register(Handler, API) 两行挂进现有 6600 服务
-├── mobile/
-│   └── server.py           HTTP 服务：静态页面 + REST API（默认 6700）
-├── web/                    前端 H5（vanilla JS，无框架无打包）
-│   ├── index.html          三步表单：取名对象 / 命名依据（五类）/ 期望
+├── engine/                    取名引擎（纯 Python 标准库，无第三方依赖）
+│   ├── engine.py              需求解析→原则匹配→语义转化→选字→组合→规则闸门→评分→解释
+│   ├── phonetics.py           音律（声调/声母/韵母）与字形（笔画/结构/生僻度）
+│   └── pinyin_util.py         拼音拆解（无声调字母 + 声调数字），供谐音比对
+├── web/                       前端与浏览器内引擎（vanilla JS，无构建步骤）
+│   ├── index.html             三步表单：取名对象 / 命名依据（五类）/ 期望
 │   ├── css/style.css
-│   └── js/app.js
-├── db/
-│   ├── schema.sql          建表语句（含每张表的设计理由）
-│   ├── naming.db           规范化知识库（SQLite）
-│   ├── build_report.txt    构建日志与自检结果
-│   ├── src/                ★ 人工核校层（改这里，不要改 naming.db）
-│   │   ├── hanzi.json          731 字的拼音/声调/笔画/意象/语义/风险/出处/五类归属
-│   │   ├── principles.json     五类原则 ↔ 字/语义 桥表 + 用户向说明 + 风险词表
-│   │   ├── expand_batch*.json  分批扩充字库的原始条目
-│   │   ├── imagery_cue.json     意象选项 → 字族线索（选中意象即决定选字范围）
-│   │   ├── homophone_lexicon.json 谐音词表（贬义词硬拦 / 常用词优先避开）
-│   │   ├── fact_lexicon.json   出生事实词库（时令/天气/时辰/节庆 → 关联字）
-│   │   ├── goal_affinity.json  目标标签 ↔ 字义亲和力（贴切/冲突线索）
-│   │   └── evidence_patch.json 证据补漏包（补 8 条原文、修正 7 处引用错位）
-│   └── v114/               Excel 逐表导出的 JSON（构建输入）
-├── tools/                 构建与校验脚本
-│   ├── xlsx_dump.py        把 xlsx 解成 JSON/TSV（xlsx 本质是 zip+XML，无需 Office）
-│   ├── build_db.py         构建 naming.db
-│   ├── audit_db.py         数据体检
-│   ├── stats_report.py     统计（报告引用的数字都来自这里）
-│   ├── dump_views.py       生成便于人工核对的 TSV 视图
-│   ├── verify_citations.py 出处质检：检查"字义依据"与"绑定原文"是否一致
-│   ├── quality_sample.py   取名质量抽样：23 姓 × 12 需求 = 276 组，查唯一率/约束/风险
-│   ├── test_api.js         接口端到端测试（60 项断言）
-│   ├── test_web.js         前端 DOM 契约校验
-│   └── test_integration.py 植入集成测试（模拟挂到 6600 那样的宿主服务上）
-├── knowledge base/  ★ 知识库版本目录（每个版本一份 Excel + 版本清单）
-│   ├── 观古定名知识库_V<版本>_<内容简述>.xlsx   当前版本数据库（22 个工作表）
-│   ├── VERSION_MANIFEST.json             版本清单
-│   ├── db/naming.db                      同版本 SQLite 快照
-│   └── README.md                         目录说明与版本更新流程
-├── docs/
-│   ├── 01_数据库体检与优化报告.md   原库有哪些问题、怎么改（含版本记录区）
-│   └── 02_取名功能植入方案.md       6600 站点是怎么做的、功能怎么植进去
-└── reports/               体检原始输出与可读视图
+│   ├── img/                   背景与卡片水印
+│   ├── kbdata/kb.js           ★ 由 db/naming.db 导出的知识库数据（内容即全部数据）
+│   └── js/
+│       ├── app.js             界面逻辑
+│       └── engine/            ★ 引擎的 JavaScript 实现（15 个模块，与 Python 版输出等价）
+│           ├── generate.js    主流程            select.js     选字与排序
+│           ├── score.js       评分合成          risks.js      规则闸门（谐音/风险/六忌）
+│           ├── explain.js     证据链与解释文案   affinity.js   亲和力原语
+│           ├── textmatch.js   需求匹配（S02）    phonetics.js  音律/字形规则
+│           ├── kbindex.js     知识库内存索引     surnames.js   姓氏读音（由源码生成）
+│           ├── prng.js        与 CPython 一致的随机数   md5.js  种子派生
+│           ├── pyround.js     Python 的 round   request.js    请求对象
+│           └── pinyin.js      拼音工具
+├── db/                        知识库
+│   ├── naming.db              ★ 权威知识库（SQLite）。改数据请改 src/ 后重建，不要直接改它
+│   ├── schema.sql             建表语句（含每张表的设计理由）
+│   └── src/                   ★ 建库源数据
+│       ├── hanzi.json             逐字拼音/声调/笔画/意象/语义/风险/出处/五类归属
+│       ├── principles.json        五类原则 ↔ 字/语义 桥表 + 用户向说明 + 风险词表
+│       ├── expand_batch*.json     分批扩充字库的原始条目
+│       ├── evidence_patch*.json   证据补漏包（补原文、修正引用错位）
+│       └── 另有 imagery_cue / homophone_lexicon / fact_lexicon / goal_affinity /
+│           taboo_chars / classic_patch / borrow_options_patch 等
+├── naming/api.py              ★ 接口适配层：一份实现，两种用法（独立服务 / 挂进宿主服务）
+├── mobile/server.py           本机运行用的 HTTP 服务（静态页面 + REST API，默认 6700）
+├── tools/export_frontend_data.py  ★ 由知识库生成 web/kbdata/kb.js（Actions 也用它）
+├── docs/00_技术说明.md         介绍 / 使用方法 / 输入输出示例 / 边界声明
+├── .github/workflows/pages.yml 推送后自动重建数据、校验并发布到 GitHub Pages
+├── README.md                  本文件
+├── LICENSE                    代码许可（MIT）
+├── DATA_LICENSE.md            知识库数据许可（CC BY 4.0）
+├── .gitignore / .gitattributes 忽略规则 / 行尾规则（保证 .bat 在 Windows 上仍是 CRLF）
+└── 启动取名服务.bat            Windows 下双击启动本机服务
 ```
+
+### ⛔ 不发布（仅本地保留）
+
+| 内容 | 为什么不发布 |
+|---|---|
+| `knowledge base/` | 知识库 Excel 与逐版快照（体积大）。`db/` 已是它的可运行形态 |
+| `tools/`（除导出脚本） | 生产工艺：建库、体检、对拍、预览脚本；含本地绝对路径 |
+| `docs/01` `docs/02` `docs/03` | 内部文档：部署方案与体检报告，含内网服务器地址与 SSH 操作 |
+| `data/` | **测试期真实数据**：2082 条请求（含测试者填写的姓氏与需求原文）、访客日志 |
+| `reports/` `dist/` | 体检输出、历史发布包 |
+| `db/v114/` `db/build_report.txt` | Excel 逐表转储（与 `db/src/` 重叠）、构建日志 |
+
+想确认本地哪些文件会进仓库，在仓库根目录执行：
+
+```bash
+git ls-files     # 列出会进仓库的全部文件（等价于 GitHub 上能看到的内容）
+git status       # 看有没有未提交或多出来的改动
+```
+
 
 ---
 
