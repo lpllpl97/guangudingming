@@ -135,9 +135,15 @@ body {
   background: url(../img/card-mountain.png) right bottom/contain no-repeat;
   opacity: .20; pointer-events: none;
 }
-/* 给水印留出落脚位：多留 46px 下边距，末行控件就不会压在山体上。
-   两张卡的下内边距都改由这里统一抬高（原值 22px）。 */
-#step1, #step2 { padding-bottom: 68px; }
+/* 山体水印的落脚位。原来是 68px（= 水印高 64px + 内缩 6px），能把水印完全避开文字，
+   但用户反馈卡底离文字太远、空出一大块。收到 48px：卡底（连同水印）整体上移 20px，
+   框底与文字的间距明显缩小。
+   代价是水印上沿（64+6=70px）会越过文字底边约 22px，因此下面用 z-index 明确：
+   文字永远在水印之上（水印只是装饰，不能压字）。 */
+#step1, #step2 { padding-bottom: 48px; }
+/* 水印必须垫底：让卡片内容进入更高的层叠层 */
+#step1 > *, #step2 > * { position: relative; z-index: 1; }
+#step1::after, #step2::after { z-index: 0; }
 .cardHead {
   position: relative; display: flex; align-items: center; gap: 10px;
   font-family: var(--kai); font-size: 18.5px; font-weight: 600; letter-spacing: 2.4px;
@@ -465,15 +471,10 @@ button.ghost:hover { border-color: var(--gold-3); }
   /* 五类卡片：名字 + "N 字"同行；窄屏再收一点字距，避免 150 字 被顶到下一行 */
   .pcard { padding: 11px 11px 12px 13px; }
   .pcard b { letter-spacing: 2px; }
-  /* --- 步骤卡底部：原来的 68px 下内边距是为 180×64 的桌面水印留的，
-         在手机上显得空出一大块（用户反馈"框底被图案顶下去了"）。
-         收窄水印并把卡底上移：水印上沿 = 46px，正好等于下内边距，
-         文字与水印不重叠，间距也不再浪费。 --- */
-  #step1, #step2 { padding-bottom: 46px; }
+  /* --- 步骤卡底部：下内边距已由基础样式的 68px 收到 48px（桌面端一起收）。
+         手机上再收窄水印，让它落在 132×42+内缩 4px = 46px 之内，比 48px 的下内边距
+         还小一点，因此窄屏上文字与水印完全不重叠。 --- */
   #step1::after, #step2::after { width: 132px; height: 42px; right: 4px; bottom: 4px; }
-  /* 万一文字与水印重叠，文字必须在前（水印是装饰，不能压字） */
-  #step1 > *, #step2 > * { position: relative; z-index: 1; }
-  #step1::after, #step2::after { z-index: 0; }
   #principlePanels { gap: 9px; }
   .panel { padding: 13px 13px; }
   /* 按钮：手机上千位字距让"开始取名"显松散，收紧并保证整行可点 */
