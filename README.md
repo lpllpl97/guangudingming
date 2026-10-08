@@ -196,22 +196,30 @@ python mobile/server.py 6700
 
 重建后会自动校验：外键悬空、声调缺失、原则归属悬空等，结果写在 `db/build_report.txt`。
 
-若要改评分权重或规则，改 `tools/build_db.py` 里的 `SCORE_DIMS` / `ENGINE_RULES`（权重之和必须为 1.0），并在 `engine/engine.py` 里实现对应判定。
+评分权重存在数据库的 `score_dimension` 表里（现值可直接查看 `db/schema.sql`），改权重即改该表；建库脚本 `tools/build_db.py` 属于本地生产工艺，**未随仓库发布**。
 
 ---
 
 ## 验证
 
+**在你拿到的这份仓库里可以直接跑的：**
+
 ```bash
-python tools/build_db.py                 # 重建（含自检）
-node tools/test_api.js                   # 接口测试（46 项，需先启动服务）
-node tools/test_web.js                   # 前端契约校验
-python tools/test_integration.py         # 植入集成测试（自建宿主服务并挂载）
-python tools/verify_citations.py         # 出处质检（引文是否与字义自洽）
-python tools/audit_chapter.py            # 篇名一致性审计（依据篇名 vs 原文行）
-python tools/quality_sample.py           # 取名质量抽样（唯一率/约束/风险）
-python tools/stats_report.py             # 数据统计
+python mobile/server.py 6700                            # 起本机服务，浏览器打开 http://127.0.0.1:6700/
+python engine/engine.py --surname 林 --text "聪慧好学" --top 3   # 命令行直接用引擎
+python tools/export_frontend_data.py --check           # 网页数据与知识库是否一致
+python tools/export_frontend_data.py --verify          # 数据充分性（走一遍引文链）
 ```
+
+**下面这些属于本机开发工具，`tools/` 不随仓库发布，下载仓库的人没有这些脚本**（列在这里是为了说明数据是怎么被验证过的）：
+
+| 脚本 | 做什么 |
+|---|---|
+| `tools/build_db.py` | 由 `db/src/` 重建 `db/naming.db`（含自检） |
+| `tools/verify_citations.py` | 出处质检：引文是否与字义自洽 |
+| `tools/quality_sample.py` | 取名质量抽样：23 姓 × 12 需求 = 276 组，查唯一率/约束/风险 |
+| `tools/test_api.js` / `test_web.js` / `test_integration.py` | 接口、前端契约、宿主集成测试 |
+| `tools/duipai_gen.py` + `tools/test_phonetics_js.js` | 对拍：JS 引擎与 Python 引擎输出是否逐字节一致 |
 
 当前状态：字库 757 字（声调 100% 覆盖；偏女性 136 字、偏男性 163 字、其余中性）· 五类原则归属 843 条 ·
 古籍 26 部 · 原文库 402 条 · 出生事实词库 14 类 130 字 · 目标亲和力 289 条 · 风险词表 33 条 ·
