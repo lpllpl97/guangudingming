@@ -46,6 +46,8 @@
     kb.texts = byId(data.original_text || [], 'text_id');
     kb.classics = byId(data.classic || [], 'classic_id');
     kb.principles = byId(data.naming_principle || [], 'principle_id');
+    // 原则面板的用户向说明（principle_guide）：前端「五类卡片」的展开内容来自它
+    kb.principleGuide = byId(data.principle_guide || [], 'principle_id');
     // 评分维度与权重（按 dim_id 排序，与 Python 的 ORDER BY dim_id 一致）
     kb.dims = (data.score_dimension || []).slice().sort(function (a, b) {
       return String(a.dim_id) < String(b.dim_id) ? -1 : (String(a.dim_id) > String(b.dim_id) ? 1 : 0);

@@ -13,6 +13,8 @@
   else { root.GDMRequest = api; }
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
+  // 同 score.js：factory 作用域里没有外层的 root 参数，浏览器路径需要它取全局模块
+  var root = (typeof globalThis !== 'undefined') ? globalThis : this;
 
   var SEP = '、,，;；:：/|·-—\\ \t\u3000';
 

@@ -14,6 +14,8 @@
   else { root.GDMSelect = api; }
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
+  // 同 score.js：factory 作用域里没有外层的 root 参数，浏览器路径需要它取全局模块
+  var root = (typeof globalThis !== 'undefined') ? globalThis : this;
 
   var FACT_W = { strong: 1.0, medium: 0.7, weak: 0.4 };
 

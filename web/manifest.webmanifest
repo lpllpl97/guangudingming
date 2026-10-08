@@ -1,0 +1,20 @@
+{
+  "name": "观古定名 · 左传五类取名",
+  "short_name": "观古定名",
+  "description": "以《左传·桓公六年》五类命名原则（信、义、象、假、类）为主线的取名程序。纯前端、可离线运行；每个候选都能说清用了哪一类原则、依据是什么、出自哪一句。不作吉凶预测。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4ede0",
+  "theme_color": "#f4ede0",
+  "categories": ["lifestyle", "utilities", "education"],
+  "icons": [
+    { "src": "img/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

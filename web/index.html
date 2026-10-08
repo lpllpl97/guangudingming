@@ -4,7 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>观古定名 · 左传五类</title>
-<link rel="stylesheet" href="css/style.css?v=11">
+<link rel="stylesheet" href="css/style.css?v=13">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#f4ede0">
+<link rel="icon" href="img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/icon-192.png">
 </head>
 <body>
 <div id="bgFill"></div>
@@ -110,6 +114,25 @@
   </div>
 </div>
 
-<script src="js/app.js?v=11"></script>
+<!-- 知识库数据与引擎：静态托管（GitHub Pages）上没有后端，这里加载的 JS 引擎
+     会在浏览器里接管 /api/naming/* 接口。加载顺序即依赖顺序，不可调换。 -->
+<script src="kbdata/kb.js?v=13"></script>
+<script src="js/engine/pyround.js?v=13"></script>
+<script src="js/engine/md5.js?v=13"></script>
+<script src="js/engine/pinyin.js?v=13"></script>
+<script src="js/engine/surnames.js?v=13"></script>
+<script src="js/engine/prng.js?v=13"></script>
+<script src="js/engine/phonetics.js?v=13"></script>
+<script src="js/engine/textmatch.js?v=13"></script>
+<script src="js/engine/kbindex.js?v=13"></script>
+<script src="js/engine/affinity.js?v=13"></script>
+<script src="js/engine/select.js?v=13"></script>
+<script src="js/engine/score.js?v=13"></script>
+<script src="js/engine/risks.js?v=13"></script>
+<script src="js/engine/explain.js?v=13"></script>
+<script src="js/engine/request.js?v=13"></script>
+<script src="js/engine/generate.js?v=13"></script>
+<script src="js/local-engine.js?v=13"></script>
+<script src="js/app.js?v=13"></script>
 </body>
 </html>

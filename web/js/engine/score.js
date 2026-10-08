@@ -17,11 +17,18 @@
   else { root.GDMScore = api; }
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
+  // factory 的作用域里没有外层 IIFE 的 root 参数，必须自己取一次全局对象，
+  // 否则浏览器路径下的 dep() 会 ReferenceError（Node 路径走 require，永远看不到）
+  var root = (typeof globalThis !== 'undefined') ? globalThis : this;
 
   function dep(name) {
     if (typeof module === 'object' && module.exports) { return require('./' + name + '.js'); }
+    // 浏览器模式靠全局变量取依赖。这张表必须**列全**：score.js 用到 select.js 的
+    // charBorrowScore，而 'select' 曾经漏在这张表外——Node 下走 require 一切正常，
+    // 只有浏览器里会拿到 undefined 然后在运行时炸掉。加依赖时记得同步这里。
     return root[{ prng: 'GDMRandom', affinity: 'GDMAffinity', phonetics: 'GDMPhonetics',
-      pyround: 'GDMPyRound', surnames: 'GDMSurnames', textmatch: 'GDMText' }[name]];
+      pyround: 'GDMPyRound', surnames: 'GDMSurnames', textmatch: 'GDMText',
+      select: 'GDMSelect' }[name]];
   }
   var R = dep('pyround');
   var AFF = dep('affinity');

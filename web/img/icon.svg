@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="观古定名">
+  <!-- 纸底 -->
+  <rect width="512" height="512" rx="96" fill="#f4ede0"/>
+  <!-- 印章外框 -->
+  <rect x="96" y="96" width="320" height="320" rx="28" fill="#8c2f2f"/>
+  <rect x="126" y="126" width="260" height="260" rx="16" fill="none" stroke="#f4ede0" stroke-width="10" opacity="0.85"/>
+  <!-- 「名」字：用几何笔画表示，避免依赖具体字体 -->
+  <g fill="#f4ede0">
+    <rect x="176" y="176" width="150" height="14" rx="7"/>
+    <rect x="236" y="150" width="14" height="66" rx="7"/>
+    <rect x="176" y="222" width="70" height="14" rx="7"/>
+    <rect x="176" y="222" width="14" height="66" rx="7"/>
+    <rect x="176" y="274" width="70" height="14" rx="7"/>
+    <rect x="290" y="206" width="14" height="140" rx="7"/>
+    <rect x="290" y="206" width="60" height="14" rx="7"/>
+    <rect x="290" y="270" width="60" height="14" rx="7"/>
+    <rect x="290" y="332" width="60" height="14" rx="7"/>
+    <rect x="196" y="342" width="150" height="14" rx="7"/>
+  </g>
+</svg>
