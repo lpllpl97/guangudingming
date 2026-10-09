@@ -4,9 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>观古定名 · 左传五类</title>
-<link rel="stylesheet" href="css/style.css?v=17">
+<link rel="stylesheet" href="css/style.css?v=18">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#f4ede0">
+<!-- iOS「添加到主屏幕」相关：
+     · apple-mobile-web-app-title 决定主屏图标下的名字。不给的话 iOS 会用 <title>，
+       变成「观古定名 · 左传五类」，在主屏上会被截断。
+     · apple-mobile-web-app-capable 让 iOS 16.3 及更早版本也以独立窗口打开（不显示
+       Safari 地址栏）；16.4+ 已改用 manifest 的 display:standalone，两者并存即可。 -->
+<meta name="apple-mobile-web-app-title" content="观古定名">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="icon" href="img/icon.svg?v=2" type="image/svg+xml">
 <link rel="apple-touch-icon" href="img/icon-192.png?v=2">
 <!-- 图标 URL 带版本号：favicon 会被浏览器长期缓存，且 Service Worker 对 img/ 是
